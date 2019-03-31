@@ -1,0 +1,108 @@
+{{ define "title" }}
+Learn to play Go already
+{{ end }}
+
+{{ define "body" }}
+    <div id="" class="obal">
+      <a href="/index.html#rules"
+        ><div class="button-grey">
+          This is not what I wanted, take me <span class="black">BACK</span>
+        </div></a
+      >
+
+      <!-- NADPIS A PODNADPIS -->
+      <div class="nadpis">| Placing the Stones</div>
+      <div class="podnadpis">This is NOT a Tic-tac-toe</div>
+      <br /><br /><br />
+      <!-- END OF NADPIS A PODNADPIS -->
+
+      <!-- FLAVOUR -->
+      <div class="flavour">
+        <hr />
+        So you decided to try and learn the game you will actually NEVER be good
+        at? Fine. Your choice. I&nbsp;made the same mistake after all. And in
+        all honesty, it has been a lot of fun. Let me try to get you off to a
+        good start :) Also, I have hidden some secrets here, to keep it fun, be
+        on your guard. <br />
+        <hr />
+      </div>
+      <!-- END OF FLAVOUR -->
+
+      <div class="text" style="">
+        <!-- RULES -->
+        <div class="podnadpis2">
+          The stones are played on the <span class="black">intersections</span>,
+          not in the "boxes".
+        </div>
+        <br />
+        <div class="podnadpis2">
+          <span class="black">Black</span> plays first (this is not chess).
+        </div>
+        <br />
+        <div class="podnadpis2">
+          After that black and white take turns
+          <span class="black">equally</span>.
+        </div>
+        <br />
+        <div class="podnadpis2">
+          Once a stone is played it cannot be moved. It can only be removed by
+          getting <span class="black">captured</span>.
+        </div>
+        <br /><br /><br />
+
+        Got it? It's not hard, right? Feel free to test out a few moves (for
+        both black and white), you are now already almost good to play! We will
+        talk about capturing in the next chapter.<br /><br /><br /><br />
+        <!-- END OF RULES -->
+
+        <!-- BOARD -->
+
+        <div id="board"></div>
+
+        <script type="text/javascript" src="/dist/jgoboard-latest.js"></script>
+        <script type="text/javascript" src="/large/board.js"></script>
+        <script type="text/javascript" src="/outsourcing.js"></script>
+        <script type="text/javascript">
+          var jrecord = new JGO.Record(9);
+          var jboard = jrecord.jboard;
+          var jsetup = new JGO.Setup(jboard, JGO.BOARD.largeWalnut);
+          var player = JGO.BLACK; // next player
+          var ko = false,
+            lastMove = false; // ko coordinate and last move coordinate
+          var lastHover = false,
+            lastX = -1,
+            lastY = -1; // hover helper vars
+
+          jboard.setType(
+            JGO.util.getHandicapCoordinates(jboard.width, 0),
+            JGO.BLACK
+          );
+
+          jsetup.setOptions({ stars: { points: 5 } });
+          runSetup(jsetup)
+        </script>
+
+        <div class="alert">
+          But is it not unfair, that black gets the first move? It sure is! To
+          make up for this advantage, white gets several points extra from the
+          start (called komi). <br />It is usually 6,5 points on the 19x19 board
+          and only 5,5 on 9x9. The half points is to prevent ties.
+        </div>
+        <br /><br />
+
+        <a href="/index.html#rules"
+          ><div class="bad" onclick="">
+            Actually, let me get <span class="black">back</span> to this one
+            later
+          </div></a
+        >
+        <div
+          class="good"
+          onclick="myFunction('/index.html#rules');setCookie('1', '1', '14')"
+        >
+          EZ, <span class="black"> I got this, </span>what's next?
+        </div>
+      </div>
+      <br /><br />
+    </div>
+{{ end }}
