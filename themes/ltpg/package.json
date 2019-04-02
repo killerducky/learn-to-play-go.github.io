@@ -1,0 +1,29 @@
+{
+  "name": "hugo-ltpg",
+  "version": "0.1.0",
+  "description": "A hugo theme for the new Learn to Play Go site",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack -p --config webpack.config.js",
+    "watch": "webpack --watch --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Westermann",
+  "license": "ISC",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^1.1.0",
+    "autoprefixer": "^9.5.0",
+    "browserslist": "^4.5.3",
+    "css-loader": "^2.1.1",
+    "cssnano": "^4.1.10",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^3.0.1",
+    "postcss-loader": "^3.0.0",
+    "purgecss": "^1.1.0",
+    "style-loader": "^0.23.1",
+    "tailwindcss": "^1.0.0-beta.4",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}

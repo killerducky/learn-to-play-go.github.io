@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{- partial "head.html" . -}}
+        <title>{{ block "title" . }}Learn to play Go{{ end }}</title>
+        {{ block "extraInlineCSS" . }}
+        {{ end}}
+        {{ block "extraJS" . }}
+        {{ end }}
+    </head>
+    <body class="text-lg" {{block "onLoad" . }} {{ end }}>
+        <div id="" class="obal puzzle">
+            <a href="/index.html#rules"><div  class="button-grey">This is not what I wanted, take me <span class="black">BACK</span></div></a>
+        {{- block "body" . }}
+            {{- partial "header.html" . -}}
+            <div id="content">
+            {{- block "main" . }}{{- end }}
+            </div>
+            {{- partial "footer.html" . -}}
+        {{- end }}
+        <a href="/index.html#rules" class="bad">Actually, let me get <span class="black">back</span> to this one later</a>
+        <div class="good" onclick="myFunction('/index.html#rules');setCookie({{ .Params.cookieSetting }})">EZ, <span class="black"> I got this, </span>what's next?</div> 
+        </div>
+    </body>
+</html>

@@ -1,3 +1,9 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
 /* 
 ############################### LINKS 
 */
@@ -32,7 +38,7 @@ body{
 background: whitesmoke;
 font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 font-family: 'Raleway', sans-serif;
-background-image: url(images/pattern.png);
+background-image: url(../../static/images/pattern.png);
 }
 
 .bttn{
@@ -165,9 +171,6 @@ font-size: 65px; color: rgba(0,102,102,0.7); font-weight: 900; margin-left: auto
 }
 
 .good {
-  position: absolute;
-  width: 300px;
-  right: 50px;
   height: 75px;
   padding: 10px;
   text-align: right;
@@ -189,9 +192,6 @@ font-size: 65px; color: rgba(0,102,102,0.7); font-weight: 900; margin-left: auto
 }
 
 .bad {
-  position: absolute;
-  width: 300px;
-  left: 50px;
   height: 75px;
   padding: 10px;
   text-align: left;
@@ -206,6 +206,19 @@ font-size: 65px; color: rgba(0,102,102,0.7); font-weight: 900; margin-left: auto
        -o-transition: all 1s ease;
       -ms-transition: all 1s ease;
           transition: all 1s ease;
+}
+
+@screen md {
+  .bad {
+    position: absolute;
+    width: 300px;
+    left: 50px;
+  }
+  .good {
+    position: absolute;
+    width: 300px;
+    right: 50px;
+  }
 }
 
 .bad:hover {
@@ -306,4 +319,63 @@ padding: 10px;
 border-radius: 10px;
 text-align: center;
 margin-top: 0em;
+}
+
+.puzzle {
+  @apply text-left;
+}
+
+.puzzle p {
+  @apply mb-4;
+}
+
+.puzzle h1 {
+  @apply text-4xl font-bold;
+}
+
+.puzzle h2 {
+  @apply text-xl text-red-500 mb-2;
+}
+
+.puzzle h3 {
+  @apply my-4 text-2xl text-red-600 p-4;
+  border-left: 5px solid rgb(200,0,0);
+  background-image: linear-gradient(to right, rgba(230, 230, 230, 0.75), rgba(0, 0, 0, 0));
+}
+
+.puzzle h3 strong {
+  @apply uppercase;
+}
+
+.puzzle blockquote {
+  @apply text-center text-gray-700 my-6 w-5/6 mx-auto;
+  position: relative;
+}
+
+.puzzle blockquote p {
+  @apply m-0 py-4;
+}
+
+.puzzle blockquote:before, .puzzle blockquote:after {
+  content: '';
+  border: 0;
+  height: 2px;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+  position: absolute;
+  left: 15px;
+  right: 15px;
+}
+
+.bad, .good, .button-green, .button-blue {
+  font-size: 1.25rem;
+  height: 6rem;
+}
+
+.bad, .good {
+  display: block;
+}
+
+#board canvas {
+  @apply mx-auto;
 }
