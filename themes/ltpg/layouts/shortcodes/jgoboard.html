@@ -1,0 +1,23 @@
+ <!-- BOARD -->
+
+ <div id="board"></div>
+
+ <script type="text/javascript" src="/dist/jgoboard-latest.js"></script>
+ <script type="text/javascript" src="/large/board.js"></script>
+ <script type="text/javascript" src="/outsourcing.js"></script>
+ <script type="text/javascript">
+   var jrecord = new JGO.Record(9);
+   var jboard = jrecord.jboard;
+   var jsetup = new JGO.Setup(jboard, JGO.BOARD.largeWalnut);
+   var player = JGO.BLACK; // next player
+   var ko = false,
+     lastMove = false; // ko coordinate and last move coordinate
+   var lastHover = false,
+     lastX = -1,
+     lastY = -1; // hover helper vars
+
+   jboard.setType(JGO.util.getHandicapCoordinates(jboard.width, 0), JGO.BLACK);
+
+   jsetup.setOptions({ stars: { points: 5 } });
+   runSetup(jsetup);
+ </script>

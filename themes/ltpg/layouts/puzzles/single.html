@@ -1,5 +1,5 @@
 {{ define "extraJS" }}
-<script type="text/javascript" src="/wgo/wgo.js"></script>
+	<script type="text/javascript" src="/wgo/wgo.js"></script>
 	<script type="text/javascript" src="/wgo/kifu.js"></script>
 	<script type="text/javascript" src="/wgo/sgfparser.js"></script>
 	<script type="text/javascript" src="/wgo/player.js"></script>
@@ -16,37 +16,5 @@
 {{ end }}
     
 {{ define "body" }}
-
 {{ .Content }}
-<!-- TSUMEGOS -->
-
-<div style="text-align: center; min-height: 750px; vertical-align: top;">
-	{{ range $index, $item := .Params.puzzles }}
-		<button class="{{ if eq $index 0 }}bttn-selected{{ else }}bttn{{ end }}" onclick="loadTsumego({{$item.target}}, {{$item.id}}, tsumego)" id="{{$item.id}}">{{ $item.text }}</button>
-	{{ end }}
-<br><br>
-<div class="tsumego" id="tsumego_wrapper" style="text-align: left;">
-
-Your browser sucks. Download something up to date.
-</div>
-
-<script>
-var tsumego = new WGo.Tsumego(document.getElementById("tsumego_wrapper"), {
-	sgfFile: "/puzzleSGFs/{{(index .Params.puzzles 0).target}}.sgf",
-	/*debug: true, /* remove this line hide solution */
-});
-tsumego.setCoordinates(true);
-</script>
-</div>
-
-<!-- END OF TSUMEGOS -->
-
-
-
-{{ safeHTML .Params.extraMsg}}
-<!-- END OF RULES -->
-
-   
-    
-    </div><br><br>
 {{ end }}

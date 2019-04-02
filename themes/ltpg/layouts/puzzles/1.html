@@ -4,38 +4,4 @@ Learn to play Go already
 
 {{ define "body" }}
   {{ .Content }}
-
-  <!-- BOARD -->
-
-  <div id="board"></div>
-
-  <script type="text/javascript" src="/dist/jgoboard-latest.js"></script>
-  <script type="text/javascript" src="/large/board.js"></script>
-  <script type="text/javascript" src="/outsourcing.js"></script>
-  <script type="text/javascript">
-    var jrecord = new JGO.Record(9);
-    var jboard = jrecord.jboard;
-    var jsetup = new JGO.Setup(jboard, JGO.BOARD.largeWalnut);
-    var player = JGO.BLACK; // next player
-    var ko = false,
-      lastMove = false; // ko coordinate and last move coordinate
-    var lastHover = false,
-      lastX = -1,
-      lastY = -1; // hover helper vars
-
-    jboard.setType(JGO.util.getHandicapCoordinates(jboard.width, 0), JGO.BLACK);
-
-    jsetup.setOptions({ stars: { points: 5 } });
-    runSetup(jsetup);
-  </script>
-
-  <div class="alert">
-    But is it not unfair, that black gets the first move? It sure is! To make up
-    for this advantage, white gets several points extra from the start (called
-    komi). <br />It is usually 6,5 points on the 19x19 board and only 5,5 on
-    9x9. The half points is to prevent ties.
-  </div>
-  <br /><br />
-</div>
-<br /><br />
 {{ end }}
