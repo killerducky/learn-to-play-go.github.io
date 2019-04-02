@@ -19,4 +19,4 @@
 - tsumego - this shortcode either uses the frontmatter settings (puzzles) or can take a string in the sgf parameter See puzzles 2 and 3.
 - jgoboard - this is used only on puzzle 1 and creates a free play board.
 
-Shortcodes are used as follows: `{{< alert >}}Blah blah blah{{< /alert >}}`, `{{< tsumego sgf="(;FF[4]GM[1]VW[aa:jj]SZ[9]ST[2][...])" >}}`, or `{{< black "word(s) to make bold" >}}
+Shortcodes are used as follows: `{{< alert >}}Blah blah blah{{< /alert >}}`, `{{< tsumego sgf="(;FF[4]GM[1]VW[aa:jj]SZ[9]ST[2][...])" >}}`, or `{{< black "word(s) to make bold" >}}`
