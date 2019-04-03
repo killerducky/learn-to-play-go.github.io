@@ -18,8 +18,7 @@
             </div>
             {{- partial "footer.html" . -}}
         {{- end }}
-        <a href="/{{ .Params.returnTo }}" class="bad">Actually, let me get <span class="black">back</span> to this one later</a>
-        <div class="good" onclick="myFunction('/{{ .Params.returnTo }}');setCookie({{ .Params.cookieSetting }})">EZ, <span class="black"> I got this, </span>what's next?</div> 
+            {{- block "confirmation" . }}{{- end }} 
         </div>
     </body>
 </html>
