@@ -81,12 +81,14 @@ function checkReward2() {
     var ninth = +getCookie("9");
     var tenth = +getCookie("10");
     var eleventh = +getCookie("11");
+    var twelfth = +getCookie("12");
+	
 
-    if ((0 + sixth + seventh + eight + ninth + tenth + eleventh) == "6") {
+    if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) == "7") {
         setCookie("under", 1, 14);
     }
 
-    if ((0 + sixth + seventh + eight + ninth + tenth + eleventh) != "6") {
+    if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) != "7") {
         document.write("You cannot cheat at learning Go. You have to walk the same path as others. There are no shortcuts... <a href='index.html'>Go back</a>");
     }
 }
@@ -104,7 +106,7 @@ function checkPuzzle() {
 
 
 function setCookie(cname, cvalue, exdays) {
-    var d = new Date();
+	var d = new Date();
     d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
     var expires = "expires=" + d.toUTCString();
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
@@ -142,7 +144,7 @@ function checkCookies() {
     var twelfth = +getCookie("12");
 
     var showunder = +getCookie("under");
-
+	
     if ((0 + first + second + third + fourth + fifth) == "0") {
         document.getElementById("progressbar").innerHTML = "Learn them <span class='black'>all</span> one by one (" + (0 + first + second + third + fourth + fifth) + "/5)";
     } else
@@ -270,21 +272,21 @@ function learn() {
 
 
     if (first == "0") {
-        window.location.href = "1.html";
+        window.location.href = "/puzzles/1";
     } else
     if (second == "0") {
-        window.location.href = "2.html";
+        window.location.href = "/puzzles/2";
     } else
     if (third == "0") {
-        window.location.href = "3.html";
+        window.location.href = "/puzzles/3";
     } else
     if (fourth == "0") {
-        window.location.href = "4.html";
+        window.location.href = "/puzzles/4";
     } else
     if (fifth == "0") {
-        window.location.href = "5.html";
+        window.location.href = "/puzzles/5";
     } else
-        window.location.href = "reward.html";
+        window.location.href = "/puzzles/reward";
 }
 
 function learn2() {
@@ -297,27 +299,27 @@ function learn2() {
     var twelfth = +getCookie("12")
 
     if (sixth == "0") {
-        window.location.href = "6.html";
+        window.location.href = "/puzzles/6";
     } else
     if (seventh == "0") {
-        window.location.href = "7.html";
+        window.location.href = "/puzzles/7";
     } else
     if (eight == "0") {
-        window.location.href = "8.html";
+        window.location.href = "/puzzles/8";
     } else
     if (ninth == "0") {
-        window.location.href = "9.html";
+        window.location.href = "/puzzles/9";
     } else
     if (tenth == "0") {
-        window.location.href = "10.html";
+        window.location.href = "/puzzles/10";
     } else
     if (eleventh == "0") {
-        window.location.href = "11.html";
+        window.location.href = "/puzzles/11";
     } else
     if (tvelfth == "0") {
-        window.location.href = "12.html";
+        window.location.href = "/puzzles/12";
     } else
-        window.location.href = "reward2.html";
+        window.location.href = "/puzzles/reward2";
 }
 
 function reset() {
