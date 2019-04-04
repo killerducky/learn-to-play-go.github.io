@@ -17,7 +17,7 @@
 <script type="text/javascript">
 var elem = document.getElementById("player");
 var player = new WGo.BasicPlayer(elem, {
-    sgfFile: "/puzzleSGFs/opening.sgf",
+    sgfFile: "/puzzleSGFs/{{(index $.Page.Params.puzzles 0).target}}.sgf",
     formatMoves: true,
     layout: { // you can use static or dynamic layout
         top: ['CommentBox'], 
@@ -25,5 +25,5 @@ var player = new WGo.BasicPlayer(elem, {
     }
 });
     </script>
-</div>
+</div><br>
 {{ end }}
