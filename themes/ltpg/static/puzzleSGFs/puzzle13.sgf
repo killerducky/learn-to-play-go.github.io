@@ -7,7 +7,12 @@ more liberties.])
 (;B[ad]TE[1]C[Exactly. Stones so close to the edge have nowhere to run to gain 
 more liberties.])
 (;B[ac];W[ad]
-;B[bd]C[Very clever! Snapback.]TE[1])))
-(;B[cf];W[bc];B[bf];W[ad])
+;B[bd]C[Very clever! Snapback.]TE[1]))
+(;B[cf];W[bc]
+(;B[af];W[ad])
+(;B[ad];W[ac])))
+(;B[cf];W[bc]
+(;B[bf];W[ad])
+(;B[ad];W[ae];B[bf];W[ac]))
 (;B[bc]
-;W[cf]C[This black stone will be captured. Try another way]))
+;W[cf]C[This black stone will be captured in a ladder. Try another way]))
