@@ -1,0 +1,29 @@
+{{ with .Get "sgf"}}
+    <div class="text-center">
+
+
+	</div>
+{{ else }}
+<div style="text-align: center; min-height: 750px; vertical-align: top;">
+        {{ range $index, $item := $.Page.Params.puzzles }}
+            <button class="{{ if eq $index 0 }}bttn-selected{{ else }}bttn{{ end }}" onclick="loadTsumego({{$item.target}}, {{$item.id}}, player)" id="{{$item.id}}">{{ $item.text }}</button>
+        {{ end }}
+    <br><br>
+    <div id="player" style="max-width: 600px; text-align: left;">
+    
+    Your browser sucks. Download something up to date.
+    </div>
+    
+<script type="text/javascript">
+var elem = document.getElementById("player");
+var player = new WGo.BasicPlayer(elem, {
+    sgfFile: "/puzzleSGFs/opening.sgf",
+    formatMoves: true,
+    layout: { // you can use static or dynamic layout
+        top: ['CommentBox'], 
+        bottom: ['Control']
+    }
+});
+    </script>
+</div>
+{{ end }}
