@@ -316,7 +316,7 @@ function learn2() {
     if (eleventh == "0") {
         window.location.href = "/puzzles/11";
     } else
-    if (tvelfth == "0") {
+    if (twelfth == "0") {
         window.location.href = "/puzzles/12";
     } else
         window.location.href = "/puzzles/reward2";
