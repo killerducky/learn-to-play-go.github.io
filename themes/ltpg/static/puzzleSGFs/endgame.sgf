@@ -1,0 +1,38 @@
+(;GM[1]FF[4]AP[Drago:4.23]SZ[9]CA[UTF-8]AB[ff][fg][fh][he][gf][ec][eb][gc][fd][ed]AW[ef][eh][db][dc][cd][de][cg][fe][eg][ee][dd]LB[fe:O][aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9]
+[ad:10][bd:11][ae:12][be:13][ce:14][af:15][bf:16][cf:17][df:18]
+[ag:19][bg:20][dg:21][ah:22][bh:23][ch:24][dh:25][ai:26][bi:27]
+[ci:28][fa:1][ga:2][ha:3][ia:4][fb:5][gb:6][hb:7][ib:8][fc:9]
+[hc:10][ic:11][hd:12][id:13][ie:14][hf:15][if:16][gg:17][hg:18]
+[ig:19][gh:20][hh:21][ih:22][gi:23][hi:24][ii:25][di:29]C[A simple example to show you the idea. 
+It is endgame, no captures or komi (for simplicity) and it does not really look all that good for black, does it? 
+
+White just pushed with the marked stone, could that be a bit of an endgame mistake?]
+(;B[da]C[Yes, ignoring the attack is absoltely essential.];W[ca]C[Atari];B[ea]
+;W[cb]C[White needs to protect here otherwise you can capture C9. Which means you get to keep sente!];B[ei];W[di];B[fi];W[dh]
+;B[ge]C[And you even get to defend against the original attack. That's how powerfull good use of sente is. Black wins!]LB[aa:1][ba:2][ab:3][bb:4][ac:5][bc:6][cc:7][ad:8][bd:9][ae:10]
+[be:11][ce:12][af:13][bf:14][cf:15][df:16][ag:17][bg:18][dg:19]
+[ah:20][bh:21][ch:22][ai:23][bi:24][ci:25][fa:1][ga:2][ha:3]
+[ia:4][fb:5][gb:6][hb:7][ib:8][fc:9][hc:10][ic:11][gd:12][hd:13]
+[id:14][ie:15][hf:16][if:17][gg:18][hg:19][ig:20][gh:21][hh:22]
+[ih:23][gi:24][hi:25][ii:26])
+(;B[ge]C[It is a natural response, right? Opponent attacked so you defend. let's see how it ends.];W[fi];B[gi];W[ei]
+(;B[gh];W[ea];B[fa];W[da]
+(;B[fb]LB[aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9][ad:10]
+[bd:11][ae:12][be:13][ce:14][af:15][bf:16][cf:17][df:18][ag:19]
+[bg:20][dg:21][ah:22][bh:23][ch:24][dh:25][ai:26][bi:27][ci:28]
+[di:29][ga:1][ha:2][ia:3][gb:4][hb:5][ib:6][fc:7][hc:8][ic:9]
+[gd:10][hd:11][id:12][ie:13][hf:14][if:15][gg:16][hg:17][ig:18]
+[hh:19][ih:20][hi:21][ii:22]C[OOOOF. What a beatdown. You failed to get sente in time.])
+(;B[gb]))
+(;B[hh])
+(;B[da];W[ca];B[ea];W[cb]
+(;B[hh])
+(;B[gh])))
+(;B[ei];W[di];B[fi]
+;W[dh]C[White needs to protect here otherwise you can capture C9. Which means you get to keep sente!];B[da];W[ca];B[ea];W[cb]
+;B[ge]C[And you even get to defend against the original attack. That's how powerfull good use of sente is. Black wins!]LB[aa:1][ba:2][ab:3][bb:4][ac:5][bc:6][cc:7][ad:8][bd:9][ae:10]
+[be:11][ce:12][af:13][bf:14][cf:15][df:16][ag:17][bg:18][dg:19]
+[ah:20][bh:21][ch:22][ai:23][bi:24][ci:25][fa:1][ga:2][ha:3]
+[ia:4][fb:5][gb:6][hb:7][ib:8][fc:9][hc:10][ic:11][gd:12][hd:13]
+[id:14][ie:15][hf:16][if:17][gg:18][hg:19][ig:20][gh:21][hh:22]
+[ih:23][gi:24][hi:25][ii:26]))

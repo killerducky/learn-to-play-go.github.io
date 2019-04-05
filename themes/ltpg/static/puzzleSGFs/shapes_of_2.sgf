@@ -1,0 +1,19 @@
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AB[ff]C[Let's see what shapes we can do with two stones!]LB[fe:A][fd:B][ge:C][gd:D][fc:E][gc:F][dd:G]
+(;B[fe]C[An iron pillar.
+This is a good shape! These two stones can never be disconnected, unless surrounded they are very strong. 
+However, the developement is kind of slow. If you wanted to surround a big chunk of territory you should have jumped a bit further. We usually resort to this move only when the original stone is under some sort of attack.])
+(;B[fd]LB[fe:A]C[A one space jump.
+This is a great shape. Those stones are very hard (though not impossible) to separate effectively. If you wanted to surround some territory this is much better choice than the solid extension. It is more efficient.
+
+This move is good for claiming territory and for running away from tight spaces.];W[fe]C[To try and separate the two stones, white must play here. It is rarely a good move withough a considerable support of other surrounding stones. White is placing a stone that has only 2 liberties and will immediately be in atari];B[ge];W[ee]
+;B[gf]LB[gd:A]C[Now black would chose which side to protect first. Black has a nice solid shape and white's group is low on libertis. To continue the attack white would have to cut at A again. A very tough fight for white. But should he/she have a lot of stones around, it is good to keep this possibility in mind.])
+(;B[ge]LB[fe:A][gf:B]C[A diagonal move.
+Another decent move, though often not efficient enough. Connection of these stones is easy to maintain. There is what we call "miai" for connection. If white tries to cut by playing A (even if he has more stones around) you can connect by playing B and vice versa.])
+(;B[fc]C[A two space jump.
+This is a more daring move. If your original stone was not under pressure, it is a great way to try and claim territory and prepare some eye space. However, if there is more opponent's stones around, you cannot be sure you will be able to keep those stones connected.])
+(;B[gd]C[A knight's move.
+This is another good move (yeah basically any two stones shapes have a regular application). This move is often played to the third line. Those stones can be cut apart though (if ladder favours the other player), so beware. Do NOT use knight's jump for running away.]LB[ge:A];W[ge];B[fe];W[fd]
+;B[he]C[Near a border, black can safely ladder this stone and foil the separation attempt. If however the ladder worked for white (usually more in the center of the board), black could have a hard time.])
+(;B[dd]LB[ee:A]C[An elephant's move (a diagonal jump)
+Now this is a shape not outright bad, but difficult to apply correctly. These stones can be disconnected by playing at A and black will be unable to do anything about it. It can lead to complicated fights.];W[ee];B[df];W[ef];B[eg];W[de]
+;B[ce]LB[dg:X][cf:X][fg:X][cd:X]C[White is down to 2 liberties, but I think you can see all the dangerous cuts and ataris.]))

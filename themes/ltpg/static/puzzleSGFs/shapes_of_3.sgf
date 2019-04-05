@@ -1,0 +1,20 @@
+(;GM[1]FF[4]AP[Drago:4.23]SZ[13]CA[UTF-8]C[Let's have a look at some examples on what we can do with 3 stones (obviously the possibilities grow in number).]AB[jj][kj][ci][dj][cc][ce]LB[ki:A][kh:B][kg:C][kf:D][ij:E][ck:F][ed:G][fd:I][ee:H]
+(;B[ki]LB[kj:X][ji:A]C[The empty triangle.
+A move so infamous it has a whole comic named after it. www.emptytriangle.com. This shape is widely regarded as one of the most horrible. It is ineficient. Without X those stones would still be connected by miai. The X stone is now besically doing nothing aside of being useless. Also it is surprisingly low on liberties. 
+
+Now mind you, had there been a white stone at A the triangle would not be empty and the whole thing would be much more reasonable. But empty like this? Yuck. Avoid this one if you can.])
+(;B[kh]LB[ij:O][jk:O][kk:O][lj:O]C[Sure, very possible. Safe connection, some developement speed... Maybe a little too safe even. Unless there are some white stones at the marked position, you should consider jumping even further. You are extending from an IRON PILLAR, not just a lone stone.])
+(;B[kg]C[Quite reasonable. Decent developement speed, getting some base for eye space, and still tough to disconnect. If there are no white stones attacking your group, you might consider jumping even one space further.])
+(;B[kf]LB[kh:A]C[This is far enough though. Any further and we would just consider your stones to be completely separate groups, but this? This is still okay! (unless there are some white stones attacking already). Even trying to disconnect at A is very difficult for white. That's how strong the iron pillar is.];W[kh];B[jh]
+(;W[kg];B[jg];W[lf];B[le];W[ke];B[jf];W[ld];B[lg];W[me]
+;B[lh]C[You sacrificed a stone but are still connected])
+(;W[jg];B[kg];W[ji];B[lh];W[ih]
+;B[ki]C[You sacrificed a stone but are still connected]))
+(;B[ij]C[Unless under tough attack by white, this is extremely slow and over-concentrated.])
+(;B[ck]LB[di:O][dh:O][cj:X]C[A tiger's mouth.
+A shape like this is very strong, but inefficient. It usually appears as an answer to some sort of attack or to protect a cut while developing a little further. X also has a good potential to become an eye, especially when close to a wall.
+
+Had there for example been two white stones at O threatening the cut at X this move could be considered as defensive measure while still bringing a bit more developement than simple connection.])
+(;B[ed]C[Possible in tough spots, but given the relative strength of a one space jump, you should often consider something faster.])
+(;B[ee]LB[dd:A];W[dd]C[This quite flexible shape comes up also often, but be mindfull of the double peep at A.];B[cd]C[Black can only protect one of the connections and given the right circumstances];W[de]
+;B[df]LB[ef:X][cf:X]C[The other connection could be cut. White would need some supporting stones, but the attack is far from unthinkable.]))
