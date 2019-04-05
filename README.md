@@ -15,8 +15,9 @@
 
 - alert - this creates the red gradient alert boxes.
 - rule - this creates the red gradient rule boxes (with a left-hand border)
-- black - this makes a word bold and uppercase
+- black - this makes a word bold and larger font
 - tsumego - this shortcode either uses the frontmatter settings (puzzles) or can take a string in the sgf parameter See puzzles 2 and 3.
+- sgf - creates an sgf viewer (same frontmatter as tsumego)
 - jgoboard - this is used only on puzzle 1 and creates a free play board.
 
 Shortcodes are used as follows: `{{< alert >}}Blah blah blah{{< /alert >}}`, `{{< tsumego sgf="(;FF[4]GM[1]VW[aa:jj]SZ[9]ST[2][...])" >}}`, or `{{< black "word(s) to make bold" >}}`
