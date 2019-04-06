@@ -14,7 +14,7 @@ html {
 
 a:link {
 	color: black;
-	text-decoration: none;
+	/*text-decoration: none;*/
 }
 a:visited {
 	color: black;
@@ -329,6 +329,14 @@ margin-top: 0em;
   @apply mb-8;
 }
 
+a {
+  @apply underline;
+}
+
+a[class*="button"] {
+  @apply no-underline;
+}
+
 .puzzle h1 {
   @apply text-5xl font-bold;
 }
@@ -351,7 +359,7 @@ margin-top: 0em;
 }
 
 .puzzle h2 a:hover {
-  @apply underline text-red-700;
+  @apply text-red-700;
 }
 
 .puzzle iframe {
