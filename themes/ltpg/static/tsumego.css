@@ -63,7 +63,8 @@
 
 .wgo-tsumego-comment {
 	vertical-align: middle;
-  height: 80px;
+	/*height: 80px;*/
+	min-height: 7rem;
 	border: 0px solid #cccccc;
 	padding: 0px 0px;
 	font-size: 18px;

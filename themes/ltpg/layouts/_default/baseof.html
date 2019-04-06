@@ -8,7 +8,7 @@
         {{ block "extraJS" . }}
         {{ end }}
     </head>
-    <body {{block "onLoad" . }} {{ end }}>
+    <body class="text-lg p-4 lg:p-0" {{block "onLoad" . }} {{ end }}>
         {{- block "body" . }}
             {{- partial "header.html" . -}}
             <div id="content">

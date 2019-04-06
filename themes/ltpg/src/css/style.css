@@ -254,8 +254,8 @@ font-size: 20px;
 }
 
 .alert{
+  @apply mx-auto;
   padding: 10px;
-  margin: 0 auto;
   width: 80%;
   background-image: linear-gradient(to right, rgba(200,0,0,0.2), rgba(0, 0, 0, 0));
   font-size: 15px;
@@ -326,15 +326,15 @@ margin-top: 0em;
 }
 
 .puzzle p {
-  @apply mb-4;
+  @apply mb-8;
 }
 
 .puzzle h1 {
-  @apply text-4xl font-bold;
+  @apply text-5xl font-bold;
 }
 
 .puzzle h2 {
-  @apply text-xl text-red-500 mb-2;
+  @apply text-xl text-red-600 mb-2;
 }
 
 .puzzle .rule {
@@ -346,8 +346,20 @@ margin-top: 0em;
   @apply uppercase;
 }
 
+.puzzle h2 a {
+  @apply text-red-600;
+}
+
+.puzzle h2 a:hover {
+  @apply underline text-red-700;
+}
+
+.puzzle iframe {
+  @apply mb-4;
+}
+
 .puzzle blockquote {
-  @apply text-center text-gray-700 my-6 w-5/6 mx-auto;
+  @apply text-center text-gray-700 my-8 w-5/6 mx-auto;
   position: relative;
 }
 
@@ -356,7 +368,7 @@ margin-top: 0em;
 }
 
 .puzzle ol {
-  @apply list-decimal mb-4;
+  @apply list-decimal mb-8;
 }
 
 .puzzle blockquote:before, .puzzle blockquote:after {
@@ -380,5 +392,5 @@ margin-top: 0em;
 }
 
 #board canvas {
-  @apply mx-auto;
+  @apply mx-auto mb-8;
 }
