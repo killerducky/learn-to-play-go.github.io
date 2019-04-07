@@ -1,18 +1,27 @@
-(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[19]AW[kc][lc][ic][hc]AB[id][jd][kd]C[Let's imagine a simplified situation like this. Black to play. In my early days I would have probably played at A thinking:
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[19]AB[dd][dc][eb][ec][de]AW[fc][cc][db][cb][cd][cf]L[ce]C[Let's imagine a simplified situation like this. Black to play. This is part of a joseki, but never mind that, the principal applies quite universally. In my early days I would have probably played at A thinking:
 - I am reducing by 1 point in sente. (Not much but still a sure reduction) and I am in control of the game, white has to answer my moves so I am "on top"
 
-Right? Right?]LB[jc:A];B[jc]C[Wrong. Well black really is reducing by 1 point in sente, that part is correct. That would have been fine in late endgame, but not before. Also note that white has NO WISH to play at 1 any time soon. It is a 1 point gote move for him/her so chances are you will still get to play this move in endgame if nothing better comes up.];W[jb]LB[hd:1][ie:2][je:3][ke:4][ld:5]C[By playing here black lost much more than he/she gained.
+Right? Right?];B[ce]C[Wrong. Well black really is reducing by 1 point in sente, that part is correct. That would have been fine in late endgame, but not before. Also note that white has NO WISH to play at 1 any time soon. It is a 1 point gote move for him/her so chances are you will still get to play this move in endgame if nothing better comes up.];W[be]C[By playing here black lost much more than he/she gained.
 
 - Black lost a ko threat. This move could have been a very good ko-threat for any potential ko bigger than 1 point. Are you losing kos? Now you know why.
 
 - Black lost a liberty. That group had 6 at the start. Now it is 5. Sounds minor? It's not.
 
-- Black lost any potential for a better attack/reduction];B[mb]C[Lost potential for a better attack you say? Yes, imagine for example that later black gets a stone here. At this point there is not much to do.];AE[jc][jb]C[But had black not exchanged the original two stones.];W[fc]
-;B[jb]C[Black might want to peep here instead.];W[jc]
-;B[ka]C[That can be much better than 1 point reduction.
+- Black lost any potential for a better attack/reduction. The corner is now quite safe and connected. (See next)]LB[ed:3][ea:1][fb:2][ee:4][df:5];B[cg]C[Lost potential for a better attack you say? Yes, imagine for example that later black gets a stone here. At this point there is not much to do apart from attaring that one stone. If however the original exchange was not there... (see next)];AE[ce][be]L[be]C[Peep at A threatens the WHOLE corner.];B[be]LB[bd:A][ce:B]C[White can either protect at A and live in gote.
+Or connect to B and get reduced to a single eye.
 
-This was just an abstract example, but the thought should be aplicable universaly. Do not only think about what a move gets you. Think about what it costs you also.
-
-There is saying: Do not push unless you plan to cut.
-
-If you do, you might be losing a chance for a better attack, you might be losing a needed liberty, you might be losing a required ko threat... And all this for 1 point that you might have gotten anyway? NOT a good deal.])
+Now wouldn't you say that is a better result for black than 1 point reduction? The one point is not enough compensiation for solving all future problems of your opponent.]
+(;W[bd]
+;B[ce]MA[cf]LB[bb:A]C[Corner is NOT alive shape. White now needs a move at A to guarantee two eyes.];W[bb]
+;B[da]LB[ca:A][ac:B]C[A is a mistake
+B to live]
+(;W[ca]C[A mistake];B[ac];W[ad];B[ab];W[aa]
+;B[ba]C[Ko for life.])
+(;W[ac];B[ca]
+;W[ba]C[Reduced to 3 points.]))
+(;W[ce];B[bf]
+;W[bd]C[A to completely surround in sente.
+B to force white to run away (reduce to one eye)]LB[df:A][da:B][ac:B]
+(;B[df]C[Corner is NOT alive shape. White now needs a move at A to guarantee two eyes.]LB[bb:A];W[bb]C[Alive])
+(;B[da];W[bb];B[ac];W[ad];B[ca];W[ba];B[ab];W[ea];B[da]
+;W[df]C[Only one eye, white needs to run away now.])))
