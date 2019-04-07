@@ -1,56 +1,85 @@
-(;GM[1]FF[4]AP[Drago:4.23]SZ[9]CA[UTF-8]AB[ff][fg][fh][he][gf][ec][eb][gc][fd][ed]AW[ef][eh][db][dc][cd][de][cg][fe][eg][ee][dd]LB[fe:O][aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9]
-[ad:10][bd:11][ae:12][be:13][ce:14][af:15][bf:16][cf:17][df:18]
-[ag:19][bg:20][dg:21][ah:22][bh:23][ch:24][dh:25][ai:26][bi:27]
-[ci:28][fa:1][ga:2][ha:3][ia:4][fb:5][gb:6][hb:7][ib:8][fc:9]
-[hc:10][ic:11][hd:12][id:13][ie:14][hf:15][if:16][gg:17][hg:18]
-[ig:19][gh:20][hh:21][ih:22][gi:23][hi:24][ii:25][di:29]C[A simple example to show you the idea. 
+(;GM[1]FF[4]AP[Drago:4.23]SZ[9]CA[UTF-8]C[A simple example to show you the idea. 
 It is endgame, no captures or komi (for simplicity) and it does not really look all that good for black, does it? 
 
-White just pushed with the marked stone, could that be a bit of an endgame mistake?]
+White just pushed with the marked stone, could that be a bit of an endgame mistake?]AB[ff][fg][fh][he][gf][ec][eb][fd][ed][hd]AW[ef][eh][db][dc][cd][de][cg][fe][eg][ee][dd][dg]LB[fe:O][aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9]
+[ad:10][bd:11][ae:12][be:13][ce:14][af:15][bf:16][cf:17][df:18]
+[ag:19][bg:20][fa:1][ga:2][ha:3][ia:4][fb:5][gb:6][hb:7][ib:8]
+[fc:9][id:13][ie:14][hf:15][if:16][gg:17][hg:18][ig:19][gh:20]
+[hh:21][ih:22][gi:23][hi:24][ii:25][gc:10][hc:11][ic:12][ah:21]
+[bh:22][ch:23][dh:24][ai:25][bi:26][ci:27][di:28]
 (;B[da]
 ;W[ca]C[Yes, ignoring white's attack is absoltely essential.];B[ea]
 ;W[cb]C[White needs to protect here otherwise you can capture C9. Which means you get to keep sente!];B[ei];W[di];B[fi];W[dh]
-;B[ge]C[And you even get to defend against the original attack. That's how powerfull good use of sente is. Black wins!]LB[aa:1][ba:2][ab:3][bb:4][ac:5][bc:6][cc:7][ad:8][bd:9][ae:10]
-[be:11][ce:12][af:13][bf:14][cf:15][df:16][ag:17][bg:18][dg:19]
-[ah:20][bh:21][ch:22][ai:23][bi:24][ci:25][fa:1][ga:2][ha:3]
-[ia:4][fb:5][gb:6][hb:7][ib:8][fc:9][hc:10][ic:11][gd:12][hd:13]
-[id:14][ie:15][hf:16][if:17][gg:18][hg:19][ig:20][gh:21][hh:22]
-[ih:23][gi:24][hi:25][ii:26])
+;B[ge]LB[aa:1][ba:2][ab:3][bb:4][ac:5][bc:6][cc:7][ad:8][bd:9][ae:10]
+[be:11][ce:12][af:13][bf:14][cf:15][df:16][ag:17][bg:18][fa:1]
+[ga:2][ha:3][ia:4][fb:5][gb:6][hb:7][ib:8][fc:9][id:14][ie:15]
+[hf:16][if:17][gg:18][hg:19][ig:20][gh:21][hh:22][ih:23][gi:24]
+[hi:25][ii:26][gc:10][hc:11][ic:12][gd:13][ah:19][bh:20][ch:21]
+[ai:22][bi:23][ci:24]TE[1]C[And you even get to defend against the original attack. That's 
+how powerfull good use of sente can be. Black wins!])
 (;B[ge]
 ;W[fi]C[It is a natural response, right? Opponent attacked so you defend. let's see how it ends.];B[gi];W[ei]
 (;B[gh];W[ea];B[fa];W[da]
-(;B[fb]LB[aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9][ad:10]
+(;B[fb]C[OOOOF. What a beatdown. You failed to get sente in time.]LB[aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9][ad:10]
 [bd:11][ae:12][be:13][ce:14][af:15][bf:16][cf:17][df:18][ag:19]
-[bg:20][dg:21][ah:22][bh:23][ch:24][dh:25][ai:26][bi:27][ci:28]
-[di:29][ga:1][ha:2][ia:3][gb:4][hb:5][ib:6][fc:7][hc:8][ic:9]
-[gd:10][hd:11][id:12][ie:13][hf:14][if:15][gg:16][hg:17][ig:18]
-[hh:19][ih:20][hi:21][ii:22]C[OOOOF. What a beatdown. You failed to get sente in time.])
-(;B[gb]))
-(;B[hh])
+[bg:20][ga:1][ha:2][ia:3][gb:4][hb:5][ib:6][fc:7][id:12][ie:13]
+[hf:14][if:15][gg:16][hg:17][ig:18][hh:19][ih:20][hi:21][ii:22]
+[gc:8][hc:9][ic:10][gd:11][ah:21][bh:22][ch:23][dh:24][ai:25]
+[bi:26][ci:27][di:28])
+(;B[gb]C[OOOOF. What a beatdown. You failed to get sente in time.]LB[aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9][ad:10]
+[bd:11][ae:12][be:13][ce:14][af:15][bf:16][cf:17][df:18][ag:19]
+[bg:20][ga:1][ha:2][ia:3][fb:4][hb:5][ib:6][fc:7][gc:8][hc:9]
+[ic:10][gd:11][id:12][ie:13][hf:14][if:15][gg:16][hg:17][ig:18]
+[hh:19][ih:20][hi:21][ii:22][ah:21][bh:22][ch:23][dh:24][ai:25]
+[bi:26][ci:27][di:28]))
+(;B[hh];W[ea];B[fa];W[da]
+(;B[fb]C[OOOOF. What a beatdown. You failed to get sente in time.]LB[aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9][ad:10]
+[bd:11][ae:12][be:13][ce:14][af:15][bf:16][cf:17][df:18][bg:20]
+[ag:19][ah:21][bh:22][ch:23][dh:24][ai:25][bi:26][ci:27][di:28]
+[ga:1][ha:2][ia:3][gb:4][hb:5][ib:6][fc:7][gc:8][hc:9][ic:10]
+[gd:11][id:12][ie:13][hf:14][if:15][gg:16][hg:17][ig:18][gh:19]
+[ih:20][hi:21][ii:22])
+(;B[gb]C[OOOOF. What a beatdown. You failed to get sente in time.]LB[aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9][ad:10]
+[bd:11][ae:12][be:13][ce:14][af:15][bf:16][cf:17][df:18][ag:19]
+[bg:20][ah:21][bh:22][ch:23][dh:24][ai:25][bi:26][ci:27][di:28]
+[ga:1][ha:2][ia:3][fb:4][hb:5][ib:6][fc:7][gc:8][hc:9][ic:10]
+[gd:11][id:12][ie:13][hf:14][if:15][gg:16][hg:17][ig:18][gh:19]
+[ih:20][hi:21][ii:22]))
 (;B[da];W[ca];B[ea];W[cb]
-(;B[hh])
-(;B[gh])))
+(;B[hh]LB[aa:1][ba:2][ab:3][bb:4][ac:5][bc:6][cc:7][ad:8][bd:9][ae:10]
+[be:11][ce:12][af:13][bf:14][cf:15][df:16][bg:18][ag:17][fa:1]
+[ga:2][ha:3][ia:4][fb:5][gb:6][hb:7][ib:8][fc:9][gc:10][hc:11]
+[ic:12][gd:13][id:14][ie:15][hf:16][if:17][gg:18][hg:19][ig:20]
+[gh:21][ih:22][hi:23][ii:24][ah:19][bh:20][ch:21][dh:22][ai:23]
+[bi:24][ci:25][di:26]C[A good attempt but not good enough. You failed to get sente in time.])
+(;B[gh]LB[aa:1][ba:2][ab:3][bb:4][ac:5][bc:6][cc:7][ad:8][bd:9][ae:10]
+[be:11][ce:12][af:13][bf:14][cf:15][df:16][ag:17][bg:18][fa:1]
+[ga:2][ha:3][ia:4][fb:5][gb:6][hb:7][ib:8][fc:9][gc:10][hc:11]
+[ic:12][gd:13][id:14][ie:15][hf:16][if:17][gg:18][hg:19][ig:20]
+[hh:21][ih:22][hi:23][ii:24][ah:19][bh:20][ch:21][dh:22][ai:23]
+[bi:24][ci:25][di:26]C[A good attempt but not good enough. You failed to get sente in time.])))
 (;B[ei]
 ;W[di]C[Yes, ignoring white's attack is absoltely essential.];B[fi]
 ;W[dh]C[White needs to protect here otherwise you can capture C9. Which means you get to keep sente!];B[da];W[ca];B[ea];W[cb]
-;B[ge]C[And you even get to defend against the original attack. That's how powerfull good use of sente is. Black wins!]LB[aa:1][ba:2][ab:3][bb:4][ac:5][bc:6][cc:7][ad:8][bd:9][ae:10]
-[be:11][ce:12][af:13][bf:14][cf:15][df:16][ag:17][bg:18][dg:19]
-[ah:20][bh:21][ch:22][ai:23][bi:24][ci:25][fa:1][ga:2][ha:3]
-[ia:4][fb:5][gb:6][hb:7][ib:8][fc:9][hc:10][ic:11][gd:12][hd:13]
-[id:14][ie:15][hf:16][if:17][gg:18][hg:19][ig:20][gh:21][hh:22]
-[ih:23][gi:24][hi:25][ii:26])
+;B[ge]LB[aa:1][ba:2][ab:3][bb:4][ac:5][bc:6][cc:7][ad:8][bd:9][ae:10]
+[be:11][ce:12][af:13][bf:14][cf:15][df:16][ag:17][bg:18][fa:1]
+[ga:2][ha:3][ia:4][fb:5][gb:6][hb:7][ib:8][fc:9][id:14][ie:15]
+[hf:16][if:17][gg:18][hg:19][ig:20][gh:21][hh:22][ih:23][gi:24]
+[hi:25][ii:26][gc:10][hc:11][ic:12][gd:13][ah:19][bh:20][ch:21]
+[ai:22][bi:23][ci:24]TE[1]C[And you even get to defend against the original attack. That's 
+how powerfull good use of sente can be. Black wins!])
 (;B[ea]
 ;W[da]C[Too weak. You need to push the borders harder.];B[fi];W[ei]
-;B[ge]LB[aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9][ad:10]
+;B[ge]C[You did manage to get sente in time, but failed to push hard enough on the borders. Try again.]LB[aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9][ad:10]
 [bd:11][ae:12][be:13][ce:14][af:15][bf:16][cf:17][df:18][ag:19]
 [bg:20][dg:21][ah:22][bh:23][ch:24][dh:25][ai:26][bi:27][ci:28]
 [di:29][fa:1][ga:2][ha:3][ia:4][fb:5][gb:6][hb:7][ib:8][fc:9]
-[hc:10][ic:11][gd:12][hd:13][id:14][ie:15][hf:16][if:17][gg:18]
-[hg:19][ig:20][gh:21][hh:22][ih:23][gi:24][hi:25][ii:26]C[You did manage to get sente in time, but failed to push hard enough on the borders. Try again.])
+[id:14][ie:15][hf:16][if:17][gg:18][hg:19][ig:20][gh:21][hh:22]
+[ih:23][gi:24][hi:25][ii:26][gc:10][hc:11][ic:12][gd:13])
 (;B[fi];W[ei];B[ea];W[da]
-;B[ge]LB[aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9][ad:10]
+;B[ge]C[You did manage to get sente in time, but failed to push hard enough on the borders. Try again.]LB[aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9][ad:10]
 [bd:11][ae:12][be:13][ce:14][af:15][bf:16][cf:17][df:18][ag:19]
 [bg:20][dg:21][ah:22][bh:23][ch:24][dh:25][ai:26][ci:28][bi:27]
 [di:29][fa:1][ga:2][ha:3][ia:4][fb:5][gb:6][hb:7][ib:8][fc:9]
-[hc:10][ic:11][gd:12][hd:13][id:14][ie:15][hf:16][if:17][gg:18]
-[hg:19][ig:20][gh:21][hh:22][ih:23][gi:24][hi:25][ii:26]C[You did manage to get sente in time, but failed to push hard enough on the borders. Try again.]))
+[id:14][ie:15][hf:16][if:17][gg:18][hg:19][ig:20][gh:21][hh:22]
+[ih:23][gi:24][hi:25][ii:26][gc:10][hc:11][ic:12][gd:13]))
