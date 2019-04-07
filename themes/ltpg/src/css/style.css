@@ -257,7 +257,8 @@ font-size: 20px;
   @apply mx-auto;
   padding: 10px;
   width: 80%;
-  background-image: linear-gradient(to right, rgba(200,0,0,0.2), rgba(0, 0, 0, 0));
+  /*background-image: linear-gradient(to right, rgba(200,0,0,0.2), rgba(0, 0, 0, 0));*/
+  background-image: linear-gradient(to right, rgba(197, 48, 48, 0.2), rgba(0,0,0,0)); /* using Tailwind's red-700*/
   font-size: 15px;
 }
 
@@ -348,6 +349,11 @@ a[class*="button"] {
 .puzzle .rule {
   border-left: 5px solid rgb(200,0,0);
   background-image: linear-gradient(to right, rgba(230, 230, 230, 0.75), rgba(0, 0, 0, 0));
+  transition: all 1s ease;  
+}
+
+.puzzle .rule:hover {
+  @apply ml-1;
 }
 
 .puzzle h3 strong {
@@ -397,6 +403,7 @@ a[class*="button"] {
 
 .bad, .good {
   display: block;
+  @apply no-underline;
 }
 
 #board canvas {
