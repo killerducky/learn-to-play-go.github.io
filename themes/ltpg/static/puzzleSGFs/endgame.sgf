@@ -7,7 +7,8 @@
 It is endgame, no captures or komi (for simplicity) and it does not really look all that good for black, does it? 
 
 White just pushed with the marked stone, could that be a bit of an endgame mistake?]
-(;B[da]C[Yes, ignoring the attack is absoltely essential.];W[ca]C[Atari];B[ea]
+(;B[da]
+;W[ca]C[Yes, ignoring white's attack is absoltely essential.];B[ea]
 ;W[cb]C[White needs to protect here otherwise you can capture C9. Which means you get to keep sente!];B[ei];W[di];B[fi];W[dh]
 ;B[ge]C[And you even get to defend against the original attack. That's how powerfull good use of sente is. Black wins!]LB[aa:1][ba:2][ab:3][bb:4][ac:5][bc:6][cc:7][ad:8][bd:9][ae:10]
 [be:11][ce:12][af:13][bf:14][cf:15][df:16][ag:17][bg:18][dg:19]
@@ -15,7 +16,8 @@ White just pushed with the marked stone, could that be a bit of an endgame mista
 [ia:4][fb:5][gb:6][hb:7][ib:8][fc:9][hc:10][ic:11][gd:12][hd:13]
 [id:14][ie:15][hf:16][if:17][gg:18][hg:19][ig:20][gh:21][hh:22]
 [ih:23][gi:24][hi:25][ii:26])
-(;B[ge]C[It is a natural response, right? Opponent attacked so you defend. let's see how it ends.];W[fi];B[gi];W[ei]
+(;B[ge]
+;W[fi]C[It is a natural response, right? Opponent attacked so you defend. let's see how it ends.];B[gi];W[ei]
 (;B[gh];W[ea];B[fa];W[da]
 (;B[fb]LB[aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9][ad:10]
 [bd:11][ae:12][be:13][ce:14][af:15][bf:16][cf:17][df:18][ag:19]
@@ -28,11 +30,27 @@ White just pushed with the marked stone, could that be a bit of an endgame mista
 (;B[da];W[ca];B[ea];W[cb]
 (;B[hh])
 (;B[gh])))
-(;B[ei];W[di];B[fi]
+(;B[ei]
+;W[di]C[Yes, ignoring white's attack is absoltely essential.];B[fi]
 ;W[dh]C[White needs to protect here otherwise you can capture C9. Which means you get to keep sente!];B[da];W[ca];B[ea];W[cb]
 ;B[ge]C[And you even get to defend against the original attack. That's how powerfull good use of sente is. Black wins!]LB[aa:1][ba:2][ab:3][bb:4][ac:5][bc:6][cc:7][ad:8][bd:9][ae:10]
 [be:11][ce:12][af:13][bf:14][cf:15][df:16][ag:17][bg:18][dg:19]
 [ah:20][bh:21][ch:22][ai:23][bi:24][ci:25][fa:1][ga:2][ha:3]
 [ia:4][fb:5][gb:6][hb:7][ib:8][fc:9][hc:10][ic:11][gd:12][hd:13]
 [id:14][ie:15][hf:16][if:17][gg:18][hg:19][ig:20][gh:21][hh:22]
-[ih:23][gi:24][hi:25][ii:26]))
+[ih:23][gi:24][hi:25][ii:26])
+(;B[ea]
+;W[da]C[Too weak. You need to push the borders harder.];B[fi];W[ei]
+;B[ge]LB[aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9][ad:10]
+[bd:11][ae:12][be:13][ce:14][af:15][bf:16][cf:17][df:18][ag:19]
+[bg:20][dg:21][ah:22][bh:23][ch:24][dh:25][ai:26][bi:27][ci:28]
+[di:29][fa:1][ga:2][ha:3][ia:4][fb:5][gb:6][hb:7][ib:8][fc:9]
+[hc:10][ic:11][gd:12][hd:13][id:14][ie:15][hf:16][if:17][gg:18]
+[hg:19][ig:20][gh:21][hh:22][ih:23][gi:24][hi:25][ii:26]C[You did manage to get sente in time, but failed to push hard enough on the borders. Try again.])
+(;B[fi];W[ei];B[ea];W[da]
+;B[ge]LB[aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9][ad:10]
+[bd:11][ae:12][be:13][ce:14][af:15][bf:16][cf:17][df:18][ag:19]
+[bg:20][dg:21][ah:22][bh:23][ch:24][dh:25][ai:26][ci:28][bi:27]
+[di:29][fa:1][ga:2][ha:3][ia:4][fb:5][gb:6][hb:7][ib:8][fc:9]
+[hc:10][ic:11][gd:12][hd:13][id:14][ie:15][hf:16][if:17][gg:18]
+[hg:19][ig:20][gh:21][hh:22][ih:23][gi:24][hi:25][ii:26]C[You did manage to get sente in time, but failed to push hard enough on the borders. Try again.]))
