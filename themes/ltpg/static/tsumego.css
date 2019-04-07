@@ -64,10 +64,10 @@
 .wgo-tsumego-comment {
 	vertical-align: middle;
 	/*height: 80px;*/
-	min-height: 7rem;
+	min-height: 8rem;
 	border: 0px solid #cccccc;
 	padding: 0px 0px;
-	font-size: 18px;
+	font-size: 1rem; /* originally 18px */
 	border-radius: 4px;
 	color: #333333;
 	margin-bottom: 10px;
