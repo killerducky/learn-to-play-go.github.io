@@ -350,7 +350,8 @@ hr{
 
 
 .tsumego{
-width: 465px;
+/*width: 465px;*/
+max-width: 465px;
 margin: 0 auto;
 padding: 10px; 
 border-radius: 10px;
