@@ -136,7 +136,7 @@ margin-top: 1.5em;
 .button-grey {
   display: inline-block;
   margin: 0 auto;
-  width: 95%;
+  /*width: 95%;*/
   margin-bottom: 20px; 
   padding-top: 10px;
   padding-bottom: 10px;
@@ -179,7 +179,7 @@ margin-top: 1.5em;
 }
 
 .button-blue:hover {
-  background: rgba(0,102,102,0.4);
+  background-color: rgba(0,102,102,0.4);
 }
 
 .button-green {
@@ -203,7 +203,7 @@ margin-top: 1.5em;
 }
 
 .button-green:hover {
-  background: rgba(0,102,20,0.4);
+  background-color: rgba(0,102,20,0.4);
 }
 
 .good {
@@ -443,6 +443,7 @@ a[class*="button"] {
 .button-green, .button-blue {
   font-size: 1.25rem;
   height: 7rem;
+  background-position: left bottom;
   @apply leading-tight;
 }
 
