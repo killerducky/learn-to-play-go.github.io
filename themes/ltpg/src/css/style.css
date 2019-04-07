@@ -41,6 +41,19 @@ font-family: 'Raleway', sans-serif;
 background-image: url(../../static/images/pattern.png);
 }
 
+@screen md {
+  body.index {
+    background-image:  url(../../static/images/1.jpg), url(../../static/images/pattern.png);
+    background-position: center top, center left;
+    background-repeat: no-repeat, repeat;
+  }
+  .header {
+    position: relative;
+    height: 500px;
+    max-width: 1024px;
+  }
+}
+
 .bttn{
 font-family: 'Raleway', sans-serif;
 min-width: 150px;
@@ -86,11 +99,34 @@ border-bottom: 10px solid rgba(0,102,20,0.5);
 
 
 .nav{
-position: absolute; width: 100%; top: 200px; font-size: 26px; font-weight: 900; text-transform: uppercase; text-align: center;
+width: 100%;
+font-size: 26px;
+font-weight: 900;
+text-transform: uppercase;
+text-align: center;
+}
+
+@screen md {
+  .nav {
+    position: absolute;
+    top: 200px;
+  }
 }
 
 .title{
-font-size: 65px; color: rgba(0,102,102,0.7); font-weight: 900; margin-left: auto; text-align: center; min-width: 700px; margin-top: 1.5em;
+font-size: 3rem;
+color: rgba(0,102,102,0.7);
+font-weight: 900;
+margin-left: auto;
+text-align: center;
+margin-top: 1.5em;
+}
+
+@screen md {
+  .title {
+    font-size: 65px;
+    min-width: 700px;
+  }
 }
 
 /* 
@@ -396,14 +432,17 @@ a[class*="button"] {
   right: 15px;
 }
 
-.bad, .good, .button-green, .button-blue {
+.bad, .good{
   font-size: 1.25rem;
   height: 6rem;
-}
-
-.bad, .good {
   display: block;
   @apply no-underline;
+}
+
+.button-green, .button-blue {
+  font-size: 1.25rem;
+  height: 7rem;
+  @apply leading-tight;
 }
 
 #board canvas {
