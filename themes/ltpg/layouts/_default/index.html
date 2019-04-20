@@ -1,0 +1,39 @@
+{{ define "extraInlineCSS" }}
+{{ end }}
+
+{{ define "extraBodyClass" }}index{{ end }}
+
+{{ define "onLoad"}}
+onload="checkCookies()"
+{{ end }}
+    
+{{ define "body" }}
+              <a href="" onclick="reset()" style="position: absolute; top: 10px; right: 15px; color: rgba(0,102,20,0.3);"><b>Reset all progres</b></a>
+<!-- NAVBAR -->
+    <div class="obal header">
+          <noscript>
+            <span style="margin: 0 auto; background: rgb(255,102,0); padding: 10px; font-weight: bold;">This site is too complicated to work without javascript. Please turn it on. There are no trackers or anything nasty here.</span> 
+          </noscript>
+           
+
+              <div class="title" style="">Learn to Play Go Already!</div>
+              <div style="text-align: right; color: rgba(0,102,20,0.3); margin-right: 20px; font-weight: 900;"><i>a loving homage to the original <a href="http://www.playgo.to/iwtg/en/" target="_blank">"Interactive Way to Go"</a></i></div>
+
+
+
+          <div class= "nav" style="">
+              <a href="#rules">Basic Rules</a><br>
+              <a href="#techniques">Basic (but cool) techniques</a><br>
+              <a href="#strategies">Basic Strategies</a><br><br>
+              
+              <a href="#what_now">I think I can play, Now What?</a><br><br>
+              
+
+          </div>
+    </div>
+<!-- END OF NAVBAR -->
+
+{{ .Content }}
+
+</div>
+{{ end }}

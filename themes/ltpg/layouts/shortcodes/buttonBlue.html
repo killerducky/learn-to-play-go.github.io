@@ -1,0 +1,5 @@
+{{ if .IsNamedParams}}
+<a href="{{ .Get "target" }}" class="button-blue {{ with .Get "extraCSS" }}{{ . }}{{ end }}" id="{{ .Get "id" }}" style="background-image: url({{ .Get "img"}}); background-repeat: no-repeat; {{ with .Get "inlineCSS" }}{{ . | safeCSS }}{{ end }}">
+    {{ .Inner }}
+</a>
+{{ end }}

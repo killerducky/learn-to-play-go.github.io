@@ -35,8 +35,6 @@ onload="checkCookies()"
 
 
 
-
-
 <!-- BASIC RULES -->
     <div id="rules" class="obal">
       <div class="nadpis">| Basic rules</div>

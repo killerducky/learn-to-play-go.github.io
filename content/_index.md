@@ -1,0 +1,78 @@
+---
+title: "Learn to Play Go"
+date: 2019-04-20T10:05:17+02:00
+draft: false
+layout: test
+---
+
+<!-- NAVBAR -->
+
+<!-- END OF NAVBAR -->
+
+
+
+
+
+<!-- BASIC RULES -->
+  {{< wrapper id="rules" >}}
+    {{< title "| Basic rules" >}}
+    {{< subtitle "Just 5 simple steps, nothing to be scared about" >}}
+
+    {{< progressbar id="progressbar" onclick="learn()" >}}Learn them {{< black all >}} one by one{{< /progressbar >}}
+
+      {{< buttonBlue target="/puzzles/1/" id="1" img="/images/where.png" >}}{{< black WHERE >}} and {{< black HOW >}} we place the stones{{< /buttonBlue >}}
+      {{< buttonBlue target="/puzzles/2/" id="2" img="/images/atari.png" >}}How can we {{< black CAPTURE >}} something?{{< /buttonBlue >}}
+      {{< buttonBlue target="/puzzles/3/" id="3" img="/images/suicide.png" >}}No {{< black SUICIDES >}} please{{< /buttonBlue >}}
+      {{< buttonBlue target="/puzzles/4/" id="4" img="/images/endless.png" >}}No {{< black "ENDLESS REPETITION">}} either{{< /buttonBlue >}}
+      {{< buttonBlue target="/puzzles/5/" id="5" img="/images/pass.png" >}}{{< black PASS >}} and {{< black COUNT >}} the score{{< /buttonBlue >}}
+  {{< /wrapper >}}
+<!-- END OF BASIC RULES -->
+
+
+<!-- BASIC TECHNIQUES -->
+  {{< wrapper id="techniques" >}}
+    {{< title "| Basic (but cool!) techniques" >}}
+    {{< subtitle "You know how to play? Now learn to play with style!" >}}
+
+    {{< progressbar id="progressbar2" onclick="learn2()" >}}Learn them {{< black all >}} one by one{{< /progressbar >}}    
+      {{< buttonBlue target="/puzzles/6/" id="6" img="/images/alive.png" >}}Alive {{< black "(IMMORTAL)" >}} groups{{< /buttonBlue >}}
+      {{< buttonBlue target="/puzzles/7/" id="7" img="/images/cuts.png" >}}{{< black CUTS >}}{{< /buttonBlue >}}
+      {{< buttonBlue target="/puzzles/8/" id="8" img="/images/double.png" >}}{{< black DOUBLE >}} atari!{{< /buttonBlue >}}
+      {{< buttonBlue target="/puzzles/9/" id="9" img="/images/ladder.png" >}}{{< black LADDERS >}}{{< /buttonBlue >}}
+      {{< buttonBlue target="/puzzles/10/" id="10" img="/images/net.png" >}}{{< black NETS >}}{{< /buttonBlue >}}
+      {{< buttonBlue target="/puzzles/11/" id="11" img="/images/snapback.png" >}}{{< black SNAPBACK >}}{{< /buttonBlue >}}
+      {{< buttonBlue target="/puzzles/12/" id="12" img="/images/seki.png" >}}{{< black "SEKI (barely alive)" >}}{{< /buttonBlue >}}
+      {{< buttonBlue target="/puzzles/12_and_a_half/" id="gold" img="/images/under.png" extraCSS="hidden" inlineCSS="display: none;" >}}Playing {{< black UNDER >}} the stones{{< /buttonBlue >}}
+  {{< /wrapper >}}
+<!-- END OF BASIC TECHNIQUES -->
+
+<!-- BASIC STRATEGIES -->
+  {{< wrapper id="strategies" >}}
+    {{< title "| Basic strategies" >}}
+    {{< subtitle "Switching to 19x19" >}}
+
+    {{< progressbar id="progressbar3" onclick="learn2()" >}}Learn them {{< black all >}} one by one{{< /progressbar >}}
+
+    {{< buttonBlue target="/puzzles/13/" id="13" img="/images/where.png" >}}What to do in the {{< black OPENING >}}{{< /buttonBlue >}}
+    {{< buttonBlue target="/puzzles/14/" id="14" img="/images/atari.png" >}}Is {{< black ENDGAME >}} important?{{< /buttonBlue >}}
+    {{< buttonBlue target="/puzzles/15/" id="15" img="/images/atari.png" >}}Make some {{< black SHAPE >}}{{< /buttonBlue >}}
+    {{< buttonBlue target="/puzzles/16/" id="16" img="/images/suicide.png" >}}Most common beginner {{< black MISTAKES >}}{{< /buttonBlue >}}
+    {{< buttonBlue target="/puzzles/17/" id="17" img="/images/suicide.png" >}}Understand a {{< black PROFESSIONAL >}} game{{< /buttonBlue >}}
+      
+  {{< /wrapper >}}
+<!-- END OF BASIC STRATEGIES -->
+
+
+<!-- WHAT NOW? -->
+  {{< wrapper id="what_now" >}}
+    {{< title "| Well, now what?" >}}
+    {{< subtitle "Where can you even use this newfound skill?" >}}
+
+    {{< progressbar id="progressbar4" onclick="learn2()" >}}Learn them {{< black all >}} one by one{{< /progressbar >}}  
+
+    {{< buttonBlue target="/puzzles/18/" id="18" img="/images/where.png" >}}Where can you {{< black PLAY >}}?{{< /buttonBlue >}}
+    {{< buttonBlue target="/puzzles/19/" id="19" img="/images/atari.png" >}}Where can you {{< black LEARN >}} more?{{< /buttonBlue >}}
+    {{< buttonBlue target="/puzzles/20/" id="20" img="/images/suicide.png" >}}Where can you {{< black "ASK QUESTIONS" >}}?{{< /buttonBlue >}}
+    {{< buttonBlue target="/puzzles/21/" id="21" img="/images/suicide.png" >}}{{< black DICTIONARY >}} of Go terms?{{< /buttonBlue >}}
+      
+  {{< /wrapper >}}
