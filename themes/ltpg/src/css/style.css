@@ -408,7 +408,7 @@ a[class*="button"] {
 }
 
 .puzzle blockquote {
-  @apply text-center text-gray-700 my-8 w-5/6 mx-auto;
+  @apply text-center text-gray-700 mt-8 mb-32 w-5/6 mx-auto;
   position: relative;
 }
 

@@ -1,4 +1,5 @@
-(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AB[de][ed][fe]AW[ee]C[First one is simple, capture the white stone with a next move.]
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AB[de][ed][fe]AW[ee]LB[ef:1]C[First one is simple, capture the white stone with a next move.
+Since diagonal intersections do not count, this stone has only 1 liberty left.]
 (;B[ef]TE[1]C[Yup. But that was easy. Try the next one.])
 (;B[df]C[No. To be fair after this move white would not be able to escape, but I am asking you to CAPTURE with a single move.])
 (;B[ff]C[No. To be fair after this move white would not be able to escape, but I am asking you to CAPTURE with a single move.])

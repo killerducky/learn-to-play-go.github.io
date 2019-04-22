@@ -1,0 +1,10 @@
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AB[ed][fe][ef]AW[ce][dd][ee][df]LB[de:A]C[First let's have a look at an isolated example. Capture white stone at A. This move is not suicide, because by capturing you get 1 extra liberty.];B[de]
+;W[ec]MA[de]LB[ee:A][fc:B]C[White must not retake the marked stone immediately. It is prohibited by the rules as the board position would repeat. You can connect to end the ko at A or play elsewhere at B.]
+(;B[ee]TE[1]C[This ko is now over. However, ko makes little sense as an isolated 
+situation, check out puzzle 2.])
+(;B[fc]
+;W[ee]MA[ee]TE[1]C[And since the board position is now different then before white 
+may recapture the original ko. It is now you, who has to play elsewhere 
+once before you may recapture that stone. However, ko makes 
+little sense as an isolated 
+situation, check out puzzle 2.]))
