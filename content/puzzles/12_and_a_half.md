@@ -5,10 +5,10 @@ draft: false
 cookieSetting: "12"
 puzzles:
 - id: pzl1
-  target: puzzle23
+  target: 12plus-1
   text: Puzzle 1
 - id: pzl2
-  target: puzzle24
+  target: 12plus-2
   text: Puzzle 2
 returnTo: "index.html#techniques"
 ---
