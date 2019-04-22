@@ -1,12 +1,12 @@
-(;GM[1]FF[4]AP[Drago:4.23]SZ[9]CA[UTF-8]C[A simple example to show you the idea. 
+(;GM[1]FF[4]AP[Drago:4.23]SZ[9]CA[UTF-8]AB[ff][fg][fh][he][gf][ec][eb][fd][ed][hd]AW[ef][eh][db][dc][cd][de][cg][fe][eg][ee][dd][cf]LB[aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9][ad:10]
+[bd:11][ae:12][be:13][ce:14][af:15][bf:16][fa:1][ga:2][ha:3]
+[ia:4][fb:5][gb:6][hb:7][ib:8][fc:9][id:13][ie:14][hf:15][if:16]
+[gg:17][hg:18][ig:19][gh:20][hh:21][ih:22][gi:23][hi:24][ii:25]
+[gc:10][hc:11][ic:12][ah:21][bh:22][ch:23][dh:24][ai:25][bi:26]
+[ci:27][di:28][df:17][ag:18][bg:19][dg:20][fe:A]C[A simple example to show you the idea. 
 It is endgame, no captures or komi (for simplicity) and it does not really look all that good for black, does it? 
 
-White just pushed with the marked stone, could that be a bit of an endgame mistake?]AB[ff][fg][fh][he][gf][ec][eb][fd][ed][hd]AW[ef][eh][db][dc][cd][de][cg][fe][eg][ee][dd][cf]LB[fe:O][aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9]
-[ad:10][bd:11][ae:12][be:13][ce:14][af:15][bf:16][fa:1][ga:2]
-[ha:3][ia:4][fb:5][gb:6][hb:7][ib:8][fc:9][id:13][ie:14][hf:15]
-[if:16][gg:17][hg:18][ig:19][gh:20][hh:21][ih:22][gi:23][hi:24]
-[ii:25][gc:10][hc:11][ic:12][ah:21][bh:22][ch:23][dh:24][ai:25]
-[bi:26][ci:27][di:28][df:17][ag:18][bg:19][dg:20]
+White just pushed with A, could that be a bit of an endgame mistake?]
 (;B[da]
 ;W[ca]C[Yes, ignoring white's attack is absoltely essential.];B[ea]
 ;W[cb]C[White needs to protect here otherwise you can capture C9. Which means you get to keep sente!];B[ei];W[di];B[fi];W[dh]

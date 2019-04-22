@@ -1,0 +1,32 @@
+(;GM[1]FF[4]AP[Drago:4.23]SZ[9]CA[UTF-8]AB[hh][hg][hf][he][hd][hc][gc][fc][ec][dc][cc][bc][bd][be][bf][bg]
+[bh]AW[ch][cg][cf][gh][gg][gf][ce][cd][dd][ed][fd][gd][ge][df][ee]C[Great work, I have decided to show you some magic as a reward. 
+Sometimes, endgame can be very beautifull. Imagine a situation like this and play the best endgame you can. There is a wonderfull trick. Think about moves you would not normally consider.]
+(;B[gi];W[fi]
+(;B[hi];W[bi]
+(;B[fh];W[ei];B[eh];W[di];B[dh]
+;W[ci]LB[de:1][fe:2][ef:3][ff:4][dg:5][eg:6][fg:7][dh:8][eh:9][fh:10]C[No, the capture trick does not work here...
+You reduced white to 10 points but gave him extra captures. Not the best result!])
+(;B[ah]
+;W[ci]LB[de:1][fe:2][ef:3][ff:4][dg:5][eg:6][fg:7][dh:8][eh:9][fh:10]
+[di:11][ei:12]))
+(;B[ci];W[di]
+(;B[hi]
+;W[bi]MA[ci]LB[de:1][fe:2][ef:3][ff:4][dg:5][eg:6][fg:7][dh:8][eh:9][fh:10]
+[ei:11]C[You only reduced white to 11 points. But I like that you try things out! That's the way to learn.])
+(;B[bi]
+;W[hi]LB[de:1][fe:2][ef:3][ff:4][dg:5][eg:6][fg:7][dh:8][eh:9][fh:10]
+[ei:11]MA[gi]C[You only reduced white to 11 points. But I like that you try things out! That's the way to learn.])))
+(;B[ei]
+;W[gi]C[This is a wonderfull move! It cannot be captured.
+Whichever way white tries to block you off, you can connect to the other side.]CR[ei]
+(;B[ci]
+;W[dh]C[A peep at your connection.];B[di];W[eh];B[fi];W[fh]
+;B[bi]LB[de:1][fe:2][ef:3][ff:4][dg:5][eg:6][fg:7]TE[1]C[A huge reduction with this wonderfull technique.
+Don't worry if you can't see these sequences in your games just 
+yet. But it shows there is something to look out for in endgame as 
+well, not just go blindly through the motions.])
+(;B[di]
+;W[ci]C[Not like that, black is cut off.]))
+(;B[ci];W[di];B[bi];W[hi];B[dh];W[ei];B[eh];W[fi];B[fh]
+;W[gi]C[No, the capture trick does not work here...
+You reduced white to 10 points but gave him extra captures. Not the best result!]LB[de:1][fe:2][ef:3][ff:4][dg:5][eg:6][fg:7][dh:8][eh:9][fh:10]))

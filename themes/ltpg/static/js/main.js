@@ -256,6 +256,7 @@ function checkCookies() {
 
     if (showunder != "") {
         document.getElementById("gold").style.display = "inline-block";
+		document.getElementById("gold").style.background = "rgba(255, 204, 0, 0.2)";
     }
 
 
@@ -269,7 +270,6 @@ function learn() {
     var third = +getCookie("3");
     var fourth = +getCookie("4");
     var fifth = +getCookie("5");
-
 
     if (first == "0") {
         window.location.href = "/puzzles/1";
@@ -320,6 +320,7 @@ function learn2() {
         window.location.href = "/puzzles/12";
     } else
         window.location.href = "/puzzles/reward2";
+		setCookie('under', '1', '99');
 }
 
 function reset() {

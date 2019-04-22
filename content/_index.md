@@ -57,7 +57,7 @@ layout: test
     {{< buttonBlue target="/puzzles/14/" id="14" img="/images/atari.png" >}}Is {{< black ENDGAME >}} important?{{< /buttonBlue >}}
     {{< buttonBlue target="/puzzles/15/" id="15" img="/images/atari.png" >}}Make some {{< black SHAPE >}}{{< /buttonBlue >}}
     {{< buttonBlue target="/puzzles/16/" id="16" img="/images/suicide.png" >}}Most common beginner {{< black MISTAKES >}}{{< /buttonBlue >}}
-    {{< buttonBlue target="/puzzles/17/" id="17" img="/images/suicide.png" >}}Understand a {{< black PROFESSIONAL >}} game{{< /buttonBlue >}}
+    {{< buttonBlue target="/puzzles/17/" id="17" img="/images/suicide.png" >}}Understand a {{< black PRO >}} game{{< /buttonBlue >}}
       
   {{< /wrapper >}}
 <!-- END OF BASIC STRATEGIES -->
