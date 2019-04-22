@@ -298,30 +298,40 @@ function learn2() {
     var eleventh = +getCookie("11");
     var twelfth = +getCookie("12")
 
-    if (sixth == "0") {
+    if (sixth == "") {
         window.location.href = "/puzzles/6";
-    } else
-    if (seventh == "0") {
+    } else if (seventh == "") {
         window.location.href = "/puzzles/7";
-    } else
-    if (eight == "0") {
+    } else if (eight == "") {
         window.location.href = "/puzzles/8";
-    } else
-    if (ninth == "0") {
+    } else if (ninth == "") {
         window.location.href = "/puzzles/9";
-    } else
-    if (tenth == "0") {
+    } else if (tenth == "") {
         window.location.href = "/puzzles/10";
-    } else
-    if (eleventh == "0") {
+    } else if (eleventh == "") {
         window.location.href = "/puzzles/11";
-    } else
-    if (twelfth == "0") {
+    } else if (twelfth == "") {
         window.location.href = "/puzzles/12";
-    } else
+    } else {
         window.location.href = "/puzzles/reward2";
 		setCookie('under', '1', '99');
 }
+}
+
+// If the letter is "c"
+if (letter === "c") {
+  text = "Spot on! Good job!";
+
+// If the letter is "b" or "d"
+} else if (letter === "b" || letter === "d") {
+  text = "Close, but not close enough.";
+
+// If the letter is anything else
+} else {
+  text = "Waaay off..";
+} 
+
+
 
 function reset() {
 
