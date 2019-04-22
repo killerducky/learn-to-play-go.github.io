@@ -57,7 +57,7 @@ layout: test
     {{< buttonBlue target="/puzzles/14/" id="14" img="/images/atari.png" >}}Is {{< black ENDGAME >}} important?{{< /buttonBlue >}}
     {{< buttonBlue target="/puzzles/15/" id="15" img="/images/atari.png" >}}Make some {{< black SHAPE >}}{{< /buttonBlue >}}
     {{< buttonBlue target="/puzzles/16/" id="16" img="/images/suicide.png" >}}Most common beginner {{< black MISTAKES >}}{{< /buttonBlue >}}
-    {{< buttonBlue target="/puzzles/17/" id="17" img="/images/suicide.png" >}}Understand a {{< black PRO >}} game{{< /buttonBlue >}}
+    {{< buttonBlue target="/puzzles/17/" id="17" img="/images/suicide.png" >}}Understand a {{< black PROFESSIONAL >}} game{{< /buttonBlue >}}
       
   {{< /wrapper >}}
 <!-- END OF BASIC STRATEGIES -->
@@ -76,3 +76,22 @@ layout: test
     {{< buttonBlue target="/puzzles/21/" id="21" img="/images/suicide.png" >}}{{< black DICTIONARY >}} of Go terms?{{< /buttonBlue >}}
       
   {{< /wrapper >}}
+  
+  
+<!-- WHAT NOW? -->
+  {{< wrapper id="credits" >}}
+      {{< title "| Who's behind this?" >}}
+  This site was made for the love of the game and our community. If you found some mistake contact {{< externalLink target="https://online-go.com/user/view/360861" name="AdamR" >}} on the OGS, I will try to fix it as soon as possible.
+
+My sincerest thanks to all the members of the OGS community who were very supportive in my efforts, and kept trying to make it as good as possible. Most notably:<br><br> 
+
+{{< black "Lucas Westermann" >}}<br>
+Who managed the whole technical side of the project and patiently kept explaining what I need to press to make it all work.<br><br>
+
+{{< black "Our proofreaders" >}}<br> who spent their evenings crawling trough heaps of my horrible grammar.
+
+<br><br><br>
+The server costs for a such a small website are not big, and for the moment I am lucky enough to be able to afford them without a problem. However, if you really enjoyed the content and want to make sure we will stay online for years to come (and have nothing more important to pay for), consider donating a small ammount. Thank you and best of luck on your Go journey.    
+  
+  
+  {{< /wrapper >}}  

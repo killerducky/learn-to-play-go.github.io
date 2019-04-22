@@ -1,5 +1,5 @@
 {{ if .IsNamedParams }}
-<div id="{{ .Get "id" }}" class="button-grey" onclick="{{ safeJS (.Get "onclick") }}">
+<div id="{{ .Get "id" }}" class="button-grey" onclick="{{ safeJS (.Get "onclick") }}" style="max-width: 986px;">
     {{ .Inner }}
 </div><br>
 {{ end }}

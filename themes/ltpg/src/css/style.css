@@ -100,7 +100,7 @@ border-bottom: 10px solid rgba(0,102,20,0.5);
 
 .nav{
 width: 100%;
-font-size: 26px;
+font-size: 1.25rem;
 font-weight: 900;
 text-transform: uppercase;
 text-align: center;
@@ -136,7 +136,6 @@ margin-top: 1.5em;
 .button-grey {
   display: inline-block;
   margin: 0 auto;
-  /*width: 95%;*/
   width: 100%;
   margin-bottom: 20px; 
   padding-top: 10px;
@@ -161,8 +160,7 @@ margin-top: 1.5em;
 
 .button-blue {
   display: inline-block;
-  width: 300px;
-  height: 75px;
+  width: 325px;
   margin-top: 5px;
   padding: 10px;
   text-align: center;
@@ -185,8 +183,7 @@ margin-top: 1.5em;
 
 .button-green {
   display: inline-block;
-  width: 300px;
-  height: 75px;
+  width: 325px;
   margin-top: 5px;
   padding: 10px;
   text-align: center;
@@ -443,7 +440,7 @@ a[class*="button"] {
 
 .button-green, .button-blue {
   font-size: 1.25rem;
-  height: 7rem;
+  height: 6.1rem;
   background-position: left bottom;
   @apply leading-tight;
 }
