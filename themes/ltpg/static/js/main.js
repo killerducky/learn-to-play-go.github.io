@@ -12,14 +12,8 @@ function loadTsumego(which, what, board) {
             document.getElementById(what).className = "bttn-selected";
         }
     })
-   /*  document.getElementById("pzl1").className = "bttn";
-    document.getElementById("pzl2").className = "bttn";
-    document.getElementById(what).className = "bttn-selected";
-    document.getElementById("pzl3").className = "bttn";
-    document.getElementById(what).className = "bttn-selected";
-    document.getElementById("pzl4").className = "bttn";
-    document.getElementById(what).className = "bttn-selected"; */
 }
+
 
 function loadSgf(which, what) {
     var puzzletodisplay = "puzzles/" + which + ".sgf";
@@ -47,20 +41,6 @@ function myFunction(jdi) {
     window.location.href = jdi;
 }
 
-function guess(gswht, late, right) {
-    var guess = +getCookie("guessed");
-
-    if ((0 + guess) != "0") {
-        document.getElementById(late).style.display = "block";
-
-    } else {
-        document.getElementById(gswht).style.display = "block";
-        setCookie("guessed", right, "14");
-    }
-    document.getElementById("btn1").style.display = "none";
-    document.getElementById("btn2").style.display = "none";
-
-}
 
 function checkReward() {
     var first = +getCookie("1");
@@ -74,6 +54,7 @@ function checkReward() {
     }
 }
 
+
 function checkReward2() {
     var sixth = +getCookie("6");
     var seventh = +getCookie("7");
@@ -83,11 +64,6 @@ function checkReward2() {
     var eleventh = +getCookie("11");
     var twelfth = +getCookie("12");
 	
-
-    if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) == "7") {
-        setCookie("under", 1, 14);
-    }
-
     if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) != "7") {
         document.write("You cannot cheat at learning Go. You have to walk the same path as others. There are no shortcuts... <a href='index.html'>Go back</a>");
     }
@@ -103,14 +79,13 @@ function checkPuzzle() {
 }
 
 
-
-
 function setCookie(cname, cvalue, exdays) {
 	var d = new Date();
     d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
     var expires = "expires=" + d.toUTCString();
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
+
 
 function getCookie(cname) {
     var name = cname + "=";
@@ -128,6 +103,7 @@ function getCookie(cname) {
     return "";
 }
 
+
 function checkCookies() {
     var first = +getCookie("1");
     var second = +getCookie("2");
@@ -144,6 +120,12 @@ function checkCookies() {
     var twelfth = +getCookie("12");
 
     var showunder = +getCookie("under");
+	
+    var thirteen = +getCookie("13");
+    var fourteen = +getCookie("14");
+    var fifteen = +getCookie("15");
+    var sixteen = +getCookie("16");
+    var seventeen = +getCookie("17");	
 	
     if ((0 + first + second + third + fourth + fifth) == "0") {
         document.getElementById("progressbar").innerHTML = "Learn them <span class='black'>all</span> one by one (" + (0 + first + second + third + fourth + fifth) + "/5)";
@@ -261,8 +243,51 @@ function checkCookies() {
 
 
 
+    if ((0 + thirteen + fourteen + fifteen + sixteen + seventeen) == "0") {
+        document.getElementById("progressbar3").innerHTML = "Learn them <span class='black'>all</span> one by one (" + (0 + thirteen + fourteen + fifteen + sixteen + seventeen) + "/5)";
+    } else
 
+    if ((0 + thirteen + fourteen + fifteen + sixteen + seventeen) == "1") {
+        document.getElementById("progressbar3").innerHTML = "This says <span class='black'>one</span> out of five -> (" + (0 + thirteen + fourteen + fifteen + sixteen + seventeen) + "/5)";
+    } else
+
+    if ((0 + thirteen + fourteen + fifteen + sixteen + seventeen) == "2") {
+        document.getElementById("progressbar3").innerHTML = "(" + (0 + thirteen + fourteen + fifteen + sixteen + seventeen) + "/5)";
+    } else
+
+    if ((0 + thirteen + fourteen + fifteen + sixteen + seventeen) == "3") {
+        document.getElementById("progressbar3").innerHTML = "You have <span class='black'>almost</span> exhausted all my knowledge! (" + (0 + thirteen + fourteen + fifteen + sixteen + seventeen) + "/5)";
+    } else
+
+    if ((0 + thirteen + fourteen + fifteen + sixteen + seventeen) == "4") {
+        document.getElementById("progressbar3").innerHTML = "One <span class='black'>last</span> thing! (" + (0 + thirteen + fourteen + fifteen + sixteen + seventeen) + "/5)";
+    } else if ((0 + thirteen + fourteen + fifteen + sixteen + seventeen) == "5") {
+        document.getElementById("progressbar3").innerHTML = "Now you are <span class='black'>on your own</span>! Click here for your reward! (" + (0 + thirteen + fourteen + fifteen + sixteen + seventeen) + "/5)";
+        document.getElementById("progressbar3").style.background = "rgba(0,102,102,0.3)"
+    }
+
+
+    if (thirteen != "") {
+        document.getElementById("13").className = "button-green";
+    }
+
+    if (fourteen != "") {
+        document.getElementById("14").className = "button-green";
+    }
+
+    if (fifteen != "") {
+        document.getElementById("15").className = "button-green";
+    }
+
+    if (sixteen != "") {
+        document.getElementById("16").className = "button-green";
+    }
+
+    if (seventeen != "") {
+        document.getElementById("17").className = "button-green";
+    }
 }
+
 
 function learn() {
     var first = +getCookie("1");
@@ -318,18 +343,28 @@ function learn2() {
 }
 }
 
-// If the letter is "c"
-if (letter === "c") {
-  text = "Spot on! Good job!";
+function learn3() {
+    var thirteen = +getCookie("13");
+    var fourteen = +getCookie("14");
+    var fifteen = +getCookie("15");
+    var sixteen = +getCookie("16");
+    var seventeen = +getCookie("17");
 
-// If the letter is "b" or "d"
-} else if (letter === "b" || letter === "d") {
-  text = "Close, but not close enough.";
 
-// If the letter is anything else
-} else {
-  text = "Waaay off..";
-} 
+    if (thirteen == "") {
+        window.location.href = "/puzzles/13";
+    } else if (fourteen == "") {
+        window.location.href = "/puzzles/14";
+    } else if (fifteen == "") {
+        window.location.href = "/puzzles/15";
+    } else if (sixteen == "") {
+        window.location.href = "/puzzles/16";
+    } else if (seventeen == "") {
+        window.location.href = "/puzzles/17";
+    } else {
+        window.location.href = "/puzzles/reward3";
+}
+}
 
 
 
@@ -352,6 +387,8 @@ function reset() {
         document.cookie = "13=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
         document.cookie = "14=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
         document.cookie = "15=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+		document.cookie = "16=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+        document.cookie = "17=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
         document.cookie = "guessed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
         document.cookie = "showunder=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
         document.cookie = "under=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";

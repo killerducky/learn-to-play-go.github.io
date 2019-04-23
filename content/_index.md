@@ -51,7 +51,7 @@ layout: test
     {{< title "| Basic strategies" >}}
     {{< subtitle "Switching to 19x19" >}}
 
-    {{< progressbar id="progressbar3" onclick="learn2()" >}}Learn them {{< black all >}} one by one{{< /progressbar >}}
+    {{< progressbar id="progressbar3" onclick="learn3()" >}}Learn them {{< black all >}} one by one{{< /progressbar >}}
 
     {{< buttonBlue target="/puzzles/13/" id="13" img="/images/where.png" >}}What to do in the {{< black OPENING >}}{{< /buttonBlue >}}
     {{< buttonBlue target="/puzzles/14/" id="14" img="/images/atari.png" >}}Is {{< black ENDGAME >}} important?{{< /buttonBlue >}}
@@ -68,7 +68,6 @@ layout: test
     {{< title "| Well, now what?" >}}
     {{< subtitle "Where can you even use this newfound skill?" >}}
 
-    {{< progressbar id="progressbar4" onclick="learn2()" >}}Learn them {{< black all >}} one by one{{< /progressbar >}}  
 
     {{< buttonBlue target="/puzzles/18/" id="18" img="/images/where.png" >}}Where can you {{< black PLAY >}}?{{< /buttonBlue >}}
     {{< buttonBlue target="/puzzles/19/" id="19" img="/images/atari.png" >}}Where can you {{< black LEARN >}} more?{{< /buttonBlue >}}
