@@ -87,10 +87,10 @@ My sincerest thanks to all the members of the OGS community who were very suppor
 {{< black "Lucas Westermann" >}}<br>
 Who managed the whole technical side of the project and patiently kept explaining what I need to press to make it all work.<br><br>
 
-{{< black "Our proofreaders" >}}<br> who spent their evenings crawling trough heaps of my horrible grammar.
+{{< black "Our proofreaders" >}}<br> 
+Who spent their evenings crawling trough heaps of my horrible grammar.
 
-<br><br><br>
-The server costs for a such a small website are not big, and for the moment I am lucky enough to be able to afford them without a problem. However, if you really enjoyed the content and want to make sure we will stay online for years to come (and have nothing more important to pay for), consider donating a small ammount. Thank you and best of luck on your Go journey.    
+  
   
   
   {{< /wrapper >}}  
