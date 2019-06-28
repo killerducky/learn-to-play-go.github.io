@@ -1,15 +1,10 @@
 # Learn to Play Go
+*A website designed and written in Hugo*
 
-## A website designed and written in Hugo
+## Editing page content
+All the main content is located in content/puzzles. They are markdown files and you can just edit them directly. 
 
-### Moving static HTML pages from test area into Hugo
-
-1. Place the corresponding HTML file in `themes/ltpg/layouts/puzzles/
-2. Remove all HTML `<head>` entries and instead replace it with the corresponding `{{ define "body" }}` tag (or extraJS for JS, etc.)
-3. Make a note of the 3 values passed into the `setCookie` function on the `good` button.
-4. Under `/content/puzzles` add a file with the same number as the HTML file (for example: `1.md` instead of `1.html`). This should be done with hugo (`hugo new puzzles/3.md`). Then adjust the frontmatter in the file by adding the values in cookieSettings that are used in the function `setCookie`.
-5. Move all the content from the HTML file into Markdown (removing all HTML tags), and use frontmatter and Hugo shortcodes to create the corresponding elements.
-6. For any links or references to files present in the HTML file, you must make certain they are based off the root of the page (begin with a `/`). For example `images/pattern.png` would then be `/images/pattern.png`.
+The header contains frontmatter for some of the finest settings and mostly should need no changes. The rest of the page is simple markdown you surely know with only a handfull of extra codes for some of the extra features. They are easy to use and described bellow
 
 ### Shortcodes
 
@@ -21,3 +16,17 @@
 - jgoboard - this is used only on puzzle 1 and creates a free play board.
 
 Shortcodes are used as follows: `{{< alert >}}Blah blah blah{{< /alert >}}`, `{{< tsumego sgf="(;FF[4]GM[1]VW[aa:jj]SZ[9]ST[2][...])" >}}`, or `{{< black "word(s) to make bold" >}}`
+
+## Editing the interactive puzzles
+The puzzles are located in  themes/ltpg/static/puzzleSGFs and are .sgf files named according to the puzzle page they belong to. To edit the text you can just edit them in any sgf editor (I am using Drago it has all I need) simple text edits are even possible online 
+
+to mark a variation as correct add the [TE] (tesuji) flag to it. Any variation that ends without this flag is marked as incorrect.
+
+## Deploying locally
+To deploy this webpage locally you need git and hugo installed.
+
+Once done ```git pull https://gitlab.com/Adam314159/hugo-ltpg``` to download the project
+
+navigate to the project folder in your cmd (rather with administrator privilidges) and ```hugo serve``` to start a local server
+
+You can preview on displayed localhost URL, any change to the files will immediately be previewed there.
