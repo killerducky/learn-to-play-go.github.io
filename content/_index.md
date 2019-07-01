@@ -87,8 +87,8 @@ My sincerest thanks to all the members of the OGS community who were very suppor
 {{< black "Lucas Westermann" >}}<br>
 Who managed the whole technical side of the project and patiently kept explaining what I need to press to make it all work.<br><br>
 
-{{< black "Our proofreaders" >}}<br> 
-Who spent their evenings crawling trough heaps of my horrible grammar.
+{{< black "Kosh " >}}(faith manages)<br> 
+Who spent his evenings crawling trough heaps of my horrible grammar.
 
   
   

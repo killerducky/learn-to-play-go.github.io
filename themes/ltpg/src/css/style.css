@@ -386,10 +386,6 @@ a[class*="button"] {
   transition: all 1s ease;  
 }
 
-.puzzle .rule:hover {
-  @apply ml-1;
-}
-
 .puzzle h3 strong {
   @apply uppercase;
 }
