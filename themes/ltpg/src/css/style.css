@@ -448,7 +448,7 @@ a[class*="button"] {
 @media only screen and (max-width: 600px) {
   #board {
      transform: scale(0.63);
-	 transform-origin: -20% 0%;
+	 transform-origin: -10% 0%;
   }
 }
 
