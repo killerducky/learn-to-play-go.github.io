@@ -11,6 +11,7 @@ The header contains frontmatter for some of the finest settings and mostly shoul
 - alert - this creates the red gradient alert boxes.
 - rule - this creates the red gradient rule boxes (with a left-hand border)
 - black - this makes a word bold and larger font
+- extra - adds a collapsable box for extra information (needs a unique number for first variable)
 - tsumego - this shortcode either uses the frontmatter settings (puzzles) or can take a string in the sgf parameter See puzzles 2 and 3.
 - sgf - creates an sgf viewer (same frontmatter as tsumego)
 - jgoboard - this is used only on puzzle 1 and creates a free play board.
