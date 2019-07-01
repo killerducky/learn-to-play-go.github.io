@@ -25,7 +25,7 @@ to mark a variation as correct add the [TE] (tesuji) flag to it. Any variation t
 ## Deploying locally
 To deploy this webpage locally you need git and hugo installed.
 
-Once done ```git pull https://gitlab.com/Adam314159/hugo-ltpg``` to download the project
+Once done ```git clone https://gitlab.com/Adam314159/hugo-ltpg``` to download the project
 
 navigate to the project folder in your cmd (rather with administrator privilidges) and ```hugo serve``` to start a local server
 
