@@ -291,8 +291,7 @@ font-size: 20px;
   @apply mx-auto;
   padding: 10px;
   width: 80%;
-  /*background-image: linear-gradient(to right, rgba(200,0,0,0.2), rgba(0, 0, 0, 0));*/
-  background-image: linear-gradient(to right, rgba(197, 48, 48, 0.2), rgba(0,0,0,0)); /* using Tailwind's red-700*/
+  background-image: linear-gradient(to right, rgba(48, 197, 197, 0.2), rgba(0,0,0,0)); /* using Tailwind's red-700*/
   font-size: 15px;
 }
 

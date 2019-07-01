@@ -396,5 +396,13 @@ function reset() {
     } else {
         void 0
     }
+}
 
+function uncollapse(what) {
+	if (document.getElementById(what).style.display=="none")
+	{
+		document.getElementById(what).style.display="inline-block"
+	}  	else { 
+		document.getElementById(what).style.display="none"
+	}
 }

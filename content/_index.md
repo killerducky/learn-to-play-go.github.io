@@ -16,7 +16,7 @@ layout: test
 <!-- BASIC RULES -->
   {{< wrapper id="rules" >}}
     {{< title "| Basic rules" >}}
-    {{< subtitle "Just 5 simple steps, nothing to be scared about" >}}
+    {{< subtitle "Just 5 simple steps" >}}
 
     {{< progressbar id="progressbar" onclick="learn()" >}}Learn them {{< black all >}} one by one{{< /progressbar >}}
 
