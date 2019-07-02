@@ -297,21 +297,21 @@ function learn() {
     var fifth = +getCookie("5");
 
     if (first == "0") {
-        window.location.href = "/puzzles/1";
+        window.location.href = "/lessons/1";
     } else
     if (second == "0") {
-        window.location.href = "/puzzles/2";
+        window.location.href = "/lessons/2";
     } else
     if (third == "0") {
-        window.location.href = "/puzzles/3";
+        window.location.href = "/lessons/3";
     } else
     if (fourth == "0") {
-        window.location.href = "/puzzles/4";
+        window.location.href = "/lessons/4";
     } else
     if (fifth == "0") {
-        window.location.href = "/puzzles/5";
+        window.location.href = "/lessons/5";
     } else
-        window.location.href = "/puzzles/reward";
+        window.location.href = "/lessons/reward";
 }
 
 function learn2() {
@@ -324,21 +324,21 @@ function learn2() {
     var twelfth = +getCookie("12")
 
     if (sixth == "") {
-        window.location.href = "/puzzles/6";
+        window.location.href = "/lessons/6";
     } else if (seventh == "") {
-        window.location.href = "/puzzles/7";
+        window.location.href = "/lessons/7";
     } else if (eight == "") {
-        window.location.href = "/puzzles/8";
+        window.location.href = "/lessons/8";
     } else if (ninth == "") {
-        window.location.href = "/puzzles/9";
+        window.location.href = "/lessons/9";
     } else if (tenth == "") {
-        window.location.href = "/puzzles/10";
+        window.location.href = "/lessons/10";
     } else if (eleventh == "") {
-        window.location.href = "/puzzles/11";
+        window.location.href = "/lessons/11";
     } else if (twelfth == "") {
-        window.location.href = "/puzzles/12";
+        window.location.href = "/lessons/12";
     } else {
-        window.location.href = "/puzzles/reward2";
+        window.location.href = "/lessons/reward2";
 		setCookie('under', '1', '99');
 }
 }
@@ -352,17 +352,17 @@ function learn3() {
 
 
     if (thirteen == "") {
-        window.location.href = "/puzzles/13";
+        window.location.href = "/lessons/13";
     } else if (fourteen == "") {
-        window.location.href = "/puzzles/14";
+        window.location.href = "/lessons/14";
     } else if (fifteen == "") {
-        window.location.href = "/puzzles/15";
+        window.location.href = "/lessons/15";
     } else if (sixteen == "") {
-        window.location.href = "/puzzles/16";
+        window.location.href = "/lessons/16";
     } else if (seventeen == "") {
-        window.location.href = "/puzzles/17";
+        window.location.href = "/lessons/17";
     } else {
-        window.location.href = "/puzzles/reward3";
+        window.location.href = "/lessons/reward3";
 }
 }
 
