@@ -3,7 +3,7 @@ title: "Your first Go Reward"
 date: 2019-03-31T10:05:17+02:00
 draft: false
 layout: "info"
-returnTo: "index.html#what_now"
+returnTo: "index.html#techniques"
 ---
 
 # | Being a Go Player

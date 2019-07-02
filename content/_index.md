@@ -88,7 +88,7 @@ My sincerest thanks to all the members of the OGS community who were very suppor
 Who managed the whole technical side of the project and patiently kept explaining what I need to press to make it all work.<br><br>
 
 {{< black "Kosh " >}}(faith manages)<br> 
-Who spent his evenings crawling trough heaps of my horrible grammar.
+Who wrote a portion of the texts, spent his evenings crawling trough heaps of my horrible grammar and overall lifted the quality of the site marginally.
 
   
   
