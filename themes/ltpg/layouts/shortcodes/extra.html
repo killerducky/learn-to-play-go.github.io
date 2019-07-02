@@ -1,4 +1,5 @@
-<a onclick="uncollapse('{{ .Get 0 }}')" class="text-sm" style="cursor: pointer; color: darkgreen; margin-left: 20px;"><b>{{ .Get 1 }} > </b></a><br>
-<div id= "{{ .Get 0 }}" class="alert my-8" style="display: none; width: 100%">
+
+<div><a onclick="uncollapse('{{ .Get 0 }}')" class="text-sm alert" style="cursor: pointer; color: darkgreen;"><b>{{ .Get 1 }} > </b></a><br>
+<div id= "{{ .Get 0 }}" class="my-2 alert" style="display: none; width: 100%">
     {{ .Inner }}
-</div><br>
+</div></div><br>
