@@ -9,7 +9,7 @@ returnTo: "index.html#techniques"
 # | Being a Go Player
 ## What your first actual game will be like...
 
-> After losing his most prized title, the 25th Meijin, to Yoda by 4-0 Cho Chikun (one of the best Japanese Go players) was interviewed by a reporter who asked, "Why do you like Go so much?"
+> After losing his most prized title, the 25th Meijin, to Yoda by 4-0 Cho Chikun (one of the most famous Japanese Go players) was interviewed by a reporter who asked, "Why do you like Go so much?"
 He replied: "I hate Go".
 
 If you want to play Go, you have to first be ready to lose. Chances are you will lose your first game, chances are you will lose the second, and the third... Might be 50 games before you also start winning on some regular basis. Right now, you have no idea what abyss there is between you and barely mediocre players. The learning curve is LONG. But you WILL start winning games, you WILL start climbing in rank, the day will come.

@@ -244,7 +244,7 @@ var generate_dom = function() {
 	this.center = document.createElement("div");
 	this.wrapper.appendChild(this.center);
 	this.center.appendChild(this.boardElement);
-	console.log(this.center.offsetWidth);
+	//console.log(this.center.offsetWidth);
 	this.board.setWidth(this.center.offsetWidth);
 	
 	// bottom part
@@ -368,14 +368,17 @@ Tsumego.prototype.hint = function(e) {
 	this.setInfo("Already wrong variation! Try again.");
 }
 
+
+
+
 Tsumego.prototype.variationEnd = function(e) {
 	if(!e.node.comment) {
 		switch(e.node._ev){
 			case 0:	this.setInfo("Incorrect solution! Try again."); break;
 			case 1: this.setInfo("There is a better way to solve this! Try again."); break;
 			case 2: this.setInfo("Correct solution, but there is a better move."); break;
-			case 3: this.setInfo("You have solved it!"); break;
-			default: this.setInfo("Not even close... Try again"); break;
+			case 3: this.setInfo("You have solved it!"); correct(1); break;
+			default: this.setInfo("Completely wrong, try again."); correct(0); break;
 		}
 	}
 	
@@ -419,6 +422,30 @@ Tsumego.default = {
 	displayHintButton: true,
 	debug: false
 }
+
+
+var corr = 0;
+var nmbr = 0;
+
+
+function correct(attempt){
+	corr = corr+attempt;
+	nmbr = nmbr+1;
+	document.getElementById("goodAnswers").innerHTML = "Correct answers so far: <span class='font-bold text-3xl'> " + corr + "</span> out of " + nmbrQuestions
+	loadQuizz (nmbr, tsumego_wrapper, tsumego);
+}
+
+function loadQuizz(which, what, board) {
+    if (nmbr<nmbrQuestions){
+	var puzzletodisplay = "/puzzleSGFs/1/" + which + ".sgf";
+    //var tsumego = WGo.getElementById("tsumego_wrapper")
+    board.loadSgfFromFile(puzzletodisplay, 0);
+    //board.setCoordinates(true);
+	} else
+	alert("You have got " + corr + " points out of " + nmbrQuestions);
+
+}
+
 
 WGo.Tsumego = Tsumego;
 

@@ -1,0 +1,29 @@
+{{ define "extraJS" }}
+	<script type="text/javascript" src="/wgo/wgo.js"></script>
+	<script type="text/javascript" src="/wgo/kifu.js"></script>
+	<script type="text/javascript" src="/wgo/sgfparser.js"></script>
+	<script type="text/javascript" src="/wgo/player.js"></script>
+	<script type="text/javascript" src="/wgo/basicplayer.js"></script>
+	<script type="text/javascript" src="/wgo/basicplayer.component.js"></script>
+	<script type="text/javascript" src="/wgo/basicplayer.infobox.js"></script>
+	<script type="text/javascript" src="/wgo/basicplayer.commentbox.js"></script>
+	<script type="text/javascript" src="/wgo/basicplayer.control.js"></script>
+	<script type="text/javascript" src="/wgo/player.editable.js"></script>
+	<script type="text/javascript" src="/wgo/scoremode.js"></script>
+	<script type="text/javascript" src="/wgo/player.permalink.js"></script>
+	
+	
+	<link rel="stylesheet" type="text/css" href="/wgo.player.css" />
+  <script type="text/javascript" src="/quizz.js"></script>
+  <link rel="stylesheet" type="text/css" href="/tsumego.css">
+{{ end }}
+    
+{{ define "body" }}
+{{ .Content }}
+{{ end }}
+
+{{ define "confirmation" }}
+        <a href="/{{ .Params.returnTo }}" class="bad">Let me get <span class="black">back</span> to this one later</a>
+        <div class="good" onclick="setCookie('{{ .Params.cookieSetting }}', '1', '99'); myFunction('/{{ .Params.returnTo }}')"><span class="black">I understand, </span><br>what's next?</div>
+{{ end }}
+

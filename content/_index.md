@@ -25,6 +25,8 @@ layout: test
       {{< buttonBlue target="/lessons/3/" id="3" img="/images/suicide.png" >}}No {{< black SUICIDES >}} please{{< /buttonBlue >}}
       {{< buttonBlue target="/lessons/4/" id="4" img="/images/endless.png" >}}No {{< black "ENDLESS REPETITION">}} either{{< /buttonBlue >}}
       {{< buttonBlue target="/lessons/5/" id="5" img="/images/pass.png" >}}{{< black PASS >}} and {{< black COUNT >}} the score{{< /buttonBlue >}}
+	  
+	  {{< buttonQuizz target="/quizzes/1/" id="q1" img="/images/quizz1.png" >}}Quizz{{< /buttonBlue >}}
   {{< /wrapper >}}
 <!-- END OF BASIC RULES -->
 

@@ -1,0 +1,44 @@
+{{ with .Get "sgf"}}
+    <div class="text-center">
+    <div class="tsumego" id="tsumego_wrapper" style="text-align: left;">
+    Your browser sucks. Download something up to date.
+    </div>
+    
+    <script>
+    var tsumego = new WGo.Tsumego(document.getElementById("tsumego_wrapper"), {
+        sgf: {{ . }},
+        debug: true, /* remove this line hide solution */
+    });
+    tsumego.setCoordinates(true);
+    </script>
+</div>
+{{ else }}
+<div style="text-align: center; min-height: 750px; vertical-align: top;">
+
+    <br><br>
+    <div class="tsumego" id="tsumego_wrapper" style="text-align: left;">
+    
+    Your browser sucks. Download something up to date.
+    </div>
+    
+    <script>
+	var tsumego = new WGo.Tsumego(document.getElementById("tsumego_wrapper"), {
+        sgfFile: "/puzzleSGFs/{{index $.Page.Params.batch}}/0.sgf",
+        /*debug: true, /* remove this line hide solution */
+    });
+    tsumego.setCoordinates(true);
+	</script>
+
+</div>
+<div id="goodAnswers" class="rule my-8 text-xl text-red-700 p-2 pl-6">Correct answers so far: <span class="font-bold text-3xl">0</span> out of {{index $.Page.Params.nrOfQurestions}}</div>
+
+<script>
+	var	nmbrQuestions = 0;
+
+function setupQuizzes(howMuch) {
+	nmbrQuestions = howMuch;
+}
+	
+	setupQuizzes({{index $.Page.Params.nrOfQurestions}});
+</script>
+{{ end }}
