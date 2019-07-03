@@ -73,9 +73,9 @@ background: rgba(0,102,20,0.5);
 
 .bttn-selected{
 font-family: 'Raleway', sans-serif;
-min-width: 150px;
+min-width: 140px;
 padding: 10px;
-margin: 10px;
+margin: 7px;
 border: 0px solid black;
 cursor: pointer;
 font-weight: bold;
