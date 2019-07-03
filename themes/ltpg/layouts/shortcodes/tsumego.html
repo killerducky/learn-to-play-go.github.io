@@ -26,7 +26,9 @@
     <script>
     var tsumego = new WGo.Tsumego(document.getElementById("tsumego_wrapper"), {
         sgfFile: "/puzzleSGFs/{{(index $.Page.Params.puzzles 0).target}}.sgf",
-        /*debug: true, /* remove this line hide solution */
+			{{with .Get "show"}}
+		debug: true, 
+			{{ end }}
     });
     tsumego.setCoordinates(true);
     </script>

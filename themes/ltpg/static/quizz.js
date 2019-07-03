@@ -1,4 +1,3 @@
-
 /**
  * Tsumego (go problems) viewer for WGo.js.
  * It requires files: wgo.js, player.js, sgfparser.js, kifu.js
@@ -252,21 +251,33 @@ var generate_dom = function() {
 	this.bottom.className = "wgo-tsumego-bottom";
 	this.wrapper.appendChild(this.bottom);
 	
+	
 	// control panel
 	this.controlPanel = document.createElement("div");
 	this.controlPanel.className = "wgo-tsumego-control";
 	this.bottom.appendChild(this.controlPanel);
 	
-	// previous button
+		// reset button
 	this.resetWrapper = document.createElement("div");
-	this.resetWrapper.className = "wgo-tsumego-btnwrapper";
+	this.resetWrapper.className = ".invisible";
 	this.controlPanel.appendChild(this.resetWrapper);
 	
 	this.resetButton = document.createElement("button");
-	this.resetButton.className = "wgo-tsumego-btn";
-	this.resetButton.innerHTML = "Retry";
+	this.resetButton.className = ".opacity-0";
+	this.resetButton.innerHTML = "";
 	this.resetButton.addEventListener("click", this.reset.bind(this));
 	this.resetWrapper.appendChild(this.resetButton);
+
+	// skip button
+	this.hintWrapper = document.createElement("div");
+	this.hintWrapper.className = "wgo-tsumego-btnwrapper";
+	if(this.config.displayHintButton) this.controlPanel.appendChild(this.hintWrapper);
+	
+	this.hintButton = document.createElement("button");
+	this.hintButton.className = "wgo-tsumego-btn";
+	this.hintButton.innerHTML = "Skip this puzzle"
+	this.hintButton.addEventListener("click", this.hint.bind(this));
+	this.hintWrapper.appendChild(this.hintButton);
 	
 	// previous button
 	this.prevWrapper = document.createElement("div");
@@ -275,20 +286,11 @@ var generate_dom = function() {
 	
 	this.prevButton = document.createElement("button");
 	this.prevButton.className = "wgo-tsumego-btn";
-	this.prevButton.innerHTML = "Undo";
+	this.prevButton.innerHTML = "Go to next puzzle";
 	this.prevButton.addEventListener("click", this.undo.bind(this));
 	this.prevWrapper.appendChild(this.prevButton);
 	
-	// hint button
-	this.hintWrapper = document.createElement("div");
-	this.hintWrapper.className = "wgo-tsumego-btnwrapper";
-	if(this.config.displayHintButton) this.controlPanel.appendChild(this.hintWrapper);
-	
-	this.hintButton = document.createElement("button");
-	this.hintButton.className = "wgo-tsumego-btn";
-	this.hintButton.innerHTML = "Hint"
-	this.hintButton.addEventListener("click", this.hint.bind(this));
-	this.hintWrapper.appendChild(this.hintButton);
+
 }
 
 /**
@@ -352,20 +354,13 @@ Tsumego.prototype.reset = function() {
 }
 
 Tsumego.prototype.undo = function() {
-	this.previous();
-	if(this.kifuReader.node.move && this.kifuReader.node.move.c == this.turn) {
-		this.previous();
-	}
+nmbr = nmbr+1;
+loadQuizz(nmbr, tsumego_wrapper, tsumego);
 }
 
 Tsumego.prototype.hint = function(e) {
-	for(var i in this.kifuReader.node.children) {
-		if(this.kifuReader.node.children[i]._ev == 3) {
-			this.next(i);
-			return;
-		}
-	}
-	this.setInfo("Already wrong variation! Try again.");
+nmbr = nmbr+1;
+loadQuizz(nmbr, tsumego_wrapper, tsumego)
 }
 
 
@@ -374,11 +369,11 @@ Tsumego.prototype.hint = function(e) {
 Tsumego.prototype.variationEnd = function(e) {
 	if(!e.node.comment) {
 		switch(e.node._ev){
-			case 0:	this.setInfo("Incorrect solution! Try again."); break;
+			case 0:	this.setInfo("Unfortunately not"); break;
 			case 1: this.setInfo("There is a better way to solve this! Try again."); break;
 			case 2: this.setInfo("Correct solution, but there is a better move."); break;
-			case 3: this.setInfo("You have solved it!"); correct(1); break;
-			default: this.setInfo("Completely wrong, try again."); correct(0); break;
+			case 3: this.setInfo("You have solved it!"); break;
+			default: this.setInfo("Unfortunately not"); break;
 		}
 	}
 	
@@ -386,8 +381,8 @@ Tsumego.prototype.variationEnd = function(e) {
 		case 0:	this.setClass("wgo-tsumego-incorrect"); break;
 		case 1: this.setClass("wgo-tsumego-doubtful"); break;
 		case 2: this.setClass("wgo-tsumego-interesting"); break;
-		case 3: this.setClass("wgo-tsumego-correct"); break;
-		default: this.setClass("wgo-tsumego-unknown"); break;
+		case 3: this.setClass("wgo-tsumego-correct"); correct(1); break;
+		default: this.setClass("wgo-tsumego-unknown"); correct(0); break;
 	}
 }
 
@@ -427,13 +422,22 @@ Tsumego.default = {
 var corr = 0;
 var nmbr = 0;
 
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
 
 function correct(attempt){
 	corr = corr+attempt;
-	nmbr = nmbr+1;
-	document.getElementById("goodAnswers").innerHTML = "Correct answers so far: <span class='font-bold text-3xl'> " + corr + "</span> out of " + nmbrQuestions
-	loadQuizz (nmbr, tsumego_wrapper, tsumego);
+	document.getElementById("goodAnswers").innerHTML = "Correct answers so far: <span class='font-bold text-3xl'> " + corr + "</span> out of " + nmbrQuestions;
+	this.hintButton.innerHTML = "Skip this puzzle"
 }
+
+function callNext(){nmbr = nmbr+1; loadQuizz(nmbr, tsumego_wrapper, tsumego);}
 
 function loadQuizz(which, what, board) {
     if (nmbr<nmbrQuestions){
@@ -441,11 +445,17 @@ function loadQuizz(which, what, board) {
     //var tsumego = WGo.getElementById("tsumego_wrapper")
     board.loadSgfFromFile(puzzletodisplay, 0);
     //board.setCoordinates(true);
-	} else
-	alert("You have got " + corr + " points out of " + nmbrQuestions);
-
+	} else {
+		if (corr==nmbrQuestions){
+		document.getElementById("tsumego_wrapper").innerHTML = "<span style='color: green'>Amazing, you got <span class='font-bold text-3xl'>everything right!</span> You can safely continue to some of the advanced chapters</span>"; 
+	} else {
+		if (corr>nmbrQuestions/2){
+		document.getElementById("tsumego_wrapper").innerHTML = "<span style='color: orange'><span class='font-bold text-3xl'>Not too bad!</span> You may want to review some of the chapters if you feel like you have missed something, but if you want, you are also ready to continue to the more advanced topics.</span>";
+	} else {
+		{
+		document.getElementById("tsumego_wrapper").innerHTML = "<span style='color: darkred'><span class='font-bold text-3xl'>That could have gone better</span> You might want to review some of the chapters in this section.</span>";
+	}}}}	
 }
-
 
 WGo.Tsumego = Tsumego;
 

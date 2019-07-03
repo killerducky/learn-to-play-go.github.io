@@ -1,7 +1,5 @@
-(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]C[First one is simple, capture the white stone with the next move.
-Since diagonal intersections do not count, this stone has only 1 liberty left.]LB[ef:3]
-(;B[ef]TE[1]C[Yup. But that was easy. Try the next one.]LB[ef:3])
-(;B[df]C[No. To be fair after this move white would not be able to escape, but I am asking you to CAPTURE with a single move.])
-(;B[ff]C[No. To be fair after this move white would not be able to escape, but I am asking you to CAPTURE with a single move.])
-(;B[eg]C[Yeah, yeah, very clever. Stop joking and capture with ONE move.])
-(;B[aa]TE[1]))
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]C[Puzzle 3 out of 3
+
+Which of these is the only legal move for black? A, B, C, or D?]AB[aa][ab][ac][bc][cb][ca][ba][cc][ga][gb][gc][gd][ge][gf][hf][if]
+[af][bf][cf][df][dg][dh][di]AW[da][db][dc][cd][dd][bd][ad][ha][hb][hc][hd][he][ie][ib][ic][ag]
+[bg][cg][ch][ci][bi][ah][ai]LB[bb:A][ia:B][id:C][bh:D];B[bh]TE[1])
