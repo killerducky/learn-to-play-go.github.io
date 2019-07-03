@@ -13,7 +13,7 @@
     </script>
 </div>
 {{ else }}
-<div style="text-align: center; min-height: 750px; vertical-align: top;">
+<div style="text-align: center; min-height: 550px; vertical-align: top;">
         {{ range $index, $item := $.Page.Params.puzzles }}
             <button class="{{ if eq $index 0 }}bttn-selected{{ else }}bttn{{ end }}" onclick="loadTsumego({{$item.target}}, {{$item.id}}, tsumego)" id="{{$item.id}}">{{ $item.text }}</button>
         {{ end }}
