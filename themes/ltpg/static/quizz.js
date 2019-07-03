@@ -412,18 +412,9 @@ Tsumego.default = {
 var corr = 0;
 var nmbr = 0;
 
-function sleep(milliseconds) {
-  var start = new Date().getTime();
-  for (var i = 0; i < 1e7; i++) {
-    if ((new Date().getTime() - start) > milliseconds){
-      break;
-    }
-  }
-}
-
 function correct(attempt){
 	corr = corr+attempt;
-	document.getElementById("goodAnswers").innerHTML = "Correct answers so far: <span class='font-bold text-3xl'> " + corr + "</span> out of " + nmbrQuestions;
+	document.getElementById("goodAnswers").innerHTML = "Correct answers so far: <span class='font-bold text-3xl'> " + corr + "</span>/" + nmbrQuestions;
 	this.hintButton.innerHTML = "Skip this puzzle"
 }
 
