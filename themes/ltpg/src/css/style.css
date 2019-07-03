@@ -57,10 +57,10 @@ background-image: url(../../static/images/pattern.png);
 
 .bttn{
 font-family: 'Raleway', sans-serif;
-min-width: 150px;
+min-width: 140px;
 background: rgba(0,102,20,0.2);
 padding: 10px;
-margin: 10px;
+margin: 7px;
 border: 0px solid black;
 cursor: pointer;
 font-weight: bold;
@@ -383,7 +383,7 @@ a[class*="button"] {
 }
 
 .puzzle h1 {
-  @apply text-5xl font-bold;
+  @apply text-5xl leading-tight font-bold;
 }
 
 .puzzle h2 {
