@@ -1,14 +1,14 @@
 (;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[19]C[On 19x19 we always (well almost) start at a corner. Upper right being the traditional "polite" move. 
-We have 2 main reasonings behind this approach. 
+We have 2 main reasons behind this approach. 
 
-Click next (or scroll mousewheel when hovering above the board)];B[pd]C[First reason is efficiency. 
+Click next (or scroll mousewheel when hovering over the board)];B[pd]C[First reason is efficiency. 
 
 Click next.];AB[ae][be][ce][de][ed][ec][eb][ea][ha][hb][ic][jc][kc][lc][mb][ma]
-[gf][hf][ig][ih][hi][gi][fg][fh]LB[aa:16][ia:8][gg:4]C[Check it out. This is cool to realize. All these territories were made by 8 stones. And you can clearly see that in the corner black surrounded 16 points 8 on the side and only 4 in the center.
+[gf][hf][ig][ih][hi][gi][fg][fh]LB[aa:16][ia:8][gg:4]C[Check it out. This is cool to understand. All these territories were made by 8 stones. You can clearly see that in the corner black surrounded 16 points, 8 on the side and only 4 in the center.
 
-Now that is not to say that there is not much points to make in the center. Center is a big open area. But you cannot try surrounding it "out of nowhere". If you want points in the center, you need to build them up gradually by putting pressure on your opponent.
+Now that is not to say that there are not many points to make in the center. The center is a big open area but you cannot try surrounding it "out of nowhere". If you want points in the center, you need to build them up gradually by putting pressure on your opponent.
 
-Click next];W[qd]C[The second reason is strength. In the corner it is easiest to settle a group (make it live) should anything go bad. And it is much easier to attack other groups if you do not have to worry about your group dying. 
+Click next];W[qd]C[The second reason is strength. In the corner it is easiest to settle a group (make it live) should anything go bad and it is much easier to attack other groups if your own groups are secure. 
 
 Click next];AE[ma][mb][lc][kc][jc][ic][ig][ih][hi][gi][fh][ae][be][ce][de][ed]
 [ec][eb][ea][pd][qd][ia][ff][aj][dn][jn][jo][ln][kl][km][nl][mm]AB[ab][bb][cb][db][da][ba][sa][rb][qb][qa][rc][sc][sr][sq][rq][qr]
@@ -16,10 +16,10 @@ Click next];AE[ma][mb][lc][kc][jc][ic][ig][ih][hi][gi][fh][ae][be][ce][de][ed]
 [hf][hg][hh][gh][ke][kf][kg][lg][lh][mh][nh][le][mf][ng][sh][rh]
 [ri][qj][qk][rk][sk][sj][al][bk][ck][cl][cm][bm][bn][an][fn][gn]
 [go][ho][hp][eo][ep][fp][fq][gq][lm][ll][ml][nm][nn][mn][mo][lo]
-[ko][kn]C[Theese are examples of smallest possible number of stones to create immortal groups. Again you can see that to live in a corner it takes the least ammount of moves.
+[ko][kn]C[These are examples of the smallest possible number of stones to create immortal groups. Again you can see that to live in a corner it takes the least ammount of moves.
 
 It's 6 stones in a corner,
 
 8 on the side,
 
-and 10 in the center])
+and 10 in the center.])
