@@ -258,15 +258,7 @@ var generate_dom = function() {
 	this.bottom.appendChild(this.controlPanel);
 	
 		// reset button
-	this.resetWrapper = document.createElement("div");
-	this.resetWrapper.className = ".invisible";
-	this.controlPanel.appendChild(this.resetWrapper);
-	
-	this.resetButton = document.createElement("button");
-	this.resetButton.className = ".opacity-0";
-	this.resetButton.innerHTML = "";
-	this.resetButton.addEventListener("click", this.reset.bind(this));
-	this.resetWrapper.appendChild(this.resetButton);
+
 
 	// skip button
 	this.hintWrapper = document.createElement("div");
@@ -330,11 +322,9 @@ Tsumego.prototype.updateTsumego = function(e) {
 	else this.hintButton.disabled = "";
 	
 	if(!e.node.parent) {
-		this.resetButton.disabled = "disabled";
 		this.prevButton.disabled = "disabled";
 	}
 	else {
-		this.resetButton.disabled = "";
 		this.prevButton.disabled = "";
 	}
 	
