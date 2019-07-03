@@ -23,4 +23,4 @@ Playing under the stones actually means purposefully sacrificing a small group t
  
 {{< tsumego >}}
 
-These are super advanced tricks, and you have to see them way in advance to set it up, so I would not worry too much about this actuall technique, it was just a demonstration. But you can't deny the coolness factor, can you? 
+These are super advanced tricks, and you have to see them way in advance to set it up, so I would not worry too much about this actual technique, it was just a demonstration. But you can't deny the coolness factor, can you? 
