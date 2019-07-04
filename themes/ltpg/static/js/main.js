@@ -4,7 +4,7 @@ function loadTsumego(which, what, board) {
     //var tsumego = WGo.getElementById("tsumego_wrapper")
     board.loadSgfFromFile(puzzletodisplay, 0);
     //board.setCoordinates(true);
-    var puzzles=["pzl1", "pzl2", "pzl3", "pzl4"];
+    var puzzles=["pzl1", "pzl2", "pzl3", "pzl4", "pzl5", "pzl6", "pzl7", "pzl8", "pzl9", "pzl0"];
 
     puzzles.map((pzl) => {
         if(!!document.getElementById(pzl)) {
@@ -27,7 +27,8 @@ function loadSgf(which, what) {
             bottom: ['Control']
         }
     });
-
+	
+	/*
     document.getElementById("pzl1").className = "bttn";
     document.getElementById("pzl2").className = "bttn";
     document.getElementById(what).className = "bttn-selected";
@@ -35,6 +36,7 @@ function loadSgf(which, what) {
     document.getElementById(what).className = "bttn-selected";
     document.getElementById("pzl4").className = "bttn";
     document.getElementById(what).className = "bttn-selected";
+	*/
 }
 
 function myFunction(jdi) {

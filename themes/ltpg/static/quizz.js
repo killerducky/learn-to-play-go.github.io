@@ -411,11 +411,12 @@ Tsumego.default = {
 
 var corr = 0;
 var nmbr = 0;
+var answers = ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"];
 
 function correct(attempt){
 	corr = corr+attempt;
 	document.getElementById("goodAnswers").innerHTML = "Correct answers so far: <span class='font-bold text-3xl'> " + corr + "</span>/" + nmbrQuestions;
-	this.hintButton.innerHTML = "Skip this puzzle"
+	answers[nmbr+1] = attempt;
 }
 
 function callNext(){nmbr = nmbr+1; loadQuizz(nmbr, tsumego_wrapper, tsumego);}
@@ -423,15 +424,17 @@ function callNext(){nmbr = nmbr+1; loadQuizz(nmbr, tsumego_wrapper, tsumego);}
 function loadQuizz(which, what, board) {
     if (nmbr<nmbrQuestions){
 	var puzzletodisplay = "/puzzleSGFs/1/" + which + ".sgf";
-    //var tsumego = WGo.getElementById("tsumego_wrapper")
     board.loadSgfFromFile(puzzletodisplay, 0);
-    //board.setCoordinates(true);
+	
 	} else {
+		answers[0] = batch;
+		var json_str = JSON.stringify(answers)
+		setCookie("quiz"+batch, json_str, '99');
 		if (corr==nmbrQuestions){
 		document.getElementById("tsumego_wrapper").innerHTML = "<span style='color: green'>Amazing, you got <span class='font-bold text-3xl'>everything right!</span> You can safely continue to some of the advanced chapters</span>"; 
 	} else {
 		if (corr>nmbrQuestions/2){
-		document.getElementById("tsumego_wrapper").innerHTML = "<span style='color: orange'><span class='font-bold text-3xl'>Not too bad!</span> You may want to review some of the isses <a href='../../lessons/solutions1' noreferrer noopener>here</a>, but if you want, you are also ready to continue to the more advanced topics.</span>";
+		document.getElementById("tsumego_wrapper").innerHTML = "<span style='color: orange'><span class='font-bold text-3xl'>Not too bad!</span> You may want to review some of the issues <a href='../../lessons/solutions1' noreferrer noopener>here</a>, but if you want, you are also ready to continue to the more advanced topics.</span>";
 	} else {
 		{
 		document.getElementById("tsumego_wrapper").innerHTML = "<span style='color: darkred'><span class='font-bold text-3xl'>That could have gone better</span> You might want to review the problems <a href='../../lessons/solutions1' noreferrer noopener>here</a>.</span>";

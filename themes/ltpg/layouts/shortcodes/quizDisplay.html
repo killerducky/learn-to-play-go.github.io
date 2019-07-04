@@ -1,0 +1,37 @@
+<script>
+var json_str = getCookie('quiz'+{{index $.Page.Params.batch}});
+var answers = JSON.parse(json_str);
+
+window.onload = function () {
+	if (answers[1]=="0"){
+		document.getElementById("pzl1").style.boxShadow = "0px 0px 10px darkred";
+	}
+	if (answers[2]=="0"){
+		document.getElementById("pzl2").style.boxShadow = "0px 0px 10px darkred";
+	}
+	if (answers[3]=="0"){
+		document.getElementById("pzl3").style.boxShadow = "0px 0px 10px darkred";
+	}
+	if (answers[4]=="0"){
+		document.getElementById("pzl4").style.boxShadow = "0px 0px 10px darkred";
+	}
+	if (answers[5]=="0"){
+		document.getElementById("pzl5").style.boxShadow = "0px 0px 10px darkred";
+	}
+	if (answers[6]=="0"){
+		document.getElementById("pzl6").style.boxShadow = "0px 0px 10px darkred";
+	}
+	if (answers[7]=="0"){
+		document.getElementById("pzl7").style.boxShadow = "0px 0px 10px darkred";
+	}
+	if (answers[8]=="0"){
+		document.getElementById("pzl8").style.boxShadow = "0px 0px 10px darkred";
+	}
+	if (answers[9]=="0"){
+		document.getElementById("pzl9").style.boxShadow = "0px 0px 10px darkred";
+	}
+	if (answers[10]=="0"){
+		document.getElementById("pzl10").style.boxShadow = "0px 0px 10px darkred";
+	}	
+}
+</script>

@@ -17,10 +17,11 @@
 
 <script>
 	var	nmbrQuestions = 0;
+	var batch = 0;
 
-function setupQuizzes(howMuch) {
+function setupQuizzes(howMuch, quiznmbr) {
 	nmbrQuestions = howMuch;
+	batch = quiznmbr;
 }
-	
-	setupQuizzes({{index $.Page.Params.nrOfQurestions}});
+	setupQuizzes({{index $.Page.Params.nrOfQurestions}}, {{index $.Page.Params.batch}});
 </script>
