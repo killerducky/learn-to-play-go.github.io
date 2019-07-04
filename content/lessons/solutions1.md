@@ -7,15 +7,18 @@ returnTo: "index.html#rules"
 batch: "1"
 puzzles:
 - id: pzl1
-  target: quiz0
+  target: 1/solutions/0
   text: Atari 1
 - id: pzl2
-  target: quiz1
+  target: 1/solutions/1
   text: Atari 2
 - id: pzl3
-  target: quiz2
+  target: 1/solutions/2
   text: Illegal moves
- 
+- id: pzl4
+  target: 1/solutions/3
+  text: Edge of board
+
 ---
 
 # | Solutions to quizz #1

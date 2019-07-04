@@ -1,0 +1,6 @@
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AW[fi][fh][fg][ff][fe][ee][ed][ec][ea][eb][ei][dh]AB[da][dc][dd][de][ef][eg][eh][cf][db][di][df]C[The marked stone has only one liberty. Normally, we could extend to get 3 more, but being on the edge means there is one liberty less. Try extending.]MA[di]
+(;B[ci]LB[bi:1][ch:2];W[ch]LB[bi:1][ch:2]C[Black increased his liberties by two. But that means that with the next move, white can reduce one again and put the stones into atari. Black can extend one more time, but then hits another wall, which again means one less liberty to find.]
+(;B[bh];W[bi])
+(;B[bi];W[bh];B[ah];W[ai]))
+(;B[ch]
+;W[ci]TE[1]C[Sacrificing the stone is the only option.]))
