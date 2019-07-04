@@ -213,7 +213,7 @@ TsumegoApi.prototype.setCoordinates = function(b) {
 TsumegoApi.default = {
 	movePlayed: undefined, // callback function of move played by a player
 	endOfVariation: undefined, // callback function for end of a variation (it can be solution of the problem or incorrect variation)
-	answerDelay: 500, // delay of the answer (in ms)
+	answerDelay: 1000, // delay of the answer (in ms)
 	enableWheel: false, // override player's setting
 	lockScroll: false, // override player's setting
 	enableKeys: false, // override player's setting
@@ -323,9 +323,11 @@ Tsumego.prototype.updateTsumego = function(e) {
 	
 	if(!e.node.parent) {
 		this.prevButton.disabled = "disabled";
+		this.prevButton.style.background = "#ebebeb";
 	}
 	else {
 		this.prevButton.disabled = "";
+		this.prevButton.style.background = "rgba(0,160,40,0.4)";
 	}
 	
 	this.setClass();
@@ -348,7 +350,7 @@ nmbr = nmbr+1;
 loadQuizz(nmbr, tsumego_wrapper, tsumego);
 }
 
-Tsumego.prototype.hint = function(e) {
+Tsumego.prototype.hint = function nextOne(e) {
 nmbr = nmbr+1;
 loadQuizz(nmbr, tsumego_wrapper, tsumego)
 }
@@ -418,8 +420,6 @@ function correct(attempt){
 	document.getElementById("goodAnswers").innerHTML = "Correct answers so far: <span class='font-bold text-3xl'> " + corr + "</span>/" + nmbrQuestions;
 	answers[nmbr+1] = attempt;
 }
-
-function callNext(){nmbr = nmbr+1; loadQuizz(nmbr, tsumego_wrapper, tsumego);}
 
 function loadQuizz(which, what, board) {
     if (nmbr<nmbrQuestions){
