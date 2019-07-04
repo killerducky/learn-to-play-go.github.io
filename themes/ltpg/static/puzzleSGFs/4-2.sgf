@@ -1,18 +1,18 @@
 (;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]LB[ef:A]AW[ac][bc][cc][dc][ec][fb][da][ee][df][eg][ff][ed][eh][ei][ca][cf]
 [bf][af][ag][bh][ah][fc]AB[ba][bb][ab][cb][db][eb][if][hf][gf][fg][fh][fi][hh][gg][ge][fe]
-[dg][cg][bg][dh][fd][gc][gb]MA[bg][cg][dg][dh][ca][da]C[This will be a little bit complicated, but I will walk you through it, don't worry. Play at A start a ko. Notice the marked stones. Those are all in trouble.];B[ef]
-;W[ea]MA[eg][eh][ei][ba][ab][cb][db][eb][bb]C[The stone you just captured is very important for both players. White would love to capture back, but must not. White has to play elsewhere, so she chooses to put your upper stones into atari (to try and force you to not fill the ko). We call this move a ko-threat. What now?]
+[dg][cg][bg][dh][fd][gc][gb]MA[bg][cg][dg][dh][ca][da]C[This will be a little bit complicated but I will walk you through it. Don't worry. Play at A to start the ko. Notice the marked stones(X). Those are all in trouble.];B[ef]
+;W[ea]MA[eg][eh][ei][ba][ab][cb][db][eb][bb]C[The stone you just captured is very important for both players. White would love to capture back but may not. White has to play elsewhere so she chooses to put your upper stones into atari by playing at E9 (to try and force you to not fill the ko). We call this move a ko-threat. What now?]
 (;B[fa]
 ;W[ff]TE[1]C[If you answer white's threat and save the stones, white can now 
-retake the ko (the situation is now different than move before). 
+retake the ko (the position is now different than before). 
 Now it is you who cannot retake the white stone immediately and 
 have to play elsewhere once. The hard part of course is judging 
 which option is better in any given situation.])
 (;B[di]
-;W[aa]TE[1]C[If you end the ko white gets to capture all your upper 
-stones as a compensation. The hard part, of course, is judging 
+;W[aa]TE[1]C[If you end the ko White gets to capture all your upper 
+stones as compensation. The hard part of course is judging 
 which option is better in any given situation.])
 (;B[ff]
 ;W[aa]TE[1]C[If you end the ko white gets to capture all your upper 
-stones as a compensation. The hard part, of course, is judging 
+stones as compensation. The hard part of course is judging 
 which option is better in any given situation.]))
