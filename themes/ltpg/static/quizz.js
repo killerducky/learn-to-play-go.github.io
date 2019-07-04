@@ -431,10 +431,10 @@ function loadQuizz(which, what, board) {
 		document.getElementById("tsumego_wrapper").innerHTML = "<span style='color: green'>Amazing, you got <span class='font-bold text-3xl'>everything right!</span> You can safely continue to some of the advanced chapters</span>"; 
 	} else {
 		if (corr>nmbrQuestions/2){
-		document.getElementById("tsumego_wrapper").innerHTML = "<span style='color: orange'><span class='font-bold text-3xl'>Not too bad!</span> You may want to review some of the chapters if you feel like you have missed something, but if you want, you are also ready to continue to the more advanced topics.</span>";
+		document.getElementById("tsumego_wrapper").innerHTML = "<span style='color: orange'><span class='font-bold text-3xl'>Not too bad!</span> You may want to review some of the isses <a href='../../lessons/solutions1' noreferrer noopener>here</a>, but if you want, you are also ready to continue to the more advanced topics.</span>";
 	} else {
 		{
-		document.getElementById("tsumego_wrapper").innerHTML = "<span style='color: darkred'><span class='font-bold text-3xl'>That could have gone better</span> You might want to review some of the chapters in this section.</span>";
+		document.getElementById("tsumego_wrapper").innerHTML = "<span style='color: darkred'><span class='font-bold text-3xl'>That could have gone better</span> You might want to review the problems <a href='../../lessons/solutions1' noreferrer noopener>here</a>.</span>";
 	}}}}	
 }
 
