@@ -1,13 +1,13 @@
-(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[19]AB[dd][dc][eb][ec][de]AW[fc][cc][db][cb][cd][cf]L[ce]C[Let's imagine a simplified situation like this. Black to play. This is part of a joseki, but never mind that, the principal applies quite universally. In my early days I would have probably played at A thinking:
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[19]AB[dd][dc][eb][ec][de]AW[fc][cc][db][cb][cd][cf]C[Let's imagine a simplified situation like this. Black to play. This is part of a joseki, but never mind that, the principal applies quite universally. In my early days I would have probably played at A thinking:
 - I am reducing by 1 point in sente. (Not much but still a sure reduction) and I am in control of the game, white has to answer my moves so I am "on top"
 
-Right? Right?];B[ce]C[Wrong. Well black really is reducing by 1 point in sente, that part is correct. That would have been fine in late endgame, but not before. Also note that white has NO WISH to play at 1 any time soon. It is a 1 point gote move for him/her so chances are you will still get to play this move in endgame if nothing better comes up.];W[be]C[By playing here black lost much more than he/she gained.
+Right? Right?]LB[ce:A];B[ce]C[Wrong. Well black really is reducing by 1 point in sente, that part is correct. That would have been fine in late endgame, but not before. Also note that white has NO WISH to play at 1 any time soon. It is a 1 point gote move for him/her so chances are you will still get to play this move in endgame if nothing better comes up.];W[be]C[By playing here black lost much more than he/she gained.
 
 - Black lost a ko threat. This move could have been a very good ko-threat for any potential ko bigger than 1 point. Are you losing kos? Now you know why.
 
 - Black lost a liberty. That group had 6 at the start. Now it is 5. Sounds minor? It's not.
 
-- Black lost any potential for a better attack/reduction. The corner is now quite safe and connected. (See next)]LB[ed:3][ea:1][fb:2][ee:4][df:5];B[cg]C[Lost potential for a better attack you say? Yes, imagine for example that later black gets a stone here. At this point there is not much to do apart from attaring that one stone. If however the original exchange was not there... (see next)];AE[ce][be]L[be]C[Peep at A threatens the WHOLE corner.];B[be]LB[bd:A][ce:B]C[White can either protect at A and live in gote.
+- Black lost any potential for a better attack/reduction. The corner is now quite safe and connected. (See next)]LB[ed:3][ea:1][fb:2][ee:4][df:5];B[cg]C[Lost potential for a better attack you say? Yes, imagine for example that later black gets a stone here. At this point there is not much to do apart from attaring that one stone. If however the original exchange was not there... (see next)];AE[ce][be]C[Peep at A threatens the WHOLE corner.]LB[be:A];B[be]LB[bd:A][ce:B]C[White can either protect at A and live in gote.
 Or connect to B and get reduced to a single eye.
 
 Now wouldn't you say that is a better result for black than 1 point reduction? The one point is not enough compensiation for solving all future problems of your opponent.]
@@ -16,7 +16,8 @@ Now wouldn't you say that is a better result for black than 1 point reduction? T
 ;B[da]LB[ca:A][ac:B]C[A is a mistake
 B to live]
 (;W[ca]C[A mistake];B[ac];W[ad];B[ab];W[aa]
-;B[ba]C[Ko for life.])
+;B[ba]C[Ko for life.
+Very hard ko for black to win, but much worse than secured life.])
 (;W[ac];B[ca]
 ;W[ba]C[Reduced to 3 points.]))
 (;W[ce];B[bf]

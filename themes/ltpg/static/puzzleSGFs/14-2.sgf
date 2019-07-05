@@ -20,11 +20,19 @@ You reduced white to 10 points but gave him extra captures. Not the best result!
 ;W[gi]C[This is a wonderfull move! It cannot be captured.
 Whichever way white tries to block you off, you can connect to the other side.]CR[ei]
 (;B[ci]
-;W[dh]C[A peep at your connection.];B[di];W[eh];B[fi];W[fh]
-;B[bi]LB[de:1][fe:2][ef:3][ff:4][dg:5][eg:6][fg:7]TE[1]C[A huge reduction with this wonderfull technique.
+;W[dh]C[A peep at your connection.];B[di];W[eh]
+(;B[fi];W[fh]
+;B[bi]LB[de:1][fe:2][ef:3][ff:4][dg:5][eg:6][fg:7];W[hi]C[A huge reduction, but white reduced two points from your side. 
+You can still do a point better.
 Don't worry if you can't see these sequences in your games just 
 yet. But it shows there is something to look out for in endgame as 
-well. Don't just go blindly through the motions.])
+well. Don't just go blindly through the motions.]TE[2])
+(;B[hi];W[fi]
+;B[bi]LB[de:1][fe:2][ef:3][ff:4][dg:5][eg:6][fg:7][fh:8]TE[1]C[You reduced white to 8 points and kept the whole side. This is the 
+best!
+Don't worry if you can't see these sequences in your games just 
+yet. But it shows there is something to look out for in endgame as 
+well. Don't just go blindly through the motions.]))
 (;B[di]
 ;W[ci]C[Not like that, black is cut off.]))
 (;B[ci];W[di];B[bi];W[hi];B[dh];W[ei];B[eh];W[fi];B[fh]
