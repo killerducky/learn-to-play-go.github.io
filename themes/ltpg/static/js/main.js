@@ -299,19 +299,19 @@ function learn() {
     var fifth = +getCookie("5");
 
     if (first == "0") {
-        window.location.href = "/lessons/1";
+        window.location.href = "/lessons/01";
     } else
     if (second == "0") {
-        window.location.href = "/lessons/2";
+        window.location.href = "/lessons/02";
     } else
     if (third == "0") {
-        window.location.href = "/lessons/3";
+        window.location.href = "/lessons/03";
     } else
     if (fourth == "0") {
-        window.location.href = "/lessons/4";
+        window.location.href = "/lessons/04";
     } else
     if (fifth == "0") {
-        window.location.href = "/lessons/5";
+        window.location.href = "/lessons/05";
     } else
         window.location.href = "/lessons/reward";
 }
@@ -326,13 +326,13 @@ function learn2() {
     var twelfth = +getCookie("12")
 
     if (sixth == "") {
-        window.location.href = "/lessons/6";
+        window.location.href = "/lessons/06";
     } else if (seventh == "") {
-        window.location.href = "/lessons/7";
+        window.location.href = "/lessons/07";
     } else if (eight == "") {
-        window.location.href = "/lessons/8";
+        window.location.href = "/lessons/08";
     } else if (ninth == "") {
-        window.location.href = "/lessons/9";
+        window.location.href = "/lessons/09";
     } else if (tenth == "") {
         window.location.href = "/lessons/10";
     } else if (eleventh == "") {

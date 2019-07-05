@@ -20,11 +20,11 @@ layout: test
 
     {{< progressbar id="progressbar" onclick="learn()" >}}Learn them {{< black all >}} one by one{{< /progressbar >}}
 
-      {{< buttonBlue target="/lessons/1/" id="1" img="/images/where.png" >}}{{< black WHERE >}} and {{< black HOW >}} we place the stones{{< /buttonBlue >}}
-      {{< buttonBlue target="/lessons/2/" id="2" img="/images/atari.png" >}}How can we {{< black CAPTURE >}} something?{{< /buttonBlue >}}
-      {{< buttonBlue target="/lessons/3/" id="3" img="/images/suicide.png" >}}No {{< black SUICIDES >}} please{{< /buttonBlue >}}
-      {{< buttonBlue target="/lessons/4/" id="4" img="/images/endless.png" >}}No {{< black "ENDLESS REPETITION">}} either{{< /buttonBlue >}}
-      {{< buttonBlue target="/lessons/5/" id="5" img="/images/pass.png" >}}{{< black PASS >}} and {{< black COUNT >}} the score{{< /buttonBlue >}}
+      {{< buttonBlue target="/lessons/01/" id="1" img="/images/where.png" >}}{{< black WHERE >}} and {{< black HOW >}} we place the stones{{< /buttonBlue >}}
+      {{< buttonBlue target="/lessons/02/" id="2" img="/images/atari.png" >}}How can we {{< black CAPTURE >}} something?{{< /buttonBlue >}}
+      {{< buttonBlue target="/lessons/03/" id="3" img="/images/suicide.png" >}}No {{< black SUICIDES >}} please{{< /buttonBlue >}}
+      {{< buttonBlue target="/lessons/04/" id="4" img="/images/endless.png" >}}No {{< black "ENDLESS REPETITION">}} either{{< /buttonBlue >}}
+      {{< buttonBlue target="/lessons/05/" id="5" img="/images/pass.png" >}}{{< black PASS >}} and {{< black COUNT >}} the score{{< /buttonBlue >}}
 	  
 	  {{< buttonQuizz target="/quizzes/1/" id="q1" img="/images/quizz1.png" >}}Bonus quiz{{< /buttonBlue >}}
   {{< /wrapper >}}
@@ -37,10 +37,10 @@ layout: test
     {{< subtitle "You know how to play? Now learn to play with style!" >}}
 
     {{< progressbar id="progressbar2" onclick="learn2()" >}}Learn them {{< black all >}} one by one{{< /progressbar >}}    
-      {{< buttonBlue target="/lessons/6/" id="6" img="/images/alive.png" >}}Alive {{< black "(IMMORTAL)" >}} groups{{< /buttonBlue >}}
-      {{< buttonBlue target="/lessons/7/" id="7" img="/images/cuts.png" >}}{{< black CUTS >}}{{< /buttonBlue >}}
-      {{< buttonBlue target="/lessons/8/" id="8" img="/images/double.png" >}}{{< black DOUBLE >}} atari!{{< /buttonBlue >}}
-      {{< buttonBlue target="/lessons/9/" id="9" img="/images/ladder.png" >}}{{< black LADDERS >}}{{< /buttonBlue >}}
+      {{< buttonBlue target="/lessons/06/" id="6" img="/images/alive.png" >}}Alive {{< black "(IMMORTAL)" >}} groups{{< /buttonBlue >}}
+      {{< buttonBlue target="/lessons/07/" id="7" img="/images/cuts.png" >}}{{< black CUTS >}}{{< /buttonBlue >}}
+      {{< buttonBlue target="/lessons/08/" id="8" img="/images/double.png" >}}{{< black DOUBLE >}} atari!{{< /buttonBlue >}}
+      {{< buttonBlue target="/lessons/09/" id="9" img="/images/ladder.png" >}}{{< black LADDERS >}}{{< /buttonBlue >}}
       {{< buttonBlue target="/lessons/10/" id="10" img="/images/net.png" >}}{{< black NETS >}}{{< /buttonBlue >}}
       {{< buttonBlue target="/lessons/11/" id="11" img="/images/snapback.png" >}}{{< black SNAPBACK >}}{{< /buttonBlue >}}
       {{< buttonBlue target="/lessons/12/" id="12" img="/images/seki.png" >}}{{< black "SEKI (barely alive)" >}}{{< /buttonBlue >}}
