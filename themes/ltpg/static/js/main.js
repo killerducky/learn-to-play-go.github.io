@@ -129,28 +129,34 @@ function checkCookies() {
     var sixteen = +getCookie("16");
     var seventeen = +getCookie("17");	
 	
+	var goodColor = "rgba(0,122,3,0.2)"
+	
     if ((0 + first + second + third + fourth + fifth) == "0") {
-        document.getElementById("progressbar").innerHTML = "Learn them <span class='black'>all</span> one by one (" + (0 + first + second + third + fourth + fifth) + "/5)";
+        document.getElementById("progressbar").innerHTML = "Learn them <span class='black'>all</span> one by one (0/5)";
     } else
 
     if ((0 + first + second + third + fourth + fifth) == "1") {
-        document.getElementById("progressbar").innerHTML = "Off to a <span class='black'>good</span> start (" + (0 + first + second + third + fourth + fifth) + "/5)";
+        document.getElementById("progressbar").innerHTML = "Off to a <span class='black'>good</span> start (1/5)";
+		document.getElementById("progressbar").style.background = "linear-gradient(to right, " + goodColor + " 20%, rgba(202,202,202,1) 20%)";
     } else
 
     if ((0 + first + second + third + fourth + fifth) == "2") {
-        document.getElementById("progressbar").innerHTML = "Almost <span class='black'>halfway</span> there! (" + (0 + first + second + third + fourth + fifth) + "/5)";
+        document.getElementById("progressbar").innerHTML = "Almost <span class='black'>halfway</span> there! (2/5)";
+		document.getElementById("progressbar").style.background = "linear-gradient(to right, " + goodColor + " 40%, rgba(202,202,202,1) 40%)";
     } else
 
     if ((0 + first + second + third + fourth + fifth) == "3") {
-        document.getElementById("progressbar").innerHTML = "Wow, you are doing <span class='black'>great</span>! (" + (0 + first + second + third + fourth + fifth) + "/5)";
+        document.getElementById("progressbar").innerHTML = "Wow, you are doing <span class='black'>great</span>! (3/5)";
+		document.getElementById("progressbar").style.background = "linear-gradient(to right, " + goodColor + " 60%, rgba(202,202,202,1) 60%)";
     } else
 
     if ((0 + first + second + third + fourth + fifth) == "4") {
-        document.getElementById("progressbar").innerHTML = "Just <span class='black'>one last</span> thing to know! (" + (0 + first + second + third + fourth + fifth) + "/5)";
+        document.getElementById("progressbar").innerHTML = "Just <span class='black'>one last</span> thing to know! (4/5)";
+		document.getElementById("progressbar").style.background = "linear-gradient(to right, " + goodColor + " 80%, rgba(202,202,202,1) 80%)";
     } else
 
     if ((0 + first + second + third + fourth + fifth) == "5") {
-        document.getElementById("progressbar").innerHTML = "You are now a <span class='black'>go player</span>! Click here for your reward! (" + (0 + first + second + third + fourth + fifth) + "/5)";
+        document.getElementById("progressbar").innerHTML = "You are now a <span class='black'>go player</span>! Click here for your reward! (5/5)";
         document.getElementById("progressbar").style.background = "rgba(0,102,102,0.3)"
     }
 
@@ -181,31 +187,37 @@ function checkCookies() {
     } else
 
     if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) == "1") {
-        document.getElementById("progressbar2").innerHTML = "Off to the <span class='black'>advanced</span> topics already? Nice! (" + (0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) + "/7)";
+        document.getElementById("progressbar2").innerHTML = "Off to the <span class='black'>advanced</span> topics already? Nice! (1/7)";
+		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 14%, rgba(202,202,202,1) 14%)";
     } else
 
     if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) == "2") {
-        document.getElementById("progressbar2").innerHTML = "Check out the <span class='black'>snapback</span> it's cool! (" + (0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) + "/7)";
+        document.getElementById("progressbar2").innerHTML = "Check out the <span class='black'>snapback</span> it's cool! (2/7)";
+		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 28%, rgba(202,202,202,1) 28%)";
     } else
 
     if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) == "3") {
-        document.getElementById("progressbar2").innerHTML = "Wooah We're <span class='black'>almost half way</span> there! (" + (0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) + "/7)";
+        document.getElementById("progressbar2").innerHTML = "Wooah We're <span class='black'>almost half way</span> there! (3/7)";
+		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 43%, rgba(202,202,202,1) 43%)";
     } else
 
     if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) == "4") {
-        document.getElementById("progressbar2").innerHTML = "With this <span class='black'>pace</span> you may beat me one day! (" + (0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) + "/7)";
+        document.getElementById("progressbar2").innerHTML = "With this <span class='black'>pace</span> you may beat me one day! (4/7)";
+		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 57%, rgba(202,202,202,1) 57%)";
     } else
 
     if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) == "5") {
-        document.getElementById("progressbar2").innerHTML = "Just <span class='black'>two last</span> things to know! (" + (0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) + "/7)";
+        document.getElementById("progressbar2").innerHTML = "Just <span class='black'>two last</span> things to know! (5/7)";
+		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 71%, rgba(202,202,202,1) 71%)";
     } else
 
     if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) == "6") {
-        document.getElementById("progressbar2").innerHTML = "Just <span class='black'>one last</span> thing to know! (" + (0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) + "/7)";
+        document.getElementById("progressbar2").innerHTML = "Just <span class='black'>one last</span> thing to know! (6/7)";
+		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 86%, rgba(202,202,202,1) 86%)";
     } else
 
     if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) == "7") {
-        document.getElementById("progressbar2").innerHTML = "You are <span class='black'>persistant</span>! Click here for your reward! (" + (0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) + "/7)";
+        document.getElementById("progressbar2").innerHTML = "You are <span class='black'>persistant</span>! Click here for your reward! (7/7)";
         document.getElementById("progressbar2").style.background = "rgba(0,102,102,0.3)"
     }
 
@@ -246,23 +258,27 @@ function checkCookies() {
 
 
     if ((0 + thirteen + fourteen + fifteen + sixteen + seventeen) == "0") {
-        document.getElementById("progressbar3").innerHTML = "Learn them <span class='black'>all</span> one by one (" + (0 + thirteen + fourteen + fifteen + sixteen + seventeen) + "/5)";
+        document.getElementById("progressbar3").innerHTML = "Learn them <span class='black'>all</span> one by one (0/5)";
     } else
 
     if ((0 + thirteen + fourteen + fifteen + sixteen + seventeen) == "1") {
-        document.getElementById("progressbar3").innerHTML = "This says <span class='black'>one</span> out of five -> (" + (0 + thirteen + fourteen + fifteen + sixteen + seventeen) + "/5)";
-    } else
+        document.getElementById("progressbar3").innerHTML = "This says <span class='black'>one</span> out of five -> (1/5)";
+		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 20%, rgba(202,202,202,1) 20%)";
+	} else
 
     if ((0 + thirteen + fourteen + fifteen + sixteen + seventeen) == "2") {
-        document.getElementById("progressbar3").innerHTML = "(" + (0 + thirteen + fourteen + fifteen + sixteen + seventeen) + "/5)";
+        document.getElementById("progressbar3").innerHTML = "<span class='black'>Getting there </span>(2/5)";
+		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 40%, rgba(202,202,202,1) 40%)";
     } else
 
     if ((0 + thirteen + fourteen + fifteen + sixteen + seventeen) == "3") {
-        document.getElementById("progressbar3").innerHTML = "You have <span class='black'>almost</span> exhausted all my knowledge! (" + (0 + thirteen + fourteen + fifteen + sixteen + seventeen) + "/5)";
+        document.getElementById("progressbar3").innerHTML = "You have <span class='black'>almost</span> exhausted all my knowledge! (3/5)";
+		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 60%, rgba(202,202,202,1) 60%)";
     } else
 
     if ((0 + thirteen + fourteen + fifteen + sixteen + seventeen) == "4") {
-        document.getElementById("progressbar3").innerHTML = "One <span class='black'>last</span> thing! (" + (0 + thirteen + fourteen + fifteen + sixteen + seventeen) + "/5)";
+        document.getElementById("progressbar3").innerHTML = "One <span class='black'>last</span> thing! (4/5)";
+		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 80%, rgba(202,202,202,1) 80%)";
     } else if ((0 + thirteen + fourteen + fifteen + sixteen + seventeen) == "5") {
         document.getElementById("progressbar3").innerHTML = "Now you are <span class='black'>on your own</span>! Click here for your reward! (" + (0 + thirteen + fourteen + fifteen + sixteen + seventeen) + "/5)";
         document.getElementById("progressbar3").style.background = "rgba(0,102,102,0.3)"

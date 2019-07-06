@@ -11,6 +11,7 @@ puzzles:
   target: 12plus-2
   text: Puzzle 2
 returnTo: "index.html#techniques"
+section: "index.html#techniques"
 ---
 
 # | Playing Under the Stones
