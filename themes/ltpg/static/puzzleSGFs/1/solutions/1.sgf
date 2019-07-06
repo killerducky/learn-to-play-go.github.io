@@ -1,4 +1,4 @@
-(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AB[fe][fc][gf][de][hg][be][he]AW[cc][gg][fg][dg][hh][hf][ih]C[This is a similar case as 1, but with a bit of an added danger. Here, black cannot escape the atari (just try), Instead black has to save himself by capturing the other stone and thus ensuring liberties.]
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AB[fe][fc][gf][de][hg][be][he]AW[cc][gg][fg][dg][hh][hf][ih]C[This is a similar case as 1, but with a bit of an added danger. Here, black cannot escape the atari (just try), Instead black must save himself by capturing the other stone and thus ensuring liberties.]
 (;B[if]TE[1])
 (;B[ig]
 ;W[if]LB[ih:1]C[This time, trying to escape does not actually increase liberties of 

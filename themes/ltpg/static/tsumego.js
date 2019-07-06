@@ -375,7 +375,7 @@ Tsumego.prototype.variationEnd = function(e) {
 			case 1: this.setInfo("There is a better way to solve this! Try again."); break;
 			case 2: this.setInfo("Correct solution, but there is a better move."); break;
 			case 3: this.setInfo("You have solved it!"); break;
-			default: this.setInfo("Completely wrong, try again."); break;
+			default: this.setInfo("This move does not acomplish the assignment. Try again."); break;
 		}
 	}
 	

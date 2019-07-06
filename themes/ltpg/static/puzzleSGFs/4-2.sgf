@@ -1,6 +1,6 @@
 (;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]LB[ef:A]AW[ac][bc][cc][dc][ec][fb][da][ee][df][eg][ff][ed][eh][ei][ca][cf]
 [bf][af][ag][bh][ah][fc]AB[ba][bb][ab][cb][db][eb][if][hf][gf][fg][fh][fi][hh][gg][ge][fe]
-[dg][cg][bg][dh][fd][gc][gb]MA[bg][cg][dg][dh][ca][da]C[This will be a little bit complicated but I will walk you through it. Don't worry. Notice the marked stones(X). Those are all in trouble. Play at A to start the ko.];B[ef]
+[dg][cg][bg][dh][fd][gc][gb]MA[bg][cg][dg][dh][ca][da]C[This will be a little bit complicated, but I will walk you through it. Don't worry. Notice the marked stones(X). Those are all in trouble. Play at A to start the ko.];B[ef]
 ;W[ea]MA[eg][eh][ei][ba][ab][cb][db][eb][bb]C[The stone you just captured is very important for both players. White would love to capture back but may not. White has to play elsewhere so she chooses to put your upper stones into atari by playing at E9 (to try and force you to not fill the ko). We call this move a ko-threat. What now?]
 (;B[fa]
 ;W[ff]TE[1]C[If you answer White's threat and save the stones, White can now 

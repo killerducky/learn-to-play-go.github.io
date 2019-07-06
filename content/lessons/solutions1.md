@@ -21,7 +21,7 @@ puzzles:
 
 ---
 
-# | Solutions to quizz #1
+# | Solutions to quiz #1
 ## It’s fine to celebrate success but it is more important to heed the lessons of failure.<br><br> 
 
 Here, or the puzzles you have just tried are explained. The ones you have failed are highlighted red.

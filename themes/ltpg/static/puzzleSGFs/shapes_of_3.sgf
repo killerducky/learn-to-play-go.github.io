@@ -1,6 +1,6 @@
 (;GM[1]FF[4]AP[Drago:4.23]SZ[13]CA[UTF-8]C[Let's have a look at some examples on what we can do with 3 stones (obviously the possibilities grow in number).]AB[jj][kj][ci][dj][cc][ce]LB[ki:A][kh:B][kg:C][kf:D][ij:E][ck:F][ed:G][fd:I][ee:H]
 (;B[ki]LB[kj:X][ji:A]C[The empty triangle.
-A move so infamous it has a whole comic named after it. www.emptytriangle.com. This shape is widely regarded as one of the most horrible. It is ineficient. Without X those stones would still be connected by miai. The X stone is now besically doing nothing aside of being useless. Also it is surprisingly low on liberties. 
+A move so infamous it has a whole comic named after it. www.emptytriangle.com. This shape is widely regarded as one of the most horrible. It is ineficient. Without X those stones would still be connected by miai. The X stone is now basically doing nothing aside of being useless. Also, it is surprisingly low on liberties. 
 
 Now mind you, had there been a white stone at A the triangle would not be empty and the whole thing would be much more reasonable. But empty like this? Yuck. Avoid this one if you can.])
 (;B[kh]LB[ij:O][jk:O][kk:O][lj:O]C[Sure, very possible. Safe connection, some developement speed... Maybe a little too safe even. Unless there are some white stones at the marked position, you should consider jumping even further. You are extending from an IRON PILLAR, not just a lone stone.])

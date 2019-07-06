@@ -79,18 +79,18 @@ layout: test
   {{< /wrapper >}}
   
   
-<!-- WHAT NOW? -->
+<!-- CREDITS -->
   {{< wrapper id="credits" >}}
       {{< title "| Who's behind this?" >}}
   This site was made for the love of the game and our community. If you found some mistake contact {{< externalLink target="https://online-go.com/user/view/360861" name="AdamR" >}} on the OGS, I will try to fix it as soon as possible.
 
-My sincerest thanks to all the members of the OGS community who were very supportive in my efforts, and kept trying to make it as good as possible. Most notably:<br><br> 
+My sincerest thanks to all the members of the OGS community who were very supportive in my efforts and kept trying to make it as good as possible. Most notably:<br><br> 
 
 {{< black "Lucas Westermann" >}}<br>
 Who managed the whole technical side of the project and patiently kept explaining what I need to press to make it all work.<br><br>
 
 {{< black "Kosh " >}}(faith manages)<br> 
-Who wrote a portion of the texts, spent his evenings crawling trough heaps of my horrible grammar and overall lifted the quality of the site marginally.
+Who wrote a portion of the texts, spent his evenings crawling through heaps of my horrible grammar and overall lifted the quality of the site marginally.
 
   
   

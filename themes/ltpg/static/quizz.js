@@ -361,11 +361,11 @@ loadQuizz(nmbr, tsumego_wrapper, tsumego)
 Tsumego.prototype.variationEnd = function(e) {
 	if(!e.node.comment) {
 		switch(e.node._ev){
-			case 0:	this.setInfo("Unfortunately not"); break;
+			case 0:	this.setInfo("Unfortunately not."); break;
 			case 1: this.setInfo("There is a better way to solve this! Try again."); break;
 			case 2: this.setInfo("Correct solution, but there is a better move."); break;
 			case 3: this.setInfo("You have solved it!"); break;
-			default: this.setInfo("Unfortunately not"); break;
+			default: this.setInfo("Unfortunately not."); break;
 		}
 	}
 	
