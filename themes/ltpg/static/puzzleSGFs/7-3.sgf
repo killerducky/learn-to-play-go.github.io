@@ -9,5 +9,10 @@
 (;B[bf];W[af])
 (;B[bc];W[bf]
 (;B[bb]C[Not bad :)]TE[1])
-(;B[ac];W[bb];B[ab];W[ad]
-;B[ba]TE[1]))))
+(;B[ac];W[bb]
+;B[ab]C[Yes, possiblle]TE[1];W[ad]
+;B[ba]TE[1])
+(;B[ba]C[Interesting choice, but it works! Good job.]TE[1])
+(;B[ab]TE[1]C[Yes, this move technically also works, though it can lead to some 
+complications. Maybe something simpler would be safer (or were 
+you just trying to trick me?)]))))
