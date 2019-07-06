@@ -10,7 +10,7 @@
     </head>
     <body class="text-lg p-4" {{block "onLoad" . }} {{ end }}>
         <div id="" class="obal puzzle">
-            <a href="/{{ .Params.section }}"><div  class="button-grey">Take me <span class="black">BACK</span> to menu</div></a>
+            <a href="/{{ .Params.section }}"><div  class="button-grey"><span class="black">BACK</span> to menu</div></a>
         {{- block "body" . }}
             {{- partial "header.html" . -}}
             <div id="content">
