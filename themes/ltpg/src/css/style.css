@@ -450,6 +450,16 @@ a[class*="button"] {
   @apply leading-tight;
 }
 
+.sgfLink{
+	color: darkgreen;
+	cursor: pointer;
+}
+
+.sgfLink:hover:after{
+	background: darkgreen;
+	content: attr(data-hover); 
+}
+
 #board canvas {
   @apply mx-auto mb-8;
 }

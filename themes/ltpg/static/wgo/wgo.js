@@ -103,8 +103,10 @@ WGo.clone = function(obj) {
 // filter html to avoid XSS
 WGo.filterHTML = function(text) {
 	if(!text || typeof text != "string") return text;
-	return text.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+	return text.replace(/_/g, "&lt;").replace(/_/g, "&gt;");
+
 }
+
 
 //---------------------- WGo.Board -----------------------------------------------------------------------------
 

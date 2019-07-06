@@ -1,4 +1,5 @@
-(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AB[ff]C[Let's see what shapes we can do with two stones!]LB[fe:A][fd:B][ge:C][gd:D][fc:E][gc:F][dd:G]
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AB[ff]LB[fe:A][fd:B][ge:C][gd:D][fc:E][gc:F][dd:G]C[<a data-hover="this is the data-hover content" class="sgfLink">link</a>
+Let's see what shapes we can do with two stones!]
 (;B[fe]C[An iron pillar.
 This is a good shape! These two stones can never be disconnected, unless surrounded they are very strong. 
 However, the development is kind of slow. If you wanted to surround a big chunk of territory you should have jumped a bit further. We usually resort to this move only when the original stone is under some sort of attack.])
@@ -8,8 +9,8 @@ This is a great shape. Those stones are very hard (though not impossible) to sep
 This move is good for claiming territory and for running away from tight spaces.];W[fe]C[To try and separate the two stones, white must play here. It is rarely a good move withough a considerable support of other surrounding stones. White is placing a stone that has only 2 liberties and will immediately be in atari];B[ge];W[ee]
 ;B[gf]LB[gd:A]C[Now black would chose which side to protect first. Black has a nice solid shape and white's group is low on libertis. To continue the attack white would have to cut at A again. A very tough fight for white. But should he/she have a lot of stones around, it is good to keep this possibility in mind.])
 (;B[ge]LB[fe:A][gf:B]C[A diagonal move.
-Another decent move, though often not efficient enough. Connection of these stones is easy to maintain. There is what we call "miai" for connection. If white tries to cut by playing A (even if he has more stones around) you can connect by playing B and vice versa.
-However, that also means that white may use either A or B as a forcing "free" move later on, as black might need to connect to stay safe.])
+Another decent move, though often not efficient enough. Connection of these stones is easy to maintain. There is what we call "miai" (two possibilities) for connection. If White tries to cut by playing A (even if he has more stones around) you can connect by playing B and vice versa.
+However, that also means that white may use either A or B as a forcing "free" move later on, as black might need to connect at B to stay safe.])
 (;B[fc]C[A two space jump.
 This is a very daring move. If your original stone was not under pressure, it is a great way to try and claim territory and prepare some eye space. However, if there is more opponent's stones around, you cannot be sure you will be able to keep those stones connected.])
 (;B[gd]C[A knight's move.

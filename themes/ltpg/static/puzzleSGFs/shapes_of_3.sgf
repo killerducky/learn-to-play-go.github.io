@@ -1,4 +1,4 @@
-(;GM[1]FF[4]AP[Drago:4.23]SZ[13]CA[UTF-8]C[Let's have a look at some examples on what we can do with 3 stones (obviously the possibilities grow in number).]AB[jj][kj][ci][dj][cc][ce]LB[ki:A][kh:B][kg:C][kf:D][ij:E][ck:F][ed:G][fd:I][ee:H]
+(;GM[1]FF[4]AP[Drago:4.23]SZ[13]CA[UTF-8]AB[jj][kj][ci][dj][cc][ce]LB[ki:A][kh:B][kg:C][kf:D][ij:E][ck:F][ed:G][fd:I][ee:H]C[Let's have a look at some examples on what we can do with 3 stones (obviously the possibilities grow in number).]
 (;B[ki]LB[kj:X][ji:A]C[The empty triangle.
 A move so infamous it has a whole comic named after it. www.emptytriangle.com. This shape is widely regarded as one of the most horrible. It is ineficient. Without X those stones would still be connected by miai. The X stone is now basically doing nothing aside of being useless. Also, it is surprisingly low on liberties. 
 
