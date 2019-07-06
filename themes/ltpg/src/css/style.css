@@ -456,8 +456,11 @@ a[class*="button"] {
 }
 
 .sgfLink:hover:after{
-	background: darkgreen;
-	content: attr(data-hover); 
+	background: rgb(194,214,199);
+	content: attr(data-hover);
+	position: absolute;
+	padding: 10px;
+	z-index: 9999999999;
 }
 
 #board canvas {
