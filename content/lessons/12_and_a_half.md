@@ -17,11 +17,11 @@ section: "index.html#techniques"
 # | Playing Under the Stones
 ## What a weird concept
 
-> This is one of those special techniques that actually comes into play like once a year. At most. But man, when you get it right. You're on the top of the world!  
+> This is one of those special techniques that actually comes into play like once a year, at most. But man, when you get it right, you're on the top of the world!  
 
-Playing under the stones actually means purposefully sacrificing a small group to get enough space to play there again.
- Sounds confusing? Well the whole technique is quite confusing. But you might understand when you see it. 
+"Playing under the stones" actually means purposefully sacrificing a small group to get enough space to play there again.
+ Sounds confusing? Well the whole technique is quite confusing. Hopefully you will understand it when you see it. 
  
 {{< tsumego >}}
 
-These are super advanced tricks, and you have to see them way in advance to set it up, so I would not worry too much about this actual technique, it was just a demonstration. But you can't deny the coolness factor, can you? 
+These are super advanced tricks and you have to see them way in advance to set them up. I would not worry too much about this actual technique. It was just a demonstration of how deep Go is and how you should, 'Expect the unexpected', as you discover Go...but you can't deny the coolness factor, can you? 
