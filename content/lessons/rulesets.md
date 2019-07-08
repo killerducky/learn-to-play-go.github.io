@@ -30,7 +30,7 @@ Here, I will list the most important differences. There are some more technical 
 ⬤ Suicide is not allowed<br>
 ⬤ Komi is 7.5 points on 19x19<br>
 
-*That does not mean that losing a stone is a bigger loss in Japanese rules than in Chinese! While it is a common misconceptions among beginners if your stone gets captured it is exactly the same loss in both rulesets. In Japanese your opponent gets an extra point for capture, in Chinese you do not get that 1 extra point you get for every alive stone. It is +1 -1 and the result is the same. It can only make a difference once ALL territories are defined and EVERY neutral point is taken. Then losing another stone or playing inside your territory no longer matter under Chinese rules while it still does in Japanese*
+*That does not mean that losing a stone is a bigger loss in Japanese rules than in Chinese! While it is a common misconceptions among beginners if your stone gets captured it is exactly the same loss in both rulesets. In Japanese your opponent gets an extra point for capture, in Chinese you do not get that 1 extra point you get for every alive stone. It is +1 -1 and the result is the same. It can only make a difference once ALL territories are defined and EVERY neutral point is taken. Then losing another stone or playing inside your territory no longer matters under Chinese rules while it still does in Japanese*
 
 **New Zeland rules**
 
