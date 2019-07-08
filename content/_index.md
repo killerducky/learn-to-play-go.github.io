@@ -34,7 +34,7 @@ layout: test
 <!-- BASIC TECHNIQUES -->
   {{< wrapper id="techniques" >}}
     {{< title "| Basic (but cool!) techniques" >}}
-    {{< subtitle "You know how to play? Now learn to play with style!" >}}
+    {{< subtitle "For those who already played some games. Now learn to play with style!" >}}
 
     {{< progressbar id="progressbar2" onclick="learn2()" >}}Learn them {{< black all >}} one by one{{< /progressbar >}}    
       {{< buttonBlue target="/lessons/06/" id="6" img="/images/alive.png" >}}Alive {{< black "(IMMORTAL)" >}} groups{{< /buttonBlue >}}
@@ -51,7 +51,7 @@ layout: test
 <!-- BASIC STRATEGIES -->
   {{< wrapper id="strategies" >}}
     {{< title "| Basic strategies" >}}
-    {{< subtitle "Switching to 19x19" >}}
+    {{< subtitle "For those who feel like switching to 19x19" >}}
 
     {{< progressbar id="progressbar3" onclick="learn3()" >}}Learn them {{< black all >}} one by one{{< /progressbar >}}
 
