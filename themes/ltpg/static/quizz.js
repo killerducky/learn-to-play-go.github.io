@@ -328,6 +328,7 @@ Tsumego.prototype.updateTsumego = function(e) {
 	else {
 		this.prevButton.disabled = "";
 		this.prevButton.style.background = "rgba(0,160,40,0.4)";
+		if(nmbr==nmbrQuestions-1){this.prevButton.innerHTML = "Show results";}
 	}
 	
 	this.setClass();

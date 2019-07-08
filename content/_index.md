@@ -26,7 +26,7 @@ layout: test
       {{< buttonBlue target="/lessons/04/" id="4" img="/images/endless.png" >}}No {{< black "ENDLESS REPETITION">}} either{{< /buttonBlue >}}
       {{< buttonBlue target="/lessons/05/" id="5" img="/images/pass.png" >}}{{< black PASS >}} and {{< black COUNT >}} the score{{< /buttonBlue >}}
 	  
-	  {{< buttonQuizz target="/quizzes/1/" id="q1" img="/images/quizz1.png" >}}Bonus quiz{{< /buttonBlue >}}
+	  {{< buttonQuizz target="/quizzes/1/" id="q1" >}}Bonus quiz{{< /buttonBlue >}}
   {{< /wrapper >}}
 <!-- END OF BASIC RULES -->
 
