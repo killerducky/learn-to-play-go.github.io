@@ -432,13 +432,13 @@ function loadQuizz(which, what, board) {
 		var json_str = JSON.stringify(answers)
 		setCookie("quiz"+batch, json_str, '99');
 		if (corr==nmbrQuestions){
-		document.getElementById("tsumego_wrapper").innerHTML = "<span style='color: green'>Amazing, you got <span class='font-bold text-3xl'>everything right!</span> You can safely continue to some of the advanced chapters</span>"; 
+		document.getElementById("tsumego_wrapper").innerHTML = "<div style='color: green; text-align: center; padding-top: 40%;'>Amazing, you got <span class='font-bold text-3xl'>everything right!</span> You can safely continue to some of the advanced chapters</div>"; 
 	} else {
 		if (corr>nmbrQuestions/2){
-		document.getElementById("tsumego_wrapper").innerHTML = "<span style='color: orange'><span class='font-bold text-3xl'>Not too bad!</span> You may want to review some of the issues <a href='../../lessons/solutions1' noreferrer noopener>here</a>, but if you want, you are also ready to continue to the more advanced topics.</span>";
+		document.getElementById("tsumego_wrapper").innerHTML = "<div style='color: orange; text-align: center; padding-top: 40%;'><span class='font-bold text-3xl'>Not too bad!</span> You may want to review some of the issues <a href='../../lessons/solutions1' noreferrer noopener>here</a>, but if you want, you are also ready to continue to the more advanced topics.</div>";
 	} else {
 		{
-		document.getElementById("tsumego_wrapper").innerHTML = "<span style='color: darkred'><span class='font-bold text-3xl'>That could have gone better</span> You might want to review the problems <a href='../../lessons/solutions1' noreferrer noopener>here</a>.</span>";
+		document.getElementById("tsumego_wrapper").innerHTML = "<div style='color: darkred; text-align: center; padding-top: 40%;'><span class='font-bold text-3xl'>That could have gone better</span> You might want to review the problems <a href='../../lessons/solutions1' noreferrer noopener>here</a>.</div>";
 	}}}}	
 }
 
