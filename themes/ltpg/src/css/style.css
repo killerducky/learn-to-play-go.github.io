@@ -12,6 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
+#rules{
+transition: max-height 1s ease-out;
+}
+
 a:link {
 	color: black;
 	/*text-decoration: none;*/
@@ -39,6 +43,7 @@ background: whitesmoke;
 font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
 font-family: 'Poppins', sans-serif;
 background-image: url(../../static/images/pattern.png);
+background-position: center top center left;
 }
 
 @screen md {

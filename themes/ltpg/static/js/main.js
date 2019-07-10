@@ -112,12 +112,15 @@ function checkCookies() {
     var twelfth = +getCookie("12");
 
     var showunder = +getCookie("under");
+	var section1 = getCookie("show1")
 	
     var thirteen = +getCookie("13");
     var fourteen = +getCookie("14");
     var fifteen = +getCookie("15");
     var sixteen = +getCookie("16");
-    var seventeen = +getCookie("17");	
+    var seventeen = +getCookie("17");
+	
+	
 	
 	var goodColor = "rgba(0,122,3,0.2)"
 	
@@ -294,6 +297,13 @@ function checkCookies() {
     if (seventeen != "") {
         document.getElementById("17").className = "button-green";
     }
+
+	if (section1 == "") {
+        document.getElementById("rules_over").style.display = "block";
+        document.getElementById("techniques_over").style.display = "block";
+        document.getElementById("strategies_over").style.display = "block";
+		}
+
 }
 
 
@@ -413,4 +423,10 @@ function uncollapse(what) {
 	}  	else { 
 		document.getElementById(what).style.display="none"
 	}
+}
+
+function show(what) {
+	document.getElementById(what+"_over").style.display = "none";
+	document.getElementById(what).style.maxHeight = "900px";	
+
 }
