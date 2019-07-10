@@ -450,28 +450,14 @@ a[class*="button"] {
   @apply leading-tight;
 }
 
-.sgfLink{
-	color: darkgreen;
-	cursor: pointer;
-}
-
-.sgfLink:hover:after{
-	background: rgb(194,214,199);
-	content: attr(data-hover);
-	position: absolute;
-	padding: 10px;
-	z-index: 9999999999;
-}
-
 #board canvas {
   @apply mx-auto mb-8;
 }
 
 @media only screen and (max-width: 600px) {
   #board {
-     transform: scale(0.6);
-	 transform-origin: -5% 0%;
-	 height: 370px;
+     transform: scale(0.63);
+	 transform-origin: -10% 0%;
   }
 }
 

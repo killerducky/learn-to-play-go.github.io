@@ -1,18 +1,3 @@
-{{ with .Get "sgf"}}
-    <div class="text-center">
-    <div class="tsumego" id="tsumego_wrapper" style="text-align: left;">
-    Your browser sucks. Download something up to date.
-    </div>
-    
-    <script>
-    var tsumego = new WGo.Tsumego(document.getElementById("tsumego_wrapper"), {
-        sgf: {{ . }},
-        debug: true, /* remove this line hide solution */
-    });
-    tsumego.setCoordinates(true);
-    </script>
-</div>
-{{ else }}
 <div style="text-align: center; min-height: 550px; vertical-align: top;">
         {{ range $index, $item := $.Page.Params.puzzles }}
             <button class="{{ if eq $index 0 }}bttn-selected{{ else }}bttn{{ end }}" onclick="loadTsumego({{$item.target}}, {{$item.id}}, tsumego)" id="{{$item.id}}">{{ $item.text }}</button>
@@ -35,4 +20,3 @@
     tsumego.setCoordinates(true);
     </script>
 </div>
-{{ end }}

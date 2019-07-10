@@ -27,16 +27,6 @@ function loadSgf(which, what) {
             bottom: ['Control']
         }
     });
-	
-	/*
-    document.getElementById("pzl1").className = "bttn";
-    document.getElementById("pzl2").className = "bttn";
-    document.getElementById(what).className = "bttn-selected";
-    document.getElementById("pzl3").className = "bttn";
-    document.getElementById(what).className = "bttn-selected";
-    document.getElementById("pzl4").className = "bttn";
-    document.getElementById(what).className = "bttn-selected";
-	*/
 }
 
 function myFunction(jdi) {

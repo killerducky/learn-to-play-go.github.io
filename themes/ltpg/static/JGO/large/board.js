@@ -5,10 +5,10 @@ JGO.BOARD = JGO.BOARD || {};
 
 JGO.BOARD.large = {
     textures: {
-        black: '/large/black.png',
-        white: '/large/white.png',
-        shadow:'/large/shadow.png',
-        board: '/large/shinkaya.jpg'
+        black: '/JGO/large/black.png',
+        white: '/JGO/large/white.png',
+        shadow:'/JGO/large/shadow.png',
+        board: '/JGO/large/walnut.jpg'
     },
 
     // Margins around the board, both on normal edges and clipped ones
@@ -45,7 +45,7 @@ JGO.BOARD.large = {
 };
 
 JGO.BOARD.largeWalnut = JGO.util.extend(JGO.util.extend({}, JGO.BOARD.large), {
-    textures: {board: '/large/walnut.jpg', shadow: '/large/shadow_dark.png'},
+    textures: {board: '/JGO/large/walnut.jpg', shadow: '/JGO/large/shadow_dark.png'},
     boardShadow: {color: '#e2baa0'},
     grid: {color: '#101010', borderWidth: 1.8, lineWidth: 1.5}
 });

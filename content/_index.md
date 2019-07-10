@@ -5,14 +5,6 @@ draft: false
 layout: test
 ---
 
-<!-- NAVBAR -->
-
-<!-- END OF NAVBAR -->
-
-
-
-
-
 <!-- BASIC RULES -->
   {{< wrapper id="rules" >}}
     {{< title "| Basic rules" >}}
