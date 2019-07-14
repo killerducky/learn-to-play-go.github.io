@@ -300,21 +300,18 @@ function checkCookies() {
 	var showSection3 = getCookie('strategies');	
 
     if (showSection1 == "") {
-		document.getElementById("rules_open").style.visibility = "hidden";		
-		document.getElementById("rules_closed").style.zIndex = "1";		
-		document.getElementById("rules_open").style.maxHeight = "0px";
+		document.getElementById("rules_open").style.display = "none";		
+		document.getElementById("rules_closed").style.display = "block";		
 	} 
 
     if (showSection2 == "") {
-		document.getElementById("techniques_open").style.visibility = "hidden";		
-		document.getElementById("techniques_closed").style.zIndex = "1";		
-		document.getElementById("techniques_open").style.maxHeight = "0px";
+		document.getElementById("techniques_open").style.display = "none";		
+		document.getElementById("techniques_closed").style.display = "block";		
 	}
 	
     if (showSection3 == "") {
-		document.getElementById("strategies_open").style.visibility = "hidden";
-		document.getElementById("strategies_closed").style.zIndex = "1";		
-		document.getElementById("strategies_open").style.maxHeight = "0px";
+		document.getElementById("strategies_open").style.display = "none";
+		document.getElementById("strategies_closed").style.display = "block";		
 	}
 
 }
@@ -424,13 +421,11 @@ function uncollapse(what) {
 }
 
 function show(what) {
-	document.getElementById(what+"_open").style.visibility = "visible";
-	document.getElementById(what+"_closed").style.zIndex = "-1";
-	document.getElementById(what+"_open").style.maxHeight = "1100px";
+	document.getElementById(what+"_open").style.display = "block";
+	document.getElementById(what+"_closed").style.display = "none";
 }
 
 function hide(what) {
-	document.getElementById(what+"_open").style.visibility = "hidden";
-	document.getElementById(what+"_closed").style.zIndex = "1";
-	document.getElementById(what+"_open").style.maxHeight = "0px";
+	document.getElementById(what+"_open").style.display = "none";
+	document.getElementById(what+"_closed").style.display = "block";
 }
