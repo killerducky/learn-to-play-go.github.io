@@ -63,6 +63,7 @@ layout: test
   
 <!-- CREDITS -->
   {{< wrapper id="credits" title="| Who's behind this?"  >}}
+  
   This site was made for the love of the game and our community. If you found some mistake contact {{< externalLink target="https://online-go.com/user/view/360861" name="AdamR" >}} on the OGS, I will try to fix it as soon as possible.
 
 My sincerest thanks to all the members of the OGS community who were very supportive in my efforts and kept trying to make it as good as possible. Most notably:<br><br> 
@@ -75,7 +76,5 @@ Who wrote a portion of the texts, spent his evenings crawling through heaps of m
 	<br><br>
 {{< black "Joshua Batson" >}}<br> 
 Who also helped immensely with the texts, and was an endless source of inspiration and ideas for new features.
-  
-  
-  
+    
   {{< /wrapper >}}  
