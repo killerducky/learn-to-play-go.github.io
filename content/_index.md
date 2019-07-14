@@ -6,10 +6,7 @@ layout: test
 ---
 
 <!-- BASIC RULES -->
-  {{< wrapper id="rules" >}}
-    {{< title "| Basic rules" >}}
-    {{< subtitle "Just 5 simple steps" >}}
-
+  {{< wrapper id="rules" title="| Basic rules" subtitle="Just 5 simple steps" hidden="1" >}}
     {{< progressbar id="progressbar" onclick="learn()" >}}Learn them {{< black all >}} one by one{{< /progressbar >}}
 
       {{< buttonBlue target="/lessons/01/" id="1" img="/images/where.png" >}}{{< black WHERE >}} and {{< black HOW >}} we place the stones{{< /buttonBlue >}}
@@ -24,9 +21,7 @@ layout: test
 
 
 <!-- BASIC TECHNIQUES -->
-  {{< wrapper id="techniques" >}}
-    {{< title "| Basic (but cool!) techniques" >}}
-    {{< subtitle "For those who already played some games. Now learn to play with style!" >}}
+  {{< wrapper id="techniques" title="| Basic (but cool!) techniques" subtitle="Played some games already? Now learn to play with style!" hidden="1" >}}
 
     {{< progressbar id="progressbar2" onclick="learn2()" >}}Learn them {{< black all >}} one by one{{< /progressbar >}}    
       {{< buttonBlue target="/lessons/06/" id="6" img="/images/alive.png" >}}Alive {{< black "(IMMORTAL)" >}} groups{{< /buttonBlue >}}
@@ -41,9 +36,7 @@ layout: test
 <!-- END OF BASIC TECHNIQUES -->
 
 <!-- BASIC STRATEGIES -->
-  {{< wrapper id="strategies" >}}
-    {{< title "| Basic strategies" >}}
-    {{< subtitle "For those who feel like switching to 19x19" >}}
+  {{< wrapper id="strategies" title="| Basic strategies" subtitle="For those who feel like switching to 19x19" hidden="1" >}}
 
     {{< progressbar id="progressbar3" onclick="learn3()" >}}Learn them {{< black all >}} one by one{{< /progressbar >}}
 
@@ -58,10 +51,7 @@ layout: test
 
 
 <!-- WHAT NOW? -->
-  {{< wrapper id="what_now" >}}
-    {{< title "| Well, now what?" >}}
-    {{< subtitle "Where can you even use this newfound skill?" >}}
-
+  {{< wrapper id="what_now" title="| Well, now what?" subtitle="Where can you even use this newfound skill?" >}}
 
     {{< buttonBlue target="/lessons/18/" id="18" img="/images/play.png" >}}Where can you {{< black PLAY >}}?{{< /buttonBlue >}}
     {{< buttonBlue target="/lessons/19/" id="19" img="/images/learn.png" >}}Where can you {{< black LEARN >}} more?{{< /buttonBlue >}}
@@ -72,8 +62,7 @@ layout: test
   
   
 <!-- CREDITS -->
-  {{< wrapper id="credits" >}}
-      {{< title "| Who's behind this?" >}}
+  {{< wrapper id="credits" title="| Who's behind this?"  >}}
   This site was made for the love of the game and our community. If you found some mistake contact {{< externalLink target="https://online-go.com/user/view/360861" name="AdamR" >}} on the OGS, I will try to fix it as soon as possible.
 
 My sincerest thanks to all the members of the OGS community who were very supportive in my efforts and kept trying to make it as good as possible. Most notably:<br><br> 

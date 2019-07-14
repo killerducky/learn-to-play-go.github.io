@@ -24,6 +24,6 @@
 
 {{ define "confirmation" }}
         <a href="/{{ .Params.returnTo }}" class="bad">Let me get <span class="black">back</span> to this one later</a>
-        <div class="good" onclick="setCookie('{{ .Params.cookieSetting }}', '1', '99'); myFunction('/{{ .Params.returnTo }}')"><span class="black">I understand, </span><br>what's next?</div>
+        <div class="good" onclick="setProgress('{{ .Params.cookieSetting }}', '1', '99'); myFunction('/{{ .Params.returnTo }}')"><span class="black">I understand, </span><br>what's next?</div>
 {{ end }}
 

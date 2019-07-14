@@ -33,35 +33,6 @@ function myFunction(jdi) {
     window.location.href = jdi;
 }
 
-
-function checkReward() {
-    var first = +getCookie("1");
-    var second = +getCookie("2");
-    var third = +getCookie("3");
-    var fourth = +getCookie("4");
-    var fifth = +getCookie("5");
-
-    if ((0 + first + second + third + fourth + fifth) != "5") {
-        document.write("You cannot cheat at learning Go. You have to walk the same path as others. There are no shortcuts... <a href='index.html'>Go back</a>");
-    }
-}
-
-
-function checkReward2() {
-    var sixth = +getCookie("6");
-    var seventh = +getCookie("7");
-    var eight = +getCookie("8");
-    var ninth = +getCookie("9");
-    var tenth = +getCookie("10");
-    var eleventh = +getCookie("11");
-    var twelfth = +getCookie("12");
-	
-    if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) != "7") {
-        document.write("You cannot cheat at learning Go. You have to walk the same path as others. There are no shortcuts... <a href='index.html'>Go back</a>");
-    }
-}
-
-
 function checkPuzzle() {
     var correct = +getCookie("guessed");
 
@@ -70,8 +41,26 @@ function checkPuzzle() {
     }
 }
 
+var initialProgress = ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"];
+
+function setProgress(name, value, exdays) {
+	currentProgress = getCookie('progress')
+	
+	if (currentProgress != ""){
+		json_str_pr = currentProgress;
+	} else {
+		var json_str_pr = JSON.stringify(initialProgress);
+	}
+		
+	progress = JSON.parse(json_str_pr);
+	progress[name] = "1";
+	json_str_pr = JSON.stringify(progress);
+	
+	setCookie("progress", json_str_pr, exdays);
+}
 
 function setCookie(cname, cvalue, exdays) {
+	
 	var d = new Date();
     d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
     var expires = "expires=" + d.toUTCString();
@@ -97,150 +86,107 @@ function getCookie(cname) {
 
 
 function checkCookies() {
-    var first = +getCookie("1");
-    var second = +getCookie("2");
-    var third = +getCookie("3");
-    var fourth = +getCookie("4");
-    var fifth = +getCookie("5");
+	var progress = getCookie('progress');
+	var section1 = 0;
+	var section2 = 0;
+	var section3 = 0;
+	var showunder = getCookie('under');
+	
+	if (progress != ""){
+		progress = JSON.parse(progress);
+	
+		var goodColor = "rgba(0,122,3,0.2)"
+	
+	// Checking first section
+    if (progress[1] == "1") {
+        document.getElementById("1").className = "button-green";
+		section1 = section1+1;
+    }
 
-    var sixth = +getCookie("6");
-    var seventh = +getCookie("7");
-    var eight = +getCookie("8");
-    var ninth = +getCookie("9");
-    var tenth = +getCookie("10");
-    var eleventh = +getCookie("11");
-    var twelfth = +getCookie("12");
+    if (progress[2] == "1") {
+        document.getElementById("2").className = "button-green";
+		section1 = section1+1;
+    }
 
-    var showunder = +getCookie("under");
-	var section1 = getCookie("show1")
+    if (progress[3] == "1") {
+        document.getElementById("3").className = "button-green";
+		section1 = section1+1;
+    }
+
+    if (progress[4] == "1") {
+        document.getElementById("4").className = "button-green";
+		section1 = section1+1;
+    }
+
+    if (progress[5] == "1") {
+        document.getElementById("5").className = "button-green";
+		section1 = section1+1;
+    }
 	
-    var thirteen = +getCookie("13");
-    var fourteen = +getCookie("14");
-    var fifteen = +getCookie("15");
-    var sixteen = +getCookie("16");
-    var seventeen = +getCookie("17");
-	
-	
-	
-	var goodColor = "rgba(0,122,3,0.2)"
-	
-    if ((0 + first + second + third + fourth + fifth) == "0") {
+    if (section1 == "0") {
         document.getElementById("progressbar").innerHTML = "Learn them <span class='black'>all</span> one by one (0/5)";
     } else
 
-    if ((0 + first + second + third + fourth + fifth) == "1") {
+    if (section1 == "1") {
         document.getElementById("progressbar").innerHTML = "Off to a <span class='black'>good</span> start (1/5)";
 		document.getElementById("progressbar").style.background = "linear-gradient(to right, " + goodColor + " 20%, rgba(202,202,202,1) 20%)";
     } else
 
-    if ((0 + first + second + third + fourth + fifth) == "2") {
+    if (section1 == "2") {
         document.getElementById("progressbar").innerHTML = "Almost <span class='black'>halfway</span> there! (2/5)";
 		document.getElementById("progressbar").style.background = "linear-gradient(to right, " + goodColor + " 40%, rgba(202,202,202,1) 40%)";
     } else
 
-    if ((0 + first + second + third + fourth + fifth) == "3") {
+    if (section1 == "3") {
         document.getElementById("progressbar").innerHTML = "Wow, you are doing <span class='black'>great</span>! (3/5)";
 		document.getElementById("progressbar").style.background = "linear-gradient(to right, " + goodColor + " 60%, rgba(202,202,202,1) 60%)";
     } else
 
-    if ((0 + first + second + third + fourth + fifth) == "4") {
+    if (section1 == "4") {
         document.getElementById("progressbar").innerHTML = "Just <span class='black'>one last</span> thing to know! (4/5)";
 		document.getElementById("progressbar").style.background = "linear-gradient(to right, " + goodColor + " 80%, rgba(202,202,202,1) 80%)";
     } else
 
-    if ((0 + first + second + third + fourth + fifth) == "5") {
+    if (section1 == "5") {
         document.getElementById("progressbar").innerHTML = "You are now a <span class='black'>go player</span>! Click here for your reward! (5/5)";
         document.getElementById("progressbar").style.background = "rgba(0,102,102,0.3)"
     }
 
 
-    if (first != "") {
-        document.getElementById("1").className = "button-green";
-    }
-
-    if (second != "") {
-        document.getElementById("2").className = "button-green";
-    }
-
-    if (third != "") {
-        document.getElementById("3").className = "button-green";
-    }
-
-    if (fourth != "") {
-        document.getElementById("4").className = "button-green";
-    }
-
-    if (fifth != "") {
-        document.getElementById("5").className = "button-green";
-    }
-
-
-    if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) == "0") {
-        document.getElementById("progressbar2").innerHTML = "Learn them <span class='black'>all</span> one by one (" + (0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) + "/7)";
-    } else
-
-    if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) == "1") {
-        document.getElementById("progressbar2").innerHTML = "Off to the <span class='black'>advanced</span> topics already? Nice! (1/7)";
-		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 14%, rgba(202,202,202,1) 14%)";
-    } else
-
-    if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) == "2") {
-        document.getElementById("progressbar2").innerHTML = "Check out the <span class='black'>snapback</span> it's cool! (2/7)";
-		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 28%, rgba(202,202,202,1) 28%)";
-    } else
-
-    if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) == "3") {
-        document.getElementById("progressbar2").innerHTML = "Wooah We're <span class='black'>almost half way</span> there! (3/7)";
-		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 43%, rgba(202,202,202,1) 43%)";
-    } else
-
-    if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) == "4") {
-        document.getElementById("progressbar2").innerHTML = "With this <span class='black'>pace</span> you may beat me one day! (4/7)";
-		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 57%, rgba(202,202,202,1) 57%)";
-    } else
-
-    if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) == "5") {
-        document.getElementById("progressbar2").innerHTML = "Just <span class='black'>two last</span> things to know! (5/7)";
-		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 71%, rgba(202,202,202,1) 71%)";
-    } else
-
-    if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) == "6") {
-        document.getElementById("progressbar2").innerHTML = "Just <span class='black'>one last</span> thing to know! (6/7)";
-		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 86%, rgba(202,202,202,1) 86%)";
-    } else
-
-    if ((0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) == "7") {
-        document.getElementById("progressbar2").innerHTML = "You are <span class='black'>persistant</span>! Click here for your reward! (7/7)";
-        document.getElementById("progressbar2").style.background = "rgba(0,102,102,0.3)"
-    }
-
-
-    if (sixth != "") {
+	// Checking second section
+    if (progress[6] == "1") {
         document.getElementById("6").className = "button-green";
+		section2 = section2+1;
     }
 
-    if (seventh != "") {
+    if (progress[7] == "1") {
         document.getElementById("7").className = "button-green";
+		section2 = section2+1;
     }
 
-    if (eight != "") {
+    if (progress[8] == "1") {
         document.getElementById("8").className = "button-green";
+		section2 = section2+1;
     }
 
-    if (ninth != "") {
+    if (progress[9] == "1") {
         document.getElementById("9").className = "button-green";
+		section2 = section2+1;
     }
 
-    if (tenth != "") {
+    if (progress[10] == "1") {
         document.getElementById("10").className = "button-green";
+		section2 = section2+1;
     }
 
-    if (eleventh != "") {
+    if (progress[11] == "1") {
         document.getElementById("11").className = "button-green";
+		section2 = section2+1;
     }
 
-    if (twelfth != "") {
+    if (progress[12] == "1") {
         document.getElementById("12").className = "button-green";
+		section2 = section2+1;
     }
 
     if (showunder != "") {
@@ -250,138 +196,203 @@ function checkCookies() {
 
 
 
-    if ((0 + thirteen + fourteen + fifteen + sixteen + seventeen) == "0") {
+    if (section2 == "0") {
+        document.getElementById("progressbar2").innerHTML = "Learn them <span class='black'>all</span> one by one (" + (0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) + "/7)";
+    } else
+
+    if (section2 == "1") {
+        document.getElementById("progressbar2").innerHTML = "Off to the <span class='black'>advanced</span> topics already? Nice! (1/7)";
+		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 14%, rgba(202,202,202,1) 14%)";
+    } else
+
+    if (section2 == "2") {
+        document.getElementById("progressbar2").innerHTML = "Check out the <span class='black'>snapback</span> it's cool! (2/7)";
+		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 28%, rgba(202,202,202,1) 28%)";
+    } else
+
+    if (section2 == "3") {
+        document.getElementById("progressbar2").innerHTML = "Wooah We're <span class='black'>almost half way</span> there! (3/7)";
+		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 43%, rgba(202,202,202,1) 43%)";
+    } else
+
+    if (section2 == "4") {
+        document.getElementById("progressbar2").innerHTML = "With this <span class='black'>pace</span> you may beat me one day! (4/7)";
+		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 57%, rgba(202,202,202,1) 57%)";
+    } else
+
+    if (section2 == "5") {
+        document.getElementById("progressbar2").innerHTML = "Just <span class='black'>two last</span> things to know! (5/7)";
+		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 71%, rgba(202,202,202,1) 71%)";
+    } else
+
+    if (section2 == "6") {
+        document.getElementById("progressbar2").innerHTML = "Just <span class='black'>one last</span> thing to know! (6/7)";
+		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 86%, rgba(202,202,202,1) 86%)";
+    } else
+
+    if (section2 == "7") {
+        document.getElementById("progressbar2").innerHTML = "You are <span class='black'>persistant</span>! Click here for your reward! (7/7)";
+        document.getElementById("progressbar2").style.background = "rgba(0,102,102,0.3)"
+    }
+
+	// Checking third section
+
+
+    if (progress[13] == "1") {
+        document.getElementById("13").className = "button-green";
+		section3 = section3+1;
+    }
+
+    if (progress[14] == "1") {
+        document.getElementById("14").className = "button-green";
+		section3 = section3+1;
+    }
+
+    if (progress[15] == "1") {
+        document.getElementById("15").className = "button-green";
+		section3 = section3+1;
+    }
+
+    if (progress[16] == "1") {
+        document.getElementById("16").className = "button-green";
+		section3 = section3+1;
+    }
+
+    if (progress[17] == "1") {
+        document.getElementById("17").className = "button-green";
+		section3 = section3+1;
+    }
+
+
+    if (section3 == "7") {
         document.getElementById("progressbar3").innerHTML = "Learn them <span class='black'>all</span> one by one (0/5)";
     } else
 
-    if ((0 + thirteen + fourteen + fifteen + sixteen + seventeen) == "1") {
+    if (section3 == "7") {
         document.getElementById("progressbar3").innerHTML = "This says <span class='black'>one</span> out of five -> (1/5)";
 		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 20%, rgba(202,202,202,1) 20%)";
 	} else
 
-    if ((0 + thirteen + fourteen + fifteen + sixteen + seventeen) == "2") {
+    if (section3 == "7") {
         document.getElementById("progressbar3").innerHTML = "<span class='black'>Getting there </span>(2/5)";
 		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 40%, rgba(202,202,202,1) 40%)";
     } else
 
-    if ((0 + thirteen + fourteen + fifteen + sixteen + seventeen) == "3") {
+    if (section3 == "7") {
         document.getElementById("progressbar3").innerHTML = "You have <span class='black'>almost</span> exhausted all my knowledge! (3/5)";
 		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 60%, rgba(202,202,202,1) 60%)";
     } else
 
-    if ((0 + thirteen + fourteen + fifteen + sixteen + seventeen) == "4") {
+    if (section3 == "7") {
         document.getElementById("progressbar3").innerHTML = "One <span class='black'>last</span> thing! (4/5)";
 		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 80%, rgba(202,202,202,1) 80%)";
-    } else if ((0 + thirteen + fourteen + fifteen + sixteen + seventeen) == "5") {
+    if (section3 == "7") {
         document.getElementById("progressbar3").innerHTML = "Now you are <span class='black'>on your own</span>! Click here for your reward! (" + (0 + thirteen + fourteen + fifteen + sixteen + seventeen) + "/5)";
         document.getElementById("progressbar3").style.background = "rgba(0,102,102,0.3)"
     }
+	}
+}
 
+	//Uncollapse visited sections
+	
+	var showSection1 = getCookie('rules');	
+	var showSection2 = getCookie('techniques');	
+	var showSection3 = getCookie('strategies');	
 
-    if (thirteen != "") {
-        document.getElementById("13").className = "button-green";
-    }
+    if (showSection1 == "") {
+		document.getElementById("rules_open").style.visibility = "hidden";		
+		document.getElementById("rules_closed").style.zIndex = "1";		
+		document.getElementById("rules_open").style.maxHeight = "0px";
+	} 
 
-    if (fourteen != "") {
-        document.getElementById("14").className = "button-green";
-    }
-
-    if (fifteen != "") {
-        document.getElementById("15").className = "button-green";
-    }
-
-    if (sixteen != "") {
-        document.getElementById("16").className = "button-green";
-    }
-
-    if (seventeen != "") {
-        document.getElementById("17").className = "button-green";
-    }
-
-	if (section1 == "") {
-        document.getElementById("rules_over").style.display = "block";
-        document.getElementById("techniques_over").style.display = "block";
-        document.getElementById("strategies_over").style.display = "block";
-		}
+    if (showSection2 == "") {
+		document.getElementById("techniques_open").style.visibility = "hidden";		
+		document.getElementById("techniques_closed").style.zIndex = "1";		
+		document.getElementById("techniques_open").style.maxHeight = "0px";
+	}
+	
+    if (showSection3 == "") {
+		document.getElementById("strategies_open").style.visibility = "hidden";
+		document.getElementById("strategies_closed").style.zIndex = "1";		
+		document.getElementById("strategies_open").style.maxHeight = "0px";
+	}
 
 }
 
-
 function learn() {
-    var first = +getCookie("1");
-    var second = +getCookie("2");
-    var third = +getCookie("3");
-    var fourth = +getCookie("4");
-    var fifth = +getCookie("5");
+	var progress = getCookie('progress');
 
-    if (first == "0") {
-        window.location.href = "/lessons/01";
-    } else
-    if (second == "0") {
+	if (progress != ""){
+		progress = JSON.parse(progress);
+	
+    if (progress[2] == "0") {
         window.location.href = "/lessons/02";
     } else
-    if (third == "0") {
+    if (progress[3] == "0") {
         window.location.href = "/lessons/03";
     } else
-    if (fourth == "0") {
+    if (progress[4] == "0") {
         window.location.href = "/lessons/04";
     } else
-    if (fifth == "0") {
+    if (progress[5] == "0") {
         window.location.href = "/lessons/05";
     } else
         window.location.href = "/lessons/reward";
+	
+	} else {
+        window.location.href = "/lessons/01";	
+	}
+
 }
 
 function learn2() {
-    var sixth = +getCookie("6");
-    var seventh = +getCookie("7");
-    var eight = +getCookie("8");
-    var ninth = +getCookie("9");
-    var tenth = +getCookie("10");
-    var eleventh = +getCookie("11");
-    var twelfth = +getCookie("12")
-
-    if (sixth == "") {
-        window.location.href = "/lessons/06";
-    } else if (seventh == "") {
+	var progress = getCookie('progress');
+	if (progress != ""){
+		progress = JSON.parse(progress);
+	
+	if (progress[7] == "0") {
         window.location.href = "/lessons/07";
-    } else if (eight == "") {
+    } else if (progress[8] == "0") {
         window.location.href = "/lessons/08";
-    } else if (ninth == "") {
+    } else if (progress[9] == "0") {
         window.location.href = "/lessons/09";
-    } else if (tenth == "") {
+    } else if (progress[10] == "0") {
         window.location.href = "/lessons/10";
-    } else if (eleventh == "") {
+    } else if (progress[11] == "0") {
         window.location.href = "/lessons/11";
-    } else if (twelfth == "") {
+    } else if (progress[12] == "0") {
         window.location.href = "/lessons/12";
     } else {
         window.location.href = "/lessons/reward2";
-		setCookie('under', '1', '99');
-}
+		setCookie('under', '1', '99');	
+	}}
+	
+	else {
+        window.location.href = "/lessons/06";
+	}
 }
 
 function learn3() {
-    var thirteen = +getCookie("13");
-    var fourteen = +getCookie("14");
-    var fifteen = +getCookie("15");
-    var sixteen = +getCookie("16");
-    var seventeen = +getCookie("17");
+	var progress = getCookie('progress');
+	if (progress != ""){
+		progress = JSON.parse(progress);
+	
 
 
-    if (thirteen == "") {
+    if (progress[13] == "0") {
         window.location.href = "/lessons/13";
-    } else if (fourteen == "") {
+    } else if (progress[14] == "0") {
         window.location.href = "/lessons/14";
-    } else if (fifteen == "") {
+    } else if (progress[15] == "0") {
         window.location.href = "/lessons/15";
-    } else if (sixteen == "") {
+    } else if (progress[16] == "0") {
         window.location.href = "/lessons/16";
-    } else if (seventeen == "") {
+    } else if (progress[17] == "0") {
         window.location.href = "/lessons/17";
-    } else {
+    } 
+	}	else {
         window.location.href = "/lessons/reward3";
-}
+	}
 }
 
 
@@ -390,27 +401,14 @@ function reset() {
 
     var r = confirm("Careful, this will reset all your progress to 0 is that what you want?");
     if (r == true) {
-        document.cookie = "1=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        document.cookie = "2=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        document.cookie = "3=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        document.cookie = "4=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        document.cookie = "5=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        document.cookie = "6=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        document.cookie = "7=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        document.cookie = "8=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        document.cookie = "9=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        document.cookie = "10=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        document.cookie = "11=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        document.cookie = "12=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        document.cookie = "13=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        document.cookie = "14=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        document.cookie = "15=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-		document.cookie = "16=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        document.cookie = "17=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
         document.cookie = "guessed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
         document.cookie = "showunder=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
         document.cookie = "under=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        location.reload();
+        document.cookie = "progress=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";        
+		document.cookie = "rules=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+        document.cookie = "techniques=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+        document.cookie = "strategies=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+		location.reload();
     } else {
         void 0
     }
@@ -426,7 +424,13 @@ function uncollapse(what) {
 }
 
 function show(what) {
-	document.getElementById(what+"_over").style.display = "none";
-	document.getElementById(what).style.maxHeight = "900px";	
+	document.getElementById(what+"_open").style.visibility = "visible";
+	document.getElementById(what+"_closed").style.zIndex = "-1";
+	document.getElementById(what+"_open").style.maxHeight = "1100px";
+}
 
+function hide(what) {
+	document.getElementById(what+"_open").style.visibility = "hidden";
+	document.getElementById(what+"_closed").style.zIndex = "1";
+	document.getElementById(what+"_open").style.maxHeight = "0px";
 }
