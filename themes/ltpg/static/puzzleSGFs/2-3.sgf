@@ -1,6 +1,7 @@
 (;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AW[ia][fa][ea]AB[id][ie]C[Sides and especially corners can be very tricky! Any stone at the edge of the board is already shorter on liberties. Capture the white stone. This time more than one move will be required.]
 (;B[ha];W[ib];B[hb];W[ic]
-;B[hc]C[That's one way, very good. At the edge of the board it is hard to find more liberties.])
+;B[hc]TE[1]C[That's the way, very good! At the edge of the board it is hard to 
+find more liberties.])
 (;B[ib];W[ha];B[hb]
 ;W[ga]C[No, this way White gets to connect to her other stones])
 (;B[hb]

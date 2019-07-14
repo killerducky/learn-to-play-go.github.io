@@ -8,7 +8,7 @@ onload="checkCookies()"
 {{ end }}
     
 {{ define "body" }}
-              <a href="" onclick="reset()" style="position: absolute; top: 10px; right: 15px; color: rgba(0,102,20,0.3);"><b>Reset all progress</b></a>
+              <a href="" onclick="reset()" style="position: absolute; top: 10px; right: 15px; color: white;">Reset all progress</a>
 <!-- NAVBAR -->
     <div class="obal header">
           <noscript>
@@ -17,10 +17,10 @@ onload="checkCookies()"
            
 
               <div class="title leading-tight">Learn to Play Go Already!</div>
-              <div style="text-align: right; color: rgba(0,102,20,0.3); margin-right: 20px; font-weight: 900; font-size: 15px;"><i>a loving homage to the original "<a href="http://www.playgo.to/iwtg/en/" target="_blank">Interactive Way to Go</a>"</i></div><br>
+              <div style="text-align: right; color: rgba(155,235,200,.7); margin-right: 20px; font-weight: 900; font-size: 15px; margin-bottom: 180px;"><i>a loving homage to the original <a href="http://www.playgo.to/iwtg/en/" target="_blank">"Interactive Way to Go"</a></i></div>
 
-
-
+		</div>
+<!--
           <div class= "nav hidden sm:block">
 			<p style="font-size: 0.75rem;">rules and strategies:</p>
               <a href="#rules">Basic&nbsp;Rules</a>&nbsp;&nbsp;|&nbsp;&nbsp;
@@ -32,8 +32,10 @@ onload="checkCookies()"
 
 			<p style="font-size: 0.75rem;">Who made all this:</p>             
               <a href="#credits">Credits</a><br>
-          </div>
+          
     </div>
+-->
+
 <!-- END OF NAVBAR -->
 
 {{ .Content }}
