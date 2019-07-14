@@ -1,5 +1,5 @@
 {{ if .IsNamedParams }}
-<div id="{{ .Get "id" }}" class="mb-32 mx-auto max-w-5xl text-center" style="min-height: 200px;">
+<div id="{{ .Get "id" }}" class="mb-24 mx-auto max-w-5xl text-center" style="min-height: 250px;">
 
 	<div style="position: relative; top: 0px; width: 100%; height: 100%">	
 			<div id="{{ .Get "id" }}_open" class="animateHeight" style="{{with .Get "hidden"}}max-height: 1100px;{{ end }} overflow: hidden; background: whitesmoke;">
@@ -15,20 +15,19 @@
 			</div>
 	
 	{{ if (isset .Params "hidden") }}
-	<div id="{{ .Get "id" }}_closed" style="position: absolute; top: 0px; height: 100%; width: 100%; z-index: -1;">
-			
+	<div id="{{ .Get "id" }}_closed" style="position: absolute; display: block; top: 0px; width: 100%; z-index: -1; border: 1px solid black; padding-bottom: 20px;">
 	{{ if eq .Params.id "rules" }}
-			<div class="ml-0 sm:ml-4 font-black mt-16 text-4xl sm:text-5xl leading-tight">How to play go!</div>
+			<div class="ml-0 sm:ml-4 font-black mt-4 text-4xl sm:text-5xl leading-tight">How to play go!</div>
 			This section is meant for players with little to none experience with the game.<br><br>
 	{{ end }}
 
 	{{ if eq .Params.id "techniques" }}
-			<div class="ml-0 sm:ml-4 font-black mt-16 text-4xl sm:text-5xl leading-tight">Local techniques</div>
+			<div class="ml-0 sm:ml-4 font-black mt-4 text-4xl sm:text-5xl leading-tight">Local techniques</div>
 			For players who already played some 9x9 games and are interested in some local fighting techniques.<br><br>
 	{{ end }}
 
 	{{ if eq .Params.id "strategies" }}
-			<div class="ml-0 sm:ml-4 font-black mt-16 text-4xl sm:text-5xl leading-tight">Whole board strategies</div>
+			<div class="ml-0 sm:ml-4 font-black mt-4 text-4xl sm:text-5xl leading-tight">Whole board strategies</div>
 			For players familiar with 9x9 who want to switch to the 19x19 board.<br><br>
 	{{ end }}	
 			<a class="button-green" onclick="show({{ .Get "id" }}); setCookie({{ .Get "id" }}, '1', '99')"><span class="black">SHOW</span></a>
