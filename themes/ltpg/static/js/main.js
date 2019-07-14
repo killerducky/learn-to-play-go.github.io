@@ -197,7 +197,7 @@ function checkCookies() {
 
 
     if (section2 == "0") {
-        document.getElementById("progressbar2").innerHTML = "Learn them <span class='black'>all</span> one by one (" + (0 + sixth + seventh + eight + ninth + tenth + eleventh + twelfth) + "/7)";
+        document.getElementById("progressbar2").innerHTML = "Learn them <span class='black'>all</span> one by one (0/7)";
     } else
 
     if (section2 == "1") {

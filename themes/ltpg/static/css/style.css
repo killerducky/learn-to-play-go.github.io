@@ -286,7 +286,8 @@ a[class*=button] {
 .puzzle h1 {
 	font-size: 3rem;
 	line-height: 1.25;
-	font-weight: 700
+	font-weight: 700;
+	margin-top: 2rem
 }
 .puzzle h2 {
 	font-size: 1.25rem;
