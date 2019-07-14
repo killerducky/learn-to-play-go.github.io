@@ -423,9 +423,14 @@ function uncollapse(what) {
 function show(what) {
 	document.getElementById(what+"_open").style.display = "block";
 	document.getElementById(what+"_closed").style.display = "none";
+	document.getElementById(what).style.background = "rgba(0,120,82,0.1)";
+	setTimeout(function(){ document.getElementById(what).style.background = "none";; }, 500);
+	
 }
 
 function hide(what) {
 	document.getElementById(what+"_open").style.display = "none";
 	document.getElementById(what+"_closed").style.display = "block";
+	document.getElementById(what).style.background = "rgba(0,120,82,0.1)";
+	setTimeout(function(){ document.getElementById(what).style.background = "none";; }, 500);
 }

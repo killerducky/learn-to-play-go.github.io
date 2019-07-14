@@ -1,8 +1,8 @@
 {{ if .IsNamedParams }}
-<div id="{{ .Get "id" }}" class="mb-16 mx-auto max-w-5xl text-center">
+<div id="{{ .Get "id" }}" class="animateBackground mb-16 mx-auto max-w-5xl text-center pb-4" style="border-radius: 20px;">
 
 	
-			<div id="{{ .Get "id" }}_open" class="animateHeight" style="overflow: hidden;">
+			<div id="{{ .Get "id" }}_open" class="" style="overflow: hidden;">
 				<div class="ml-0 sm:ml-4 text-left font-black mt-4 text-4xl sm:text-5xl leading-tight">{{ .Get "title" }} 
 				
 				{{ if (isset .Params "hidden") }}
