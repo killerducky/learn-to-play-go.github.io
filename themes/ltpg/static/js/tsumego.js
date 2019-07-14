@@ -322,7 +322,7 @@ var Tsumego = WGo.extendClass(WGo.TsumegoApi, function(elem, config) {
 
 Tsumego.prototype.updateTsumego = function(e) {
 	if(e.node.comment) this.setInfo(WGo.filterHTML(e.node.comment));
-	else this.comment.innerHTML = (this.turn == WGo.B ? "Black" : "White")+" to play";
+	else this.comment.innerHTML = (this.turn == WGo.B ? "" : "")+"";
 	
 	if(e.node.children.length == 0) this.hintButton.disabled = "disabled";
 	else this.hintButton.disabled = "";

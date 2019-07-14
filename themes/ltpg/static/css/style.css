@@ -41,7 +41,7 @@ body{
 	}
 
 @media (min-width:768px){
-body.index{background-image: url(../../images/1.jpg), url(../../images/pattern.png); background-position:top top;background-repeat:no-repeat,repeat}
+body.index{background-image: url(../../images/1.jpg), url(../../images/pattern.png); background-position:top center;background-repeat:no-repeat,repeat}
 
 
 .header{
