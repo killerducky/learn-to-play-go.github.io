@@ -18,17 +18,17 @@
 	<div id="{{ .Get "id" }}_closed" style="; display: block; top: 0px; width: 100%; z-index: -1; overflow: hidden; display: none">
 	{{ if eq .Params.id "rules" }}
 			<div class="ml-0 sm:ml-4 font-black mt-4 text-4xl sm:text-5xl leading-tight">How to play Go!</div>
-			This section is meant for players with little to none experience with the game.<br><br>
+			This section is meant <b>for players with little to none experience</b> with the game.<br><br>
 	{{ end }}
 
 	{{ if eq .Params.id "techniques" }}
 			<div class="ml-0 sm:ml-4 font-black mt-4 text-4xl sm:text-5xl leading-tight">Local techniques</div>
-			For players who already played some 9x9 games and are interested in some local fighting techniques.<br><br>
+			For players who <b>already played some 9x9 games</b> and are interested in some local fighting techniques.<br><br>
 	{{ end }}
 
 	{{ if eq .Params.id "strategies" }}
 			<div class="ml-0 sm:ml-4 font-black mt-4 text-4xl sm:text-5xl leading-tight">Whole board strategies</div>
-			For players familiar with 9x9 who want to switch to the 19x19 board.<br><br>
+			For players familiar with 9x9 who <b>want to switch to the 19x19 board</b>.<br><br>
 	{{ end }}	
 			<a class="button-green" style="height: 60px;" onclick="show({{ .Get "id" }}); setCookie({{ .Get "id" }}, '1', '99')"><span class="black">SHOW</span></a>
 	</div>
