@@ -1,4 +1,3 @@
-(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AB[fe][fc][gf][de][hg][be][he]AW[cc][gg][fg][dg][hh][hf][ih]C[Puzzle 2 out of 3
-One of your stones is in atari (danger of immediate capture) find it and save it.]
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AB[fe][fc][gf][de][hg][be][he]AW[cc][gg][fg][dg][hh][hf][ih]C[One of your stones is in atari (danger of immediate capture) find it and save it.]
 (;B[if]TE[1])
 (;B[ig];W[if]))

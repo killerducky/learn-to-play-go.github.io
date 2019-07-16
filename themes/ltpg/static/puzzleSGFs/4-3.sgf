@@ -1,6 +1,7 @@
 (;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]C[The local ko situation is same as before. But let's assume there are also other groups on the board. It changes the whole ko fight dramatically. Try to save your stones now.]AB[ab][ba][cb][ca][bb][db][da][eb][fc][gc][hc][ic][ah][bh][ch][ci]
 [ei][eh][fh][fi][gh][hh][hi][ih][ii][bi]AW[ea][fb][gb][ga][ha][hb][ib][ec][dc][cc][bc][ac][ag][bg][cg][dg]
-[eg][fg][gg][hg][ig];B[fa]
+[eg][fg][gg][hg][ig]
+(;B[fa]
 ;W[dh]C[Yes, the start is the same. But because there are other not yet completely settled stones on the board means that White has something to threaten. White's move is what we call a ko-threat.]MA[ah][ch][bi][ci][bh][eh][ei][fh][gh][fi][hh][ih][ii][hi]
 (;B[di]
 ;W[ea]MA[ab][bb][cb][db][eb][da][ca][ba]TE[1]C[If Black choses to answer the threat, White gets to re-take the 
@@ -11,3 +12,7 @@ probably lose the ko and all the stones. Go back and see what would happen if yo
 means he will lose all his bottom stones now. Hard part of ko 
 fights is judging who has more threats and how valuable they 
 are.]))
+(;B[dh]
+;W[aa]TE[1]C[A very interesting idea! Indeed you can avoid the ko completely. 
+However, it is often better to force the ko (even though you 
+can't win it) to force your opponent to lose one of her ko threats.]))

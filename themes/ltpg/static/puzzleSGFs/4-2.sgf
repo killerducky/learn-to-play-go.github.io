@@ -4,4 +4,5 @@
 (;B[cd];W[aa])
 (;B[bd];W[aa])
 (;B[ad];W[aa])
-(;B[fa]MA[fa];W[fd]C[Correct! This is a good first step. This is also a ko (just on the edge of the board). Your stone is in atari, but White cannot recapture right away. She must play somewhere else at least once.];B[ia]C[An easy win for black! Quickly check out puzzle 3 to see how it may get even scarier.]))
+(;B[fa]MA[fa];W[fd]C[Correct! This is a good first step. This is also a ko (just on the edge of the board). Your stone is in atari, but White cannot recapture right away. She must play somewhere else at least once.];B[ia]TE[1]C[An easy win for black! Quickly check out puzzle 3 to see how it 
+may get even scarier.]))

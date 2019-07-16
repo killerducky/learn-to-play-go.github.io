@@ -1,9 +1,14 @@
-(;GM[1]FF[4]AP[Drago:4.23]SZ[19]CA[UTF-8]AB[pd][qp]AW[dc][dp]C[Let's say the first four moves are over. Nothing fancy going on. Both players took their corners and now it is black's turn.
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[19]C[We often talk about territory and influence. I can tell you that a move on the 3rd line is usally territory oriented and a move on the 4th line is influence oriented, but what does that really mean? 
 
-When nothing special is going on, repeat this mantra: corners > sides > center. If you still don't know where to play then play the longest open side. After all there is the most space to get points.];B[op]LB[oq:A][nq:B][np:C][ce:D][de:E][cf:F][df:G][jp:H]C[The next course of action is either to make the most of one of your corners or prevent your opponent from making the most of theirs. It is regarded as interchangeable.
+A great example is the 4-4 point which is often used to start a game.
+(see next)];B[pd]C[This move guarantees no points in the corner at all. Oppenent can invade the 3-3 point and live there easily. So why is it one of the most common starting moves right now? See the end of the variation.];W[qc];B[pc];W[qd];B[qe];W[re];B[qf];W[rf];B[qg];W[pb];B[ob]
+;W[qb]
+;B[nc]SQ[pc][pd][qe][qf][qg][ob][nc]LB[qa:1][ra:2][sa:3][rb:4][sb:5][rc:6][sc:7][rd:8][sd:9][se:10]
+[oc:?][nd:?][od:?][ne:?][oe:?][pe:?][nf:?][of:?][pf:?][ng:?]
+[og:?][pg:?][nb:?]C[This variation is a bit out of fashion nowadays, but it clearly illustrates the difference between territory and influence.
 
-Black decided to enclose his corner but all the other letters would be perfectly good options too. And not only those.
+White is now safely alive with about 10 points of territory Black will not be able to take away. So how come black is also fine with this result? It is because while White made some guaranteed points in the corner, her group is now pretty much isolated from the rest of the board and will have not much of a further use. 
 
-Something like and around "H", while oldschool, is also playable.];W[qf]SQ[op][qp][oj][pd]LB[qg:A][qj:B][fq:C][ce:D]C[Now white approaches between the stones, to prevent black from building something too big too easily. Preventing a comfortable "double enclosure" of a single corner is often prioritized as the biggest move. It is not the only possibility though. White could try building something just as big, as her corners were not contested so far, but remember that black had the first move, so he will always be a step ahead in building.
+Black has no real points so far, but has the strength and chance to fight for a lot of them at the center of the board. His "wall" basically already forms one/two sides of a potentially even bigger center territory.
 
-A, B (oldschool), C, D, are but a few of the other possibilities.];B[qi]SQ[qi][oi][op][qp][ol][oq]C[Black would now probably try attacking that stone a little to try and develop something as quickly as possible, but who knows. There are thousands of options and a similar thought process will happen in all the other corners. When all corners are "settled" players will start developing sides and center. Now it may be time for you to go and try your own game or maybe check out beginner tips first?])
+That's why the result is considered more or less fair for both sides.])
