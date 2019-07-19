@@ -77,7 +77,5 @@ Who wrote a portion of the texts, spent his evenings crawling through heaps of m
 {{< black "Joshua Batson" >}}<br> 
 Who also helped immensely with the texts, and was an endless source of inspiration and ideas for new features.
     <br><br>
-{{< black "AdamR" >}}<br> 
-The buck stops with him and he wouldn't have it any other way. Always quick to credit others while doing the Lion King's share himself. George Bernard Shaw said, “There are those that look at things the way they are, and ask why? I dream of things that never were, and ask why not?” That's why the Go community is so lucky to have AdamR actually make things happen.  Thankyou AdamR.   (Ed.)
 
   {{< /wrapper >}}  
