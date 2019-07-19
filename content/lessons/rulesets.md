@@ -2,8 +2,9 @@
 title: "Placing the Stones"
 date: 2019-03-31T10:07:35+02:00
 draft: false
+layout: info
 cookieSetting: "1"
-returnTo: "lessons/02"
+returnTo: "lessons/05#bottom"
 section: "index.html#rules"
 ---
 
