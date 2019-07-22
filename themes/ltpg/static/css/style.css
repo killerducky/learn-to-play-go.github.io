@@ -353,6 +353,7 @@ a[class*=button] {
 }
 @media only screen and (max-width:600px) {
 #board {
+	height: 400px;
 	-webkit-transform: scale(.63);
 	transform: scale(.63);
 	-webkit-transform-origin: -10% 0;
