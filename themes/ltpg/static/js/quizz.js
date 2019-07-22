@@ -213,7 +213,7 @@ TsumegoApi.prototype.setCoordinates = function(b) {
 TsumegoApi.default = {
 	movePlayed: undefined, // callback function of move played by a player
 	endOfVariation: undefined, // callback function for end of a variation (it can be solution of the problem or incorrect variation)
-	answerDelay: 1000, // delay of the answer (in ms)
+	answerDelay: 500, // delay of the answer (in ms)
 	enableWheel: false, // override player's setting
 	lockScroll: false, // override player's setting
 	enableKeys: false, // override player's setting
