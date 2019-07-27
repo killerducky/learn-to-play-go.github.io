@@ -239,14 +239,7 @@ var generate_dom = function() {
 	this.comment.className = "wgo-tsumego-comment";
 	this.top.appendChild(this.comment);
 	this.wrapper.appendChild(this.top);
-	
-	// board center part
-	this.center = document.createElement("div");
-	this.wrapper.appendChild(this.center);
-	this.center.appendChild(this.boardElement);
-	//console.log(this.center.offsetWidth);
-	this.board.setWidth(this.center.offsetWidth);
-	
+
 	// bottom part
 	this.bottom = document.createElement("div");
 	this.bottom.className = "wgo-tsumego-bottom";
@@ -289,6 +282,15 @@ var generate_dom = function() {
 	this.hintButton.innerHTML = "Hint"
 	this.hintButton.addEventListener("click", this.hint.bind(this));
 	this.hintWrapper.appendChild(this.hintButton);
+	
+	// board center part
+	this.center = document.createElement("div");
+	this.wrapper.appendChild(this.center);
+	this.center.appendChild(this.boardElement);
+	//console.log(this.center.offsetWidth);
+	this.board.setWidth(this.center.offsetWidth);
+	
+
 }
 
 /**
