@@ -1,16 +1,1 @@
-﻿(;FF[4]GM[1]VW[aa][ba][ca][da][ea][fa][ga][ha][ia][ja][ab][bb][cb][db][eb][fb]
-[gb][hb][ib][jb][ac][bc][cc][dc][ec][fc][gc][hc][ic][jc][ad][bd]
-[cd][dd][ed][fd][gd][hd][id][jd][ae][be][ce][de][ee][fe][ge][he]
-[ie][je][af][bf][cf][df][ef][ff][gf][hf][if][jf][ag][bg][cg][dg]
-[eg][fg][gg][hg][ig][jg][ah][bh][ch][dh][eh][fh][gh][hh][ih][jh]
-[ai][bi][ci][di][ei][fi][gi][hi][ii][ji][aj][bj][cj][dj][ej][fj]
-[gj][hj][ij][jj]SZ[9]ST[2]EV[N° 1 .|. Level #2]AB[ff][dc][eb][ec][dd][cd][de][df][dg][dh][eh][fi]AW[fb][fc][fd][ee][ge][ef][eg][fh][gi][fg]C[Make sure there is no stone in atari (danger of immediate capture).]
-(;B[ei]
-;W[gh]C[Very good. Then make sure that all the borders are clearly defined. There should be no place where the border is still open. Only territory that is FULLY surrounded can be counted.]
-(;B[ea]
-;W[fa]TE[1]C[Not perfect, but good enough. The game is now ready to be scored. But you could have played better (Playing F9 would have been an extra 2 points).])
-(;B[fa]
-;W[ga]C[Now there is a stone in atari again. Fix it.];B[ea]
-;W[gb]C[Great! Now the game is ready to be scored. And you played all the right moves.]TE[1]))
-(;B[gh]
-;W[ei]C[Oooops, well that did not go so well. Better try again.]))
+(;FF[4]GM[1]VW[aa][ba][ca][da][ea][fa][ga][ha][ia][ja][ab][bb][cb][db][eb][fb][gb][hb][ib][jb][ac][bc][cc][dc][ec][fc][gc][hc][ic][jc][ad][bd][cd][dd][ed][fd][gd][hd][id][jd][ae][be][ce][de][ee][fe][ge][he][ie][je][af][bf][cf][df][ef][ff][gf][hf][if][jf][ag][bg][cg][dg][eg][fg][gg][hg][ig][jg][ah][bh][ch][dh][eh][fh][gh][hh][ih][jh][ai][bi][ci][di][ei][fi][gi][hi][ii][ji][aj][bj][cj][dj][ej][fj][gj][hj][ij][jj]SZ[9]ST[2]EV[N° 1 .|. Level #2]AB[ff][dc][eb][ec][dd][cd][de][df][dg][dh][eh][fi]AW[fb][fc][fd][ee][ge][ef][eg][fh][gi][fg]C[Save the stone that is in atari (danger of immediate capture).]AP[Sabaki:0.43.3]CA[UTF-8](;B[ei];W[gh]C[Very good. Then make sure that all the borders are clearly defined. There should be no place where the border is still open. Only territory that is FULLY surrounded can be counted.](;B[ea];W[fa]TE[1]C[Not perfect, but good enough. The game is now ready to be scored but you could have played better (Playing F9 would have been an extra 2 points).])(;B[fa];W[ga]C[Now there is a stone in atari again. Fix it.];B[ea];W[gb]C[Great! Now the game is ready to be scored AND you played all the best moves.]TE[1]))(;B[gh];W[ei]C[Oooops, well that did not go so well. Better try again.])(;B[gf];W[ei]C[You've lost the stone at F1. Try again.]))
