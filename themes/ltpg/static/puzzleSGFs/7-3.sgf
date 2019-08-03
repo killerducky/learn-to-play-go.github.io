@@ -1,18 +1,3 @@
-(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AW[ca][cb][cc][bd][ag][bg][cg][cf][ce]AB[da][db][dc][cd][de][df][dg][dh][ch][bh][ah][dd]C[Cutting onto 2nd line can be REALLY tricky though. Sometimes you can get away with it by sacrificing one stone :)]
-(;B[bc];W[bb];B[be];W[ac]
-(;B[bf];W[ae]
-;B[af]C[Not bad, right? :)]TE[1])
-(;B[af]C[Not bad, right? :)]TE[1])
-(;B[ae]
-;W[ad]C[Not so good. Now you cant capture those white stones, just try.];B[bf];W[af]))
-(;B[be];W[ae]
-(;B[bf];W[af])
-(;B[bc];W[bf]
-(;B[bb]C[Not bad :)]TE[1])
-(;B[ac];W[bb]
-;B[ab]C[Yes, possiblle]TE[1];W[ad]
-;B[ba]TE[1])
-(;B[ba]C[Interesting choice, but it works! Good job.]TE[1])
-(;B[ab]TE[1]C[Yes, this move technically also works, though it can lead to some 
+(;GM[1]FF[4]AP[Sabaki:0.43.3]CA[UTF-8]SZ[9]AW[ca][cb][cc][bd][ag][bg][cg][cf][ce]AB[da][db][dc][cd][de][df][dg][dh][ch][bh][ah][dd]C[Cutting onto 2nd line can be REALLY tricky though. Sometimes you can get away with it by sacrificing one stone :)](;B[bc];W[bb];B[be];W[ac](;B[bf];W[ae];B[af]C[Not bad, right? :)]TE[1])(;B[af]C[Not bad, right? :)]TE[1])(;B[ae];W[ad]C[Not so good. Now you can't capture those white stones. Just try.];B[bf];W[af]))(;B[be];W[ae](;B[bf];W[af])(;B[bc];W[bf](;B[bb]C[Not bad :)]TE[1])(;B[ac];W[bb];B[ab]C[Yes, possible.]TE[1];W[ad];B[ba]TE[1])(;B[ba]C[Interesting choice, but it works! Good job.]TE[1])(;B[ab]TE[1]C[Yes, this move technically also works, though it can lead to some 
 complications. Maybe something simpler would be safer (or were 
 you just trying to trick me?)]))))
