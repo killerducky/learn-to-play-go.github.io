@@ -148,7 +148,7 @@ function checkCookies() {
     } else
 
     if (section1 == "5") {
-        document.getElementById("progressbar").innerHTML = "You are now a <span class='black'>go player</span>! Click here for your reward! (5/5)";
+        document.getElementById("progressbar").innerHTML = "You are now a <span class='black'>Go player</span>! Click here for your reward! (5/5)";
         document.getElementById("progressbar").style.background = "rgba(0,102,102,0.3)"
     }
 

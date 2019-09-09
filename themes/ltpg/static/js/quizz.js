@@ -318,16 +318,20 @@ Tsumego.prototype.updateTsumego = function(e) {
 	if(e.node.comment) this.setInfo(WGo.filterHTML(e.node.comment));
 	else this.comment.innerHTML = (this.turn == WGo.B ? "" : "")+"";
 	
-	if(e.node.children.length == 0) this.hintButton.disabled = "disabled";
-	else this.hintButton.disabled = "";
-	
-	if(!e.node.parent) {
+	if(e.node.children.length == 0){ 
+		this.hintButton.disabled = "disabled";
+		this.prevButton.disabled = "";
+		this.prevButton.style.background = "rgba(0,160,40,0.4)";
+		}
+	else{ 
+		this.hintButton.disabled = "";
 		this.prevButton.disabled = "disabled";
 		this.prevButton.style.background = "#ebebeb";
 	}
+	
+	if(!e.node.parent) {
+	}
 	else {
-		this.prevButton.disabled = "";
-		this.prevButton.style.background = "rgba(0,160,40,0.4)";
 		if(nmbr==nmbrQuestions-1){this.prevButton.innerHTML = "Show results";}
 	}
 	
@@ -424,7 +428,7 @@ function correct(attempt){
 
 function loadQuizz(which, what, board) {
     if (nmbr<nmbrQuestions){
-	var puzzletodisplay = "/puzzleSGFs/1/" + which + ".sgf";
+	var puzzletodisplay = "/puzzleSGFs/"  + batch + "/" + which + ".sgf";
     board.loadSgfFromFile(puzzletodisplay, 0);
 	
 	} else {
@@ -435,10 +439,10 @@ function loadQuizz(which, what, board) {
 		document.getElementById("tsumego_wrapper").innerHTML = "<div style='color: green; text-align: center; padding-top: 40%;'>Amazing, you got <span class='font-bold text-3xl'>everything right!</span> You can safely continue to some of the advanced chapters</div>"; 
 	} else {
 		if (corr>nmbrQuestions/2){
-		document.getElementById("tsumego_wrapper").innerHTML = "<div style='color: orange; text-align: center; padding-top: 40%;'><span class='font-bold text-3xl'>Not too bad!</span> You may want to review some of the issues <a href='../../lessons/solutions1' noreferrer noopener>here</a>, but if you want, you are also ready to continue to the more advanced topics.</div>";
+		document.getElementById("tsumego_wrapper").innerHTML = "<div style='color: orange; text-align: center; padding-top: 40%;'><span class='font-bold text-3xl'>Not too bad!</span> You may want to review some of the issues <a href='../../lessons/solutions"+batch+"' noreferrer noopener>here</a>, but if you want, you are also ready to continue to the more advanced topics.</div>";
 	} else {
 		{
-		document.getElementById("tsumego_wrapper").innerHTML = "<div style='color: darkred; text-align: center; padding-top: 40%;'><span class='font-bold text-3xl'>That could have gone better</span> You might want to review the problems <a href='../../lessons/solutions1' noreferrer noopener>here</a>.</div>";
+		document.getElementById("tsumego_wrapper").innerHTML = "<div style='color: darkred; text-align: center; padding-top: 40%;'><span class='font-bold text-3xl'>That could have gone better</span> You might want to review the problems <a href='../../lessons/solutions"+batch+"' noreferrer noopener>here</a>.</div>";
 	}}}}	
 }
 

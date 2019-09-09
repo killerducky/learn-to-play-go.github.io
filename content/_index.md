@@ -32,6 +32,8 @@ layout: test
       {{< buttonBlue target="/lessons/11/" id="11" img="/images/snapback.png" >}}{{< black SNAPBACK >}}{{< /buttonBlue >}}
       {{< buttonBlue target="/lessons/12/" id="12" img="/images/seki.png" >}}{{< black "SEKI (barely alive)" >}}{{< /buttonBlue >}}
       {{< buttonBlue target="/lessons/12_and_a_half/" id="gold" img="/images/under.png" extraCSS="hidden" inlineCSS="display: none;" >}}Playing {{< black UNDER >}} the stones{{< /buttonBlue >}}
+	  
+	  {{< buttonQuizz target="/quizzes/2/" id="q2" >}}Bonus quiz{{< /buttonBlue >}}
   {{< /wrapper >}}
 <!-- END OF BASIC TECHNIQUES -->
 

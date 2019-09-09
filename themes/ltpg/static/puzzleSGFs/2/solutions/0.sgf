@@ -1,0 +1,17 @@
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]MA[gg]AB[ea][fb][fc][ec][bd][dc][cd][hb]AW[bb][cb][db][eb][ba][ab][fa]C[This is an example of what we call a throw in. There is only one place where white can play to make 2 eyes. By playing it first, we deny her the possibility.]
+(;B[gg]
+;W[da]C[Too bad. It was possible to kill the whole white group.]LB[aa:1][ca:2])
+(;B[ga]
+;W[da]C[Not good enough, white has 2 eyes now.]LB[aa:1][ca:2])
+(;B[da]
+;W[ca]C[And even though it gets captured, it creates another situation where white has only one such place. Black has to take that option away again.]
+(;B[ga]
+;W[ea]C[Nope.])
+(;B[ea]
+;W[da]LB[ea:A]TE[1]MA[ba][ca][da][db][cb][bb][ab][eb][fa]C[And that's it.]))
+(;B[ac]
+;W[da]C[Not good enough, white has 2 eyes now.]LB[aa:1][ca:2])
+(;B[bc]
+;W[da]C[Not good enough, white has 2 eyes now.]LB[aa:1][ca:2])
+(;B[cc]
+;W[da]C[Not good enough, white has 2 eyes now.]LB[aa:1][ca:2]))

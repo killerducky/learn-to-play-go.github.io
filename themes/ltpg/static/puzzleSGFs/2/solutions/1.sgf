@@ -1,0 +1,13 @@
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AW[ac][bc][cc][dc][ca][ea][fb][ec][gc]AB[ab][bb][cb][db][eb]MA[gg]C[This exercise is just about reading ahead.  There are basically only two moves here to consider with very little branching. If you focus really hard, you should be able to visualize what happens if you play there. If you can't, well don't worry. It is an aquired skill. Try again next time.]
+(;B[ba]
+;W[da]C[B9 secured 1 eye and now white cannot take away the other one. Trying to do it will result in such a big capture that black will have two options for another eye.];B[fa]
+;W[ea]C[White can take away only one of those, leaving black with the back-up second option.];B[da]LB[aa:1][ca:2]C[All is good!]TE[1])
+(;B[da]
+;W[ba]C[In this position capturing E9 does not provide a real eye. Therefore white can just take away the only place where black could make 2 eyes. Just like you did in the previous exercise.]
+(;B[fa]
+;W[ga]C[Not too good. A is a false eye now and black is completely surrounded. The whole group will die.]MA[da][db][cb][bb][ab][eb][fa])
+(;B[aa]
+;W[fa]C[White did not even need that last move and Black still has only one eye. The whole group will die.]MA[aa][ab][bb][cb][db][eb][da]))
+(;B[fa];W[ga])
+(;B[gg]
+;W[da]MA[ab][bb][cb][db][eb]C[Too bad. It was possible to save your group.]))

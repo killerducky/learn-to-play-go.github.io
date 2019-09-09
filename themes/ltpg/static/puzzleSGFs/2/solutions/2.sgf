@@ -1,0 +1,13 @@
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AW[dd][cd][bc][cf][fc][gc][hd][id][hb][df][ef][eg]AB[dc][ed][fe][ge][he][dg][cg][fg][ff][eh][bg]C[Once you orient yourself on the board, it is easy to discover that A has only 1 way to connect to the rest of the stones. If white took it the stone would be probably lost.]LB[dc:A][ec:1]
+(;B[ec]
+;W[ee]LB[ee:1][fd:2]C[The situation after this move is almost identical. Black has some stones "connected" via a diagonal with one of the two places to connect already occupied by opponent. Black has to use the other one to stay connected.]
+(;B[fd]
+;W[dh]C[The last attempt is a bit different. Black still has stones "connected" via a diagonal move, but these are hard to cut apart as black can just quickly capture the cutting stone, because it is so close to the edge of the board.]
+(;B[fh]C[Perfect. All your stones remain safely connected.]TE[1];W[ch]C[White still cannot survive long enough];B[bh])
+(;B[ch]MA[dh]C[Perfect. All your stones remain safely connected.]TE[1]))
+(;B[dh];W[fd])
+(;B[fh];W[fd]))
+(;B[fd];W[ec])
+(;B[dh];W[ec])
+(;B[fh];W[ec])
+(;B[ee];W[ec]))

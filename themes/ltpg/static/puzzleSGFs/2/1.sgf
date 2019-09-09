@@ -1,7 +1,12 @@
-(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]C[First one is simple, capture the white stone with the next move.
-Since diagonal intersections do not count, this stone has only 1 liberty left.]LB[ef:2]
-(;B[ef]TE[1]C[Yup. But that was easy. Try the next one.])
-(;B[df]C[No. To be fair after this move white would not be able to escape, but I am asking you to CAPTURE with a single move.])
-(;B[ff]C[No. To be fair after this move white would not be able to escape, but I am asking you to CAPTURE with a single move.])
-(;B[eg]C[Yeah, yeah, very clever. Stop joking and capture with ONE move.])
-(;B[aa]TE[1]))
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AW[ac][bc][cc][dc][ca][ea][fb][ec][gc]AB[ab][bb][cb][db][eb]MA[gg]C[Now try and save your group. Remember you need to have a plan for 2 eyes. 1 is not enough to survive.
+Play X if you think the stones can't be saved.]
+(;B[ba];W[da];B[fa];W[ea]
+;B[da]LB[aa:1][ca:2]C[All is good!]TE[1])
+(;B[da];W[ba]
+(;B[fa]
+;W[ga]C[Not too good. A is a false eye now and black is completely surrounded. The whole group will die.]MA[da][db][cb][bb][ab][eb][fa])
+(;B[aa]
+;W[fa]C[White did not even need that last move and Black still has only one eye. The whole group will die.]MA[aa][ab][bb][cb][db][eb][da]))
+(;B[fa];W[ga])
+(;B[gg]
+;W[da]MA[ab][bb][cb][db][eb]C[Too bad. It was possible to save your group.]))

@@ -1,8 +1,18 @@
-(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]LB[ef:1]C[First one is simple, capture the white stone with the next move.
-Since diagonal intersections do not count, this stone has only 1 liberty left.]AB[ec][bd][bf][cf][ce][de][dd][gd]
-(;B[ef]TE[1]C[Yup. But that was easy. Try the next one.])
-(;B[df]C[No. To be fair after this move white would not be able to escape, but I am asking you to CAPTURE with a single move.])
-(;B[ff]C[No. To be fair after this move white would not be able to escape, but I am asking you to CAPTURE with a single move.])
-(;B[eg]C[Yeah, yeah, very clever. Stop joking and capture with ONE move.])
-(;B[aa]TE[1])
-(;B[db];W[dd]))
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]MA[gg]C[Can you kill White's group? Play X if you do not think so.]AB[ea][fb][fc][ec][bd][dc][cd][hb]AW[bb][cb][db][eb][ba][ab][fa]
+(;B[gg]
+;W[da]C[Too bad. It was possible to kill the whole white group.]LB[aa:1][ca:2])
+(;B[ga]
+;W[da]C[Not good enough, white has 2 eyes now.]LB[aa:1][ca:2])
+(;B[da]
+;W[ca]C[This (perhaps strange looking move) is correct. Even though your stones get captured, you took the only spot White needed for a second eye. Finish the deal.]
+(;B[ga]
+;W[ea]C[Nope.])
+(;B[ea]
+;W[da]LB[ea:A]TE[1]C[A is a false eye now and White has nowhere to get another one. 
+The whole group will eventually die.]MA[ba][ca][da][db][cb][bb][ab][eb][fa]))
+(;B[ac]
+;W[da]C[Not good enough, white has 2 eyes now.]LB[aa:1][ca:2])
+(;B[bc]
+;W[da]C[Not good enough, white has 2 eyes now.]LB[aa:1][ca:2])
+(;B[cc]
+;W[da]C[Not good enough, white has 2 eyes now.]LB[aa:1][ca:2]))
