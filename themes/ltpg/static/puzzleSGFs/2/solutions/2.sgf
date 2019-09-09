@@ -3,7 +3,7 @@
 ;W[ee]LB[ee:1][fd:2]C[The situation after this move is almost identical. Black has some stones "connected" via a diagonal with one of the two places to connect already occupied by opponent. Black has to use the other one to stay connected.]
 (;B[fd]
 ;W[dh]C[The last attempt is a bit different. Black still has stones "connected" via a diagonal move, but these are hard to cut apart as black can just quickly capture the cutting stone, because it is so close to the edge of the board.]
-(;B[fh]C[Perfect. All your stones remain safely connected.]TE[1];W[ch]C[White still cannot survive long enough];B[bh])
+(;B[fh]C[Perfect. All your stones remain safely connected.];W[ch]C[White still cannot survive long enough];B[bh]TE[1])
 (;B[ch]MA[dh]C[Perfect. All your stones remain safely connected.]TE[1]))
 (;B[dh];W[fd])
 (;B[fh];W[fd]))
