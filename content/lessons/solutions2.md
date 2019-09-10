@@ -18,7 +18,9 @@ puzzles:
 - id: pzl4
   target: 2/solutions/3
   text: Capture
-
+- id: pzl5
+  target: 2/solutions/3
+  text: Snapback
 ---
 
 # | Solutions to quiz #2

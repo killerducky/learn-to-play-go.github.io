@@ -1,0 +1,19 @@
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AB[eb][dc][dd][de][df][eg][ff][fe][gd][ea]AW[ef][ee][ed][ec][fb][gc][hc][hb][db][cb]MA[ec][ed][ee][ef]LB[fc:A][gd:1][fe:2]C[Even though White's stone appear to be connected (since Black cannot play at A without getting captured), it is not so. By capturing a stone at A White does not get a much needed extra liberty (because 1 and 2 are already occupied)...]
+(;B[fc]
+;W[fd]C[Meaning she is still in atari after the capture and thus cannot escape capture.];B[fc]TE[1]C[Snapback! I guess it was more about capturing white than saving 
+black, but at least you can see how often these two overlap.])
+(;B[fd];W[fc]
+(;B[da];W[ca]
+(;B[fa];W[ga])
+(;B[cc];W[fa])
+(;B[bb];W[fa])
+(;B[ba];W[fa]))
+(;B[fa];W[ga]
+(;B[ha];W[da])
+(;B[cc];W[da])
+(;B[bb];W[da]))
+(;B[cc];W[fa]
+(;B[bb];W[da])
+(;B[da];W[ca])))
+(;B[gg]
+;W[fc]C[Nope, it was possible to save them.]))

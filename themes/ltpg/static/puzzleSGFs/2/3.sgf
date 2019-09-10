@@ -1,9 +1,11 @@
 (;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AW[fd][fe][ce][gc][gb][ga][hd][id][ib]AB[ed][fc][gd][ge][gf][fb]C[Capture White's cutting stones.]
-(;B[ff];W[ee];B[de];W[ef];B[eg];W[df]
+(;B[ff];W[ee]
+(;B[de];W[ef];B[eg];W[df]
 (;B[cf]
 ;W[dd]C[Does not work like this.])
 (;B[dg]
 ;W[cf]C[Does not work like this.]))
+(;B[ef];W[de]))
 (;B[ef];W[ee];B[de];W[dd]
 ;B[ff]C[Very nice a net!]TE[1])
 (;B[ee];W[ff];B[fg];W[ef];B[df]
