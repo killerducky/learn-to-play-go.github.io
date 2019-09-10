@@ -9,7 +9,12 @@
     <script>
 	var tsumego = new WGo.Tsumego(document.getElementById("tsumego_wrapper"), {
         sgfFile: "/puzzleSGFs/{{index $.Page.Params.batch}}/0.sgf",
-        allowIllegalMoves: true,
+        
+			{{with .Get "illegal"}}
+		allowIllegalMoves: true, 
+			{{ end }}
+		
+		
     });
     tsumego.setCoordinates(true);
 	</script>

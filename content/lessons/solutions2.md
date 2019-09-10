@@ -19,7 +19,7 @@ puzzles:
   target: 2/solutions/3
   text: Capture
 - id: pzl5
-  target: 2/solutions/3
+  target: 2/solutions/4
   text: Snapback
 ---
 
