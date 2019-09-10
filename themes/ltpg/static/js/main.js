@@ -264,33 +264,35 @@ function checkCookies() {
     }
 
 
-    if (section3 == "7") {
+    if (section3 == "0") {
         document.getElementById("progressbar3").innerHTML = "Learn them <span class='black'>all</span> one by one (0/5)";
     } else
 
-    if (section3 == "7") {
+    if (section3 == "1") {
         document.getElementById("progressbar3").innerHTML = "This says <span class='black'>one</span> out of five -> (1/5)";
 		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 20%, rgba(202,202,202,1) 20%)";
 	} else
 
-    if (section3 == "7") {
+    if (section3 == "2") {
         document.getElementById("progressbar3").innerHTML = "<span class='black'>Getting there </span>(2/5)";
 		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 40%, rgba(202,202,202,1) 40%)";
     } else
 
-    if (section3 == "7") {
+    if (section3 == "3") {
         document.getElementById("progressbar3").innerHTML = "You have <span class='black'>almost</span> exhausted all my knowledge! (3/5)";
 		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 60%, rgba(202,202,202,1) 60%)";
     } else
 
-    if (section3 == "7") {
+    if (section3 == "4") {
         document.getElementById("progressbar3").innerHTML = "One <span class='black'>last</span> thing! (4/5)";
 		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 80%, rgba(202,202,202,1) 80%)";
-    if (section3 == "7") {
-        document.getElementById("progressbar3").innerHTML = "Now you are <span class='black'>on your own</span>! Click here for your reward! (" + (0 + thirteen + fourteen + fifteen + sixteen + seventeen) + "/5)";
+    } else
+		
+	if (section3 == "5") {
+        document.getElementById("progressbar3").innerHTML = "Now you are <span class='black'>on your own</span>! Click here for your reward! (5/5)";
         document.getElementById("progressbar3").style.background = "rgba(0,102,102,0.3)"
     }
-	}
+	
 }
 
 	//Uncollapse visited sections
@@ -389,9 +391,9 @@ function learn3() {
     } else if (progress[17] == "0") {
         window.location.href = "/lessons/17";
     } 
-	}	else {
+	else {
         window.location.href = "/lessons/reward3";
-	}
+	}}
 }
 
 
@@ -407,6 +409,9 @@ function reset() {
 		document.cookie = "rules=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
         document.cookie = "techniques=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
         document.cookie = "strategies=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+		document.cookie = "quiz1=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+		document.cookie = "quiz2=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+		document.cookie = "quiz3=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 		location.reload();
     } else {
         void 0
