@@ -1,1 +1,13 @@
-(;GM[1]FF[4]AP[Sabaki:0.43.3]CA[UTF-8]SZ[9]AB[ha][ib][ga][hc]AW[hd][id][fa][fb][fd][fc][ge]C[A little harder to see now but you can do it! Save your group. Remember, you somehow need to get two separate eyes.](;B[gb];W[gc]C[Perfect start! J9 and H8 will form the eyes but White keeps up the pressure. You need one more move. Play A9 to see what happens if you play elsewhere.](;B[ic]C[Right on! Now White can't endanger Black in any way.]TE[1])(;B[aa];W[ic]C[See now? The H7 stone is not really connected to your group. Now White can put it into atari and ruin your eye.];B[hb];W[ia]))(;B[ic];W[gb]C[Ah-oh. Where will you get your second eye now? You need te be efficient. There is no time to waste.](;B[gc];W[hb])(;B[hb];W[gc]C[Just one eye. White can now capture at any time.]))(;B[gc];W[gb];B[hb]C[Still just one eye. White can surround and then capture now.]))
+(;GM[1]FF[4]AP[Sabaki:0.43.3]CA[UTF-8]SZ[9]AB[ha][ib][ga][hc]AW[hd][id][fa][fb][fd][fc][ge]C[A little harder to see now but you can do it! Save your group. Remember, you somehow need to get two separate eyes.]
+(;B[gb]
+;W[gc]C[Perfect start! J9 and H8 will form the eyes but White keeps up the pressure. You need one more move. Play A9 to see what happens if you play elsewhere.]MA[aa]
+(;B[ic]C[Right on! Now White can't endanger Black in any way.]TE[1])
+(;B[aa]
+;W[ic]C[See now? The H7 stone is not really connected to your group. Now White can put it into atari and ruin your eye.];B[hb];W[ia]))
+(;B[ic]
+;W[gb]C[Ah-oh. Where will you get your second eye now? You need te be efficient. There is no time to waste.]
+(;B[gc];W[hb])
+(;B[hb]
+;W[gc]C[Just one eye. White can now capture at any time.]))
+(;B[gc];W[gb]
+;B[hb]C[Still just one eye. White can surround and then capture now.]))

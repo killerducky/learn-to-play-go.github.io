@@ -9,7 +9,8 @@ returnTo: "index.html#what_now"
 # | Mistakes, mistakes everywhere
 ## And I mean everywhere...
 
-> The board is a mirror of the mind of the players as the moments pass. When a master studies the record of a game he can tell at what point greed overtook the pupil, when he became tired, when he fell into stupidity, and when the maid came by with tea.
+>  "Play every move as if it were the first in your life" - Sekiyama Riichi
+
 
 **And now you are on your own.**
 

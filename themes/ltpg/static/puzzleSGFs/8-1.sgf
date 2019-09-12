@@ -1,7 +1,12 @@
 (;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AW[ae][be][dc][eb][ea][cd]AB[ce][dd][ec][ee][cf][fc]C[White is getting SO MUCH points in the corner. If only there was a way to break through his border...]
 (;B[cc]
-;W[db]C[Double atari is the answer! Whichever stone white saves she/he is still in trouble. (And you get to capture the other)];B[bd]TE[1]C[Yup. Having a lot of diagonal stones can often be a problem, 
+;W[db]C[Double atari is the answer! Whichever stone white saves she/he is still in trouble. (And you get to capture the other)]
+(;B[bd]TE[1]C[Yup. Having a lot of diagonal stones can often be a problem, 
 because there is so many places to cut them.])
+(;B[cb]
+;W[bd]TE[1]C[You are getting way too clever for this tutorial. Yes, this also works and Black will capture first, but try to keep it simple. :)])
+(;B[bc]
+;W[bd]TE[1]C[You are getting way too clever for this tutorial. Yes, this also works and Black will capture first, but try to keep it simple. :)]))
 (;B[bd]
 ;W[cc]C[This only threatened one stone. White can save it.];B[bc];W[bb]
 (;B[cb];W[db];B[ab];W[ba]

@@ -6,7 +6,12 @@
 (;B[ad];W[aa])
 (;B[fa]
 ;W[fd]C[Correct! This is a good first step. This is also a ko (just on the edge of the board). Your stone is in atari, but White cannot recapture right away. She must play somewhere else at least once.]
-(;B[ia]TE[1]C[An easy win for Black! Quickly check out Puzzle 3 to see how it 
-may get even scarier.])
+(;B[ia]TE[1]C[An easy win for Black! Quickly check out Puzzle 3 to see how it may get even scarier.])
 (;B[ea]
-;W[aa]C[Oh no! You just made White very happy. Be more careful next time.])))
+;W[aa]C[Oh no! You just made White very happy. Be more careful next time.])
+(;B[gd]
+;W[ea]C[Not a good choice! Now White get's to recapture the ko and since Black cannot retake E4 immediately, White will just probably capture all your stones after next move.])
+(;B[hd]
+;W[ea]C[Not a good choice! Now White get's to recapture the ko and since Black cannot retake E4 immediately, White will just probably capture all your stones after next move.])
+(;B[ed]
+;W[ea]C[Not a good choice! Now White get's to recapture the ko and since Black cannot retake E4 immediately, White will just probably capture all your stones after next move.])))

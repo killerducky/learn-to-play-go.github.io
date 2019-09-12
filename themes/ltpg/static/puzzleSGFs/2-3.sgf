@@ -1,8 +1,20 @@
 (;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AW[ia][fa][ea]AB[id][ie]C[Sides and especially corners can be very tricky! Any stone at the edge of the board is already shorter on liberties. Capture the white stone. This time more than one move will be required.]
-(;B[ha];W[ib];B[hb];W[ic]
+(;B[ha]
+;W[ib]C[To reduce the stone to 1 liberty first (while blocking access to White's other stones) is the right idea! Now finish the deal.]
+(;B[hb];W[ic]
 ;B[hc]TE[1]C[That's the way, very good! At the edge of the board it is hard to 
 find more liberties.])
+(;B[hc]
+;W[hb]C[Interesting idea! But now White gets the time (has the extra liberty) to counter attack.]
+(;B[ga];W[gb])
+(;B[gb];W[ga];B[ic]
+;W[ha]C[Good attempt, but White managed to safely connect to her other stones.])
+(;B[gc]
+;W[gb]C[White is now safe.])))
 (;B[ib];W[ha];B[hb]
 ;W[ga]C[No, this way White gets to connect to her other stones])
 (;B[hb]
-;W[ha]C[Good idea! But it does not work here, White's other stones are too close.]))
+;W[ha]C[Good idea! But it does not work here, White's other stones are too close.]
+(;B[ib]
+;W[ga]C[White is safely connected.])
+(;B[ga];W[gb])))
