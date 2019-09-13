@@ -16,6 +16,7 @@ layout: test
       {{< buttonBlue target="/lessons/05/" id="5" img="/images/pass.png" >}}{{< black PASS >}} and {{< black COUNT >}} the score{{< /buttonBlue >}}
 	  
 	  {{< buttonQuizz target="/quizzes/1/" id="q1" >}}Bonus quiz{{< /buttonBlue >}}
+	  {{< buttonQuizz target="/lessons/faq/" id="faq" >}}FAQ{{< /buttonBlue >}}
   {{< /wrapper >}}
 <!-- END OF BASIC RULES -->
 
@@ -66,7 +67,7 @@ layout: test
 <!-- CREDITS -->
   {{< wrapper id="credits" title="| Who's behind this?"  >}}
   
-  This site was made for the love of the game and our community. If you found a mistake contact {{< externalLink target="https://online-go.com/user/view/360861" name="AdamR" >}} on the OGS, I will try to fix it as soon as possible.
+  This site was made for the love of the game and our community. If you found a mistake contact me ({{< externalLink target="https://online-go.com/user/view/360861" name="AdamR" >}}) on the OGS, I will try to fix it as soon as possible.
 
 My sincerest thanks to all the members of the OGS community who were very supportive in my efforts and kept trying to make it as good as possible. Most notably:<br><br> 
 
@@ -79,5 +80,7 @@ Who wrote a portion of the texts, spent his evenings crawling through heaps of m
 {{< black "Joshua Batson" >}}<br> 
 Who also helped immensely with the texts, and was an endless source of inspiration and ideas for new features.
     <br><br>
-
+<br><br>
+<p style="font-size: 12px;"> This website is small and I am lucky enough to be able to afford the costs of running it without trouble. However, if you REALLY like what we did, have nothing better to spend on and would like to make sure it stays online forever for other beginners, consider sending a dollar my way. Thank you.<br><br>
+<a href="https://www.paypal.me/AdamRuz" target="_blank" class="donateButton" noreferrer noopener>Donate</a>
   {{< /wrapper >}}  
