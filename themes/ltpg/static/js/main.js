@@ -425,7 +425,8 @@ function uncollapse(what) {
 		var append = "?id=" + what;
 		window.history.replaceState(null, null, window.location.pathname + append)
 	}  	else { 
-		document.getElementById(what).style.display="none"
+		document.getElementById(what).style.display="none";
+		window.history.replaceState(null, null, window.location.pathname)
 	}
 }
 
@@ -456,6 +457,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			if (id !== null) {
 						document.getElementById(id).style.display="inline-block";
 						document.getElementById(id).parentElement.style.background="rgba(197,48,48,.2)";
+						location.hash = "#" + id; 
 					}	
 			}
 			);
