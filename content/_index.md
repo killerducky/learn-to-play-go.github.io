@@ -74,13 +74,13 @@ My sincerest thanks to all the members of the OGS community who were very suppor
 {{< black "Lucas Westermann" >}}<br>
 Who managed the whole technical side of the project and patiently kept explaining what I need to press to make it all work.
 	<br><br>
-{{< black "Kosh " >}}(faith manages)<br> 
+{{< black "Kosh " >}}(Faith manages)<br> 
 Who wrote a portion of the texts, spent his evenings crawling through heaps of my horrible grammar and overall lifted the quality of the site monumentally.
 	<br><br>
 {{< black "Joshua Batson" >}}<br> 
 Who also helped immensely with the texts, and was an endless source of inspiration and ideas for new features.
     <br><br>
 <br><br>
-<p style="font-size: 12px;"> This website is small and for now I am lucky enough to be able to afford the costs of running it without trouble. However, if you REALLY like what we did, have nothing better to spend on, and would like to make sure it stays online forever for other beginners as well, consider sending a dollar my way. Thank you for even considering.<br><br>
+<p style="font-size: 12px;"> This website is small and for now I am lucky enough to be able to afford the costs of running it without trouble. However, if you REALLY like what we did, have nothing better to spend on, and would like to make sure it stays online for other beginners as well, consider sending a dolar my way. Thank you for even considering.<br><br>
 <a href="https://www.paypal.me/AdamRuz" target="_blank" class="donateButton" noreferrer noopener>Donate</a>
   {{< /wrapper >}}  

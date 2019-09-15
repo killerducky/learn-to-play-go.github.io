@@ -8,12 +8,13 @@ section: "index.html#rules"
 ---
 
 # | FAQ
-## Frequently asked questions about go rules and other stuff
+## Frequently asked questions about Go rules and other stuff
 
 > Some questions come up repeatadly (and quite naturally) when one is learning the game. If you are not sure about some situation, chances are you will find your answer below
 
 {{< extra "1" "Can't I just throw a random stone to opponent's territory and force him to capture it making him/her lose 4 points?" >}}
-	As you probably gathered - it does not work like that (otherwise everyone would be doing it.) As discussed in <a href="/lessons/05"><u>chapter 5</u></a> a stone that cannot survive is counted as a prisoner anyway (even if it remains on the board). Unless the stone is threatening some real harm or capture, your opponent can in fact just ignore the move and get +1 extra point for the prisoner you just gave him. If you then want to argue the stone is alive the game position may be played out, but the score is then counted from the original position after the two passes, not the played out version.
+	As you probably gathered - it does not work like that (otherwise everyone would be doing it). <br><br>
+	As discussed in <a href="/lessons/05"><u>chapter 5</u></a> a <b>stone that cannot survive is counted as a prisoner anyway</b> (even if it remains on the board). Unless the stone is threatening some real harm or capture, your opponent can in fact just ignore the move and get +1 extra point for the prisoner you just gave him. If you then want to argue the stone is alive the game position may be played out, but the score is then counted from the original position after the two passes, not the played out version.
 {{< /extra >}}
 
 {{< extra "2" "If there are groups at sort of an impasse (neither can capture the other) how is it scored?" >}}

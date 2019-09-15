@@ -1,4 +1,14 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+.sgfLink{
+	text-decoration: underline;
+}
+	
+.sgfLink:hover:after {
+    background: lightgrey;
+      content: attr(data-hover);
+      position: relative;
+	margin-left: 10px;
+    }
 
 .donateButton {
 	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
@@ -40,10 +50,6 @@
 	position:relative;
 	top:1px;
 }
-
-        
-
-
 
 .animateBackground{
 	transition: background 0.5s Ease-out;
@@ -270,7 +276,7 @@ body.index{
 
 .extra {
 	padding: 10px;
-	width: 80%;
+	width: 100%;
 	background-image: linear-gradient(90deg,rgba(48,197,48,.2), transparent);
 	font-size: 15px
 }

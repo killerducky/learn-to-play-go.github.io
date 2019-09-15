@@ -1,16 +1,16 @@
 (;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[19]C[Look through A-F which are the most common opening moves.]L[qc][pd][qd][pe][qe][jj]
-(;B[qc]C[The san-san (3-3) stone.
+(;B[qc]LB[pd:A]C[The san-san (3-3) stone.
 
 It was the traditional starting move a long time ago. Now it is a little out of fashion, but you can still see it every now and then.
 
-This stone secures only a small amount of territory in the corner (being so close) but is super safe. You do not have to worry about this stone and can concentrate on attacking/doing something else.]LB[pd:A];W[pd]C[One of the most common responses...];B[qd];W[pe];B[ob]
+This stone secures only a small amount of territory in the corner (being so close to the edge) but is super safe. You do not have to worry about this stone and can concentrate on attacking/doing something else.];W[pd]C[One of the most common responses...];B[qd];W[pe];B[ob]
 ;W[md]C[One of the possible follow-ups. White forces black to take a small corner and hopes for a bigger compensation towards side and center])
 (;B[pd]LB[qc:A]C[The hoshi (star point) stone.
 
 A fairly modern move that does not guarantee any points in the corner (opponent can invade 3-3 and live easily). It is saying, 'I will either get a huge corner or get enough compensation on the outside to make up for it'. If you are a more influence (big center moyo) oriented player this move is for you. 
 
 See A for the 3-3 invasion];W[qc]
-;B[pc]C[Black will block from either side];W[qd]C[From here there are many variations being played now. I will show you the most straightforward one.];B[qe]C[Black to try and enclose white in the corner.];W[re]
+;B[pc]C[Black will block from either side];W[qd]C[From here there are many variations being played now. I will show you the most straightforward one (even though it is a bit out of fashion nowadays).];B[qe]C[Black to try and enclose white in the corner.];W[re]
 ;B[qf]C[In special cases black can double hane here, but usually it is better not to.];W[rf]
 ;B[qg]C[White is already alive and can play elsewhere if she deems it more important.
 
