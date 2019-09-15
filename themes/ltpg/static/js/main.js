@@ -421,7 +421,9 @@ function reset() {
 function uncollapse(what) {
 	if (document.getElementById(what).style.display=="none")
 	{
-		document.getElementById(what).style.display="inline-block"
+		document.getElementById(what).style.display="inline-block";
+		var append = "?id=" + what;
+		window.history.replaceState(null, null, window.location.pathname + append)
 	}  	else { 
 		document.getElementById(what).style.display="none"
 	}
@@ -439,5 +441,22 @@ function hide(what) {
 	document.getElementById(what+"_open").style.display = "none";
 	document.getElementById(what+"_closed").style.display = "block";
 	document.getElementById(what).style.background = "rgba(0,120,82,0.1)";
-	setTimeout(function(){ document.getElementById(what).style.background = "none";; }, 500);
+	setTimeout(function(){ document.getElementById(what).style.background = "none"; }, 500);
 }
+
+var url = new URL(window.location); // or construct from 
+
+var query_string = url.search;
+
+var search_params = new URLSearchParams(query_string); 
+
+var id = search_params.get('id');
+
+document.addEventListener('DOMContentLoaded', function() {
+			if (id !== null) {
+						document.getElementById(id).style.display="inline-block";
+						document.getElementById(id).parentElement.style.background="rgba(197,48,48,.2)";
+					}	
+			}
+			);
+        
