@@ -1,4 +1,12 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+#title{
+	transition: all 0.2s;
+}
+
+#title:hover{
+	transform: translate(0px, 2px);
+}
+
 .sgfLink{
 	text-decoration: underline;
 }
@@ -90,9 +98,8 @@ body{
 }
 
 body.index{
-	background-image: url(../../images/1.png), url(../../images/pattern.png); background-position:top center;background-repeat:no-repeat,repeat;
+	background-image: url(../../images/1.png), url(../../images/pattern.png); background-position:top center; background-repeat:no-repeat,repeat;
 }
-
 
 .header{
 	height: 300px;
@@ -192,6 +199,24 @@ body.index{
 .button-blue:hover {
 	background-color: rgba(0,102,102,.4)
 }
+.button-misc {
+	display: inline-block;
+	width: 325px;
+	margin-top: 5px;
+	padding: 13px;
+	text-align: center;
+	background: rgba(120,120,120,.2);
+	cursor: pointer;
+	font-size: 20px;
+	vertical-align: middle;
+	transition: background-color 1s ease;
+	writing-mode: auto;
+	height: 2.5rem;
+	font-size: 12px;
+}
+.button-misc:hover {
+	background: rgba(120,120,120,.4);
+}
 .button-green {
 	display: inline-block;
 	width: 325px;
@@ -231,6 +256,15 @@ body.index{
 	transition: all 1s ease
 }
 @media (min-width:768px) {
+.button-misc {
+	font-size: 1.25rem;
+	height: 6.1rem;
+	background-position: 0 100%;
+	line-height: 1.25;
+	writing-mode: vertical-rl;	
+	width: 45px;
+	}
+
 .bad {
 	left: 50px
 }
@@ -404,6 +438,7 @@ a[class*=button] {
 	background-position: 0 100%;
 	line-height: 1.25
 }
+
 #board canvas {
 	margin-left: auto;
 	margin-right: auto;

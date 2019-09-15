@@ -16,7 +16,7 @@ layout: test
       {{< buttonBlue target="/lessons/05/" id="5" img="/images/pass.png" >}}{{< black PASS >}} and {{< black COUNT >}} the score{{< /buttonBlue >}}
 	  
 	  {{< buttonQuizz target="/quizzes/1/" id="q1" >}}Bonus quiz{{< /buttonBlue >}}
-	  {{< buttonQuizz target="/lessons/faq/" id="faq" >}}FAQ{{< /buttonBlue >}}
+	  {{< buttonMisc target="/lessons/faq/" id="faq" >}}FAQ{{< /buttonBlue >}}
   {{< /wrapper >}}
 <!-- END OF BASIC RULES -->
 

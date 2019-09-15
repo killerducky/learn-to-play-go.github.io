@@ -1,0 +1,5 @@
+{{ if .IsNamedParams}}
+<a href="{{ .Get "target" }}" class="button-misc" style="">
+    {{ .Inner }}
+</a>
+{{ end }}
