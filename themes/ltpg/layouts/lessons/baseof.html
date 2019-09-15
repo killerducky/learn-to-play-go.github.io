@@ -2,7 +2,7 @@
 <html>
     <head>
         {{- partial "head.html" . -}}
-        <title>{{ block "title" . }}Learn to play Go{{ end }}</title>
+        <title>{{ .Params.title }} | Learn to Play Go</title>
         {{ block "extraInlineCSS" . }}
         {{ end}}
         {{ block "extraJS" . }}
