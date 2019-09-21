@@ -3,7 +3,7 @@ title: "Placing the Stones"
 date: 2019-03-31T10:07:35+02:00
 draft: false
 cookieSetting: "1"
-returnTo: "lessons/02"
+returnTo: "index.html#rules"
 section: "index.html#rules"
 ---
 
@@ -29,7 +29,7 @@ section: "index.html#rules"
 {{< /extra >}}
 
 {{< extra "bent4" "What is the bent four rule?" >}}
-	It is a rule stating that a group in certain position is dead (under Japanese scoring) even though it may not look like it at first glance. It is causing a lot of confusion that comes from not exploring the position and confusion of terms. It is best explored on a board.<br><br>
+	It is a rule stating that a group in certain position is dead (under Japanese scoring) even though it may not look like it at first glance. It is causing a lot of confusion that comes from not exploring the position and confusion of terms. It is best explained on a board.<br><br>
 	Check out the example situation <a href="https://online-go.com/demo/view/414006" target="_blank" noreferrer noopener><u>here</u></a>.
 {{< /extra >}}
 
@@ -66,5 +66,5 @@ section: "index.html#rules"
 
 {{< extra "reaching-dan" "How long does it take to reach dan levels?" >}}
 	You probably do not want to hear this, but many players do not even reach dan level ever. For others it varies a lot.<br>
-	But to give you at least some framework - if you reached dan level within a year it would very impressive (though not unheard of).
+	But to give you at least some framework - if you reached dan level within a year it would be quite impressive (though not unheard of).
 {{< /extra >}}
