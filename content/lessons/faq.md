@@ -10,7 +10,7 @@ section: "index.html#rules"
 # | FAQ
 ## Frequently asked questions about Go rules and other stuff
 
-> Some questions come up repeatadly (and quite naturally) when one is learning the game. If you are not sure about some situation, chances are you will find your answer below
+> Some questions come up repeatadly (and quite naturally) when one is learning the game. If you are not sure about some situation, chances are you will find your answer below. You can link to any particular answer just by opening it up and then sharing the URL.
 
 **Questions about rules**
 
@@ -20,16 +20,16 @@ section: "index.html#rules"
 {{< /extra >}}
 
 {{< extra "seki" "If there are groups at sort of an impasse (neither can capture the other) how is it scored?" >}}
-	You are probably talking about "seki", in which case neither player gets nor loses any points for those groups (under Japanese scoring). It is further discussed in <a href="/lessons/12"><u>chapter 12</u></a>
+	You are probably talking about "seki", in which case neither player gets nor loses any points for those groups (under Japanese scoring). It is further discussed in <a href="/lessons/12"><u>chapter 12</u>.</a>
 {{< /extra >}}
 
 {{< extra "rulesets" "There are more rulesets in Go? What are the differences?" >}}
-	There are, but it does not really matter right now. The result is usually the same no matter what rules you played under.
+	There are, but it does not really matter most of the time. The result is usually the same no matter what rules you played under.
 	If you are super curious, check out the basic differences <a href="/lessons/rulesets"><u>here</u></a>.
 {{< /extra >}}
 
 {{< extra "bent4" "What is the bent four rule?" >}}
-	It is a rule stating that a group in certain position (under Japanese scoring) is dead even though it may not look like it at first glance. It is causing a lot of confusion that comes from not exploring the position and confusion of terms. It is best explored on a board.<br><br>
+	It is a rule stating that a group in certain position is dead (under Japanese scoring) even though it may not look like it at first glance. It is causing a lot of confusion that comes from not exploring the position and confusion of terms. It is best explored on a board.<br><br>
 	Check out the example situation <a href="https://online-go.com/demo/view/414006" target="_blank" noreferrer noopener><u>here</u></a>.
 {{< /extra >}}
 
@@ -48,7 +48,7 @@ section: "index.html#rules"
 {{< /extra >}}
 
 {{< extra "oldest-game" "I have heard that Go is the oldest board game in the world, is it true?" >}}
-	These claims are rather hard to verify, but there is probably some truth to them. As far as we know, Go is the Oldest board game still being played today (in more or less its original form).
+	These claims are rather hard to verify, but there is probably some truth to them. As far as we know, Go is the Oldest board game still being regularly played today (in more or less its original form).
 {{< /extra >}}
 
 {{< extra "go-vs-computers" "What was all the fuss about computers and Go?" >}}

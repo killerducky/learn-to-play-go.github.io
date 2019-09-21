@@ -1,5 +1,5 @@
 ---
-title: "Learn to Play Go"
+title: ""
 date: 2019-04-20T10:05:17+02:00
 draft: false
 layout: test
