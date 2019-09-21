@@ -24,4 +24,4 @@ section: "index.html#techniques"
  
 {{< tsumego >}}
 
-These are super advanced tricks and you have to see them way in advance to set them up. I would not worry too much about this actual technique. It was just a demonstration of how deep Go is and how you should, 'Expect the unexpected', as you discover Go...but you can't deny the coolness factor, can you? 
+These are super advanced tricks and you have to see them way in advance to set them up. I would not worry too much about this actual technique. It was just a demonstration of how deep Go is and how you should, 'expect the unexpected', as you discover Go... but you can't deny the coolness factor, can you? 
