@@ -54,7 +54,10 @@ section: "index.html#rules"
 {{< extra "go-vs-computers" "What was all the fuss about computers and Go?" >}}
 	For the longest time Go was the only remaining game in which computers were unable to beat top human players (and not for the lack of trying).<br><br>
 	This changed with the advent of neural networks and a program called AlphaGo (by Google) that managed to beat one of the very best players at the time (Lee Sedol) 4-1 in March 2016. Since then the strength of Go programs is something not achieavable by humans. 
-	
+{{< /extra >}}
+
+{{< extra "polite-move" "A polite first move" >}}
+	It is traditional to play the first move on the upper right corner (from your perspective) of the board. This way a player symbolically bows to their opponent (White is traditionally the stronger player) and makes the most expected second move (upper left corner) easy to play. This habit is still common, even in online play.	
 {{< /extra >}}
 
 <br>
