@@ -1,5 +1,6 @@
 (;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]C[Doesn't have to be a single stone either. Capture the five white stones. Be careful, it is a little trickier than before.]AW[de][ee][fe][fd][ec][ef]AB[ed][dd][ce][df][ff][fc][eg][fg]
-(;B[ge];W[gd];B[hd];W[gc]
+(;B[ge];W[gd]
+(;B[hd];W[gc]
 (;B[gb]
 ;W[fb]C[Ooops, you pushed your opponent into putting you in atari!])
 (;B[fb];W[cd];B[dc];W[cf]
@@ -7,6 +8,17 @@
 ;W[be]C[White is out.])
 (;B[be]
 ;W[dg]C[White is out])))
+(;B[gc]
+;W[hd]C[This way you did not catch the stones in a ladder. White is able to secure 3 liberties, can you still capture?]
+(;B[he]
+;W[cf]C[Atari];B[dg]
+;W[cd]C[And double atari. White will capture something and escape.])
+(;B[hc]
+;W[cf]C[Atari];B[dg]
+;W[cd]C[And double atari. White will capture something and escape.])
+(;B[id]
+;W[cf]C[Atari];B[dg]
+;W[cd]C[And double atari. White will capture something and escape.])))
 (;B[gd];W[ge];B[he];W[gf]
 (;B[gg];W[hf]
 (;B[hg];W[if]
