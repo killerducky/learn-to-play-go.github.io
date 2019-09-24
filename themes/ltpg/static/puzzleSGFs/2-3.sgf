@@ -1,9 +1,10 @@
-(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AW[ia][fa][ea]AB[id][ie]C[Sides and especially corners can be very tricky! Any stone at the edge of the board is already shorter on liberties. Capture the white stone. This time more than one move will be required.]
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AW[ia][fa][ea]AB[id][ie]C[Sides and especially corners can be very tricky! Any stone at the edge of the board is already shorter on liberties. Black to capture the white stone. This time more than one move will be required.]
 (;B[ha]
 ;W[ib]C[To reduce the stone to 1 liberty first (while blocking access to White's other stones) is the right idea! Now finish the deal.]
 (;B[hb];W[ic]
-;B[hc]TE[1]C[That's the way, very good! At the edge of the board it is hard to 
-find more liberties.])
+;B[hc]TE[1]C[That's the way! At the edge of the board it is hard to 
+find more liberties.
+<br><a class="puzzleNext" onclick="loadTsumego('2-2','pzl2',tsumego)">Next puzzle</a>])
 (;B[hc]
 ;W[hb]C[Interesting idea! But now White gets the time (has the extra liberty) to counter attack.]
 (;B[ga];W[gb])

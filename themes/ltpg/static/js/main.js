@@ -4,7 +4,7 @@ function loadTsumego(which, what, board) {
     //var tsumego = WGo.getElementById("tsumego_wrapper")
     board.loadSgfFromFile(puzzletodisplay, 0);
     //board.setCoordinates(true);
-    var puzzles=["pzl1", "pzl2", "pzl3", "pzl4", "pzl5", "pzl6", "pzl7", "pzl8", "pzl9", "pzl0"];
+    var puzzles=["pzl1", "pzl2", "pzl3", "pzl4", "pzl5", "pzl6", "pzl7", "pzl8", "pzl9", "pzl10"];
 
     puzzles.map((pzl) => {
         if(!!document.getElementById(pzl)) {
@@ -138,7 +138,7 @@ function checkCookies() {
     } else
 
     if (section1 == "3") {
-        document.getElementById("progressbar").innerHTML = "Wow, you are doing <span class='black'>great</span>! (3/5)";
+        document.getElementById("progressbar").innerHTML = "Doing <span class='black'>great</span>! (3/5)";
 		document.getElementById("progressbar").style.background = "linear-gradient(to right, " + goodColor + " 60%, rgba(202,202,202,1) 60%)";
     } else
 
@@ -201,7 +201,7 @@ function checkCookies() {
     } else
 
     if (section2 == "1") {
-        document.getElementById("progressbar2").innerHTML = "Off to the <span class='black'>advanced</span> topics already? Nice! (1/7)";
+        document.getElementById("progressbar2").innerHTML = "Off to the <span class='black'>advanced</span> topics already! (1/7)";
 		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 14%, rgba(202,202,202,1) 14%)";
     } else
 
@@ -211,12 +211,12 @@ function checkCookies() {
     } else
 
     if (section2 == "3") {
-        document.getElementById("progressbar2").innerHTML = "Wooah We're <span class='black'>almost half way</span> there! (3/7)";
+        document.getElementById("progressbar2").innerHTML = "<span class='black'>Almost half way</span> there! (3/7)";
 		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 43%, rgba(202,202,202,1) 43%)";
     } else
 
     if (section2 == "4") {
-        document.getElementById("progressbar2").innerHTML = "With this <span class='black'>pace</span> you may beat me one day! (4/7)";
+        document.getElementById("progressbar2").innerHTML = "With this <span class='black'>pace</span> you may actually beat me one day (4/7)";
 		document.getElementById("progressbar2").style.background = "linear-gradient(to right, " + goodColor + " 57%, rgba(202,202,202,1) 57%)";
     } else
 
