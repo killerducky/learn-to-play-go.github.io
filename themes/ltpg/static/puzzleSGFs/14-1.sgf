@@ -10,13 +10,14 @@ White just pushed with A. Could that be a bit of an endgame mistake?]
 (;B[da]
 ;W[ca]C[Yes, ignoring white's attack is absolutely essential.];B[ea]
 ;W[cb]C[White needs to protect here otherwise you can capture C9 so you get to keep sente!];B[ei];W[di];B[fi];W[dh]
-;B[ge]TE[1]C[And you even get to defend against the original attack. That's 
-how powerful good use of sente can be. Black wins!]LB[aa:1][ba:2][ab:3][bb:4][ac:5][bc:6][cc:7][ad:8][bd:9][ae:10]
+;B[ge]TE[1]LB[aa:1][ba:2][ab:3][bb:4][ac:5][bc:6][cc:7][ad:8][bd:9][ae:10]
 [be:11][ce:12][af:13][bf:14][fa:1][ga:2][ha:3][ia:4][fb:5][gb:6]
 [hb:7][ib:8][fc:9][id:14][ie:15][hf:16][if:17][gg:18][hg:19]
 [ig:20][gh:21][hh:22][ih:23][gi:24][hi:25][ii:26][gc:10][hc:11]
 [ic:12][gd:13][ah:19][bh:20][ch:21][ai:22][bi:23][ci:24][df:15]
-[ag:16][bg:17][dg:18])
+[ag:16][bg:17][dg:18]C[And you even get to defend against the original attack. That's 
+how powerful good use of sente can be. Black wins!
+<br><a class="puzzleNext" onclick="loadTsumego('14-2','pzl2',tsumego)">Next puzzle</a>])
 (;B[ge]
 ;W[fi]C[It is a natural response, right? Opponent attacked so you defend. Let's see how it ends.];B[gi];W[ei]
 (;B[gh];W[ea];B[fa];W[da]
@@ -61,13 +62,14 @@ how powerful good use of sente can be. Black wins!]LB[aa:1][ba:2][ab:3][bb:4][ac
 (;B[ei]
 ;W[di]C[Yes, ignoring white's attack is absoltely essential.];B[fi]
 ;W[dh]C[White needs to protect here otherwise you can capture C9 so you get to keep sente!];B[da];W[ca];B[ea];W[cb]
-;B[ge]TE[1]C[And you even get to defend against the original attack. That's 
-how powerfull good use of sente can be. Black wins!]LB[aa:1][ba:2][ab:3][bb:4][ac:5][bc:6][cc:7][ad:8][bd:9][ae:10]
+;B[ge]TE[1]LB[aa:1][ba:2][ab:3][bb:4][ac:5][bc:6][cc:7][ad:8][bd:9][ae:10]
 [be:11][ce:12][af:13][bf:14][fa:1][ga:2][ha:3][ia:4][fb:5][gb:6]
 [hb:7][ib:8][fc:9][id:14][ie:15][hf:16][if:17][gg:18][hg:19]
 [ig:20][gh:21][hh:22][ih:23][gi:24][hi:25][ii:26][gc:10][hc:11]
 [ic:12][gd:13][ah:19][bh:20][ch:21][ai:22][bi:23][ci:24][df:15]
-[ag:16][bg:17][dg:18])
+[ag:16][bg:17][dg:18]C[And you even get to defend against the original attack. That's 
+how powerfull good use of sente can be. Black wins!
+<br><a class="puzzleNext" onclick="loadTsumego('14-2','pzl2',tsumego)">Next puzzle</a>])
 (;B[ea]
 ;W[da]C[Too weak. You need to push the borders harder.];B[fi];W[ei]
 ;B[ge]C[You did manage to get sente in time but failed to push hard enough on the borders. Try again.]LB[aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9][ad:10]

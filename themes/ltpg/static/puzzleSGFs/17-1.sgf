@@ -49,7 +49,8 @@ The weakness at A is not a huge concern as even if black manages to break out th
 ;W[fi];B[gj];W[gi];B[ed];W[ec];B[lg];W[kh];B[ck];W[bk];B[cb]
 ;W[db];B[nf];W[bb];B[cd];W[dc];B[jp];W[gr];B[lq];W[kp];B[ir]
 ;W[iq];B[ks];W[js];B[jr];W[jq];B[is];W[hs];B[co];W[de];B[bg]
-;W[bi];B[ab];W[ba];B[df])
+;W[bi];B[ab];W[ba]
+;B[df]C[White resigned after this move.])
 (;W[nc];B[qd];W[rb]
 ;B[nd]C[Black just captures]))
 (;W[co]C[Aggresiive.];B[cr];W[dr];B[do];W[eo];B[dn]

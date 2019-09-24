@@ -2,11 +2,14 @@
 (;B[cc]
 ;W[db]C[Double atari is the answer! Whichever stone white saves she/he is still in trouble. (And you get to capture the other)]
 (;B[bd]TE[1]C[Yup. Having a lot of diagonal stones can often be a problem, 
-because there is so many places to cut them.])
+because there is so many places to cut them.
+<br><a class="puzzleNext" onclick="loadTsumego('8-2','pzl2',tsumego)">Next puzzle</a>])
 (;B[cb]
-;W[bd]TE[1]C[You are getting way too clever for this tutorial. Yes, this also works and Black will capture first, but try to keep it simple. :)])
+;W[bd]TE[1]C[You are getting way too clever for this tutorial. Yes, this also works and Black will capture first, but try to keep it simple. :)
+<br><a class="puzzleNext" onclick="loadTsumego('8-2','pzl2',tsumego)">Next puzzle</a>])
 (;B[bc]
-;W[bd]TE[1]C[You are getting way too clever for this tutorial. Yes, this also works and Black will capture first, but try to keep it simple. :)]))
+;W[bd]TE[1]C[You are getting way too clever for this tutorial. Yes, this also works and Black will capture first, but try to keep it simple. :)
+<br><a class="puzzleNext" onclick="loadTsumego('8-2','pzl2',tsumego)">Next puzzle</a>]))
 (;B[bd]
 ;W[cc]C[This only threatened one stone. White can save it.];B[bc];W[bb]
 (;B[cb];W[db];B[ab];W[ba]

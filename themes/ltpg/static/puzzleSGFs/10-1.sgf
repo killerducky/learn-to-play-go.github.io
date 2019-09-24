@@ -19,8 +19,11 @@
 (;B[ee];W[ed];B[fd]
 ;W[de]TE[1];B[df]TE[1]C[Oh yeah. You do not have to take away a liberty right away. Just 
 take away the possible escape routes. The capture itself can wait 
-for a bit. Patience!])
+for a bit. Patience!
+<br><a class="puzzleNext" onclick="loadTsumego('10-2','pzl2',tsumego)">Next puzzle</a>])
 (;B[fe];W[de];B[df];W[ef]
-;B[ee]C[Yes, this works too.]TE[1])
+;B[ee]TE[1]C[Yes, this works too.
+<br><a class="puzzleNext" onclick="loadTsumego('10-2','pzl2',tsumego)">Next puzzle</a>])
 (;B[ef];W[ed];B[fd];W[fe]
-;B[ee]C[Yes, this works too.]TE[1]))
+;B[ee]TE[1]C[Yes, this works too.
+<br><a class="puzzleNext" onclick="loadTsumego('10-2','pzl2',tsumego)">Next puzzle</a>]))

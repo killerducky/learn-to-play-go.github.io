@@ -1,7 +1,12 @@
 (;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AW[ed][ef][de][ff]AB[ee][hc]C[The shape where ladders start is usually something similar to this. (Just often with more stones around).
 Even one little stone can make all the difference though.
-Try saving your stone again.];B[fe];W[ge];B[fd]
+Try saving your stone again.]
+(;B[fe];W[ge];B[fd]
 ;W[fc]C[That little stone in the distance? We call it ladder breaker. And it makes all the difference in the world.];B[gd];W[hd];B[gc]
 ;W[gb]TE[1]C[By connecting to another stone you got that very needed extra 
 liberties. Now white is in a sea of trouble. Do you see all the upcoming 
-double ataris? :)])
+double ataris? :)
+<br><a class="puzzleNext" onclick="loadTsumego('9-3','pzl3',tsumego)">Next puzzle</a>])
+(;B[fd];W[fe])
+(;B[ge];W[fe])
+(;B[gd];W[fe]))

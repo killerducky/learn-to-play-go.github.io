@@ -1,3 +1,7 @@
-(;GM[1]FF[4]AP[Sabaki:0.43.3]CA[UTF-8]SZ[9]AB[ca][cb][cc][cd][bd][ad]AW[ac][bc][bb][ba]LB[aa:A][ab:B]C[In situations like these, you can play both A or B. While your stone can get captured with the next move, it is not against the rules, because whichever spot you choose the stone will have at least one liberty for the moment. Try it.](;B[aa];W[ab]C[As expected, your stone got captured but is it a bad result? Capture the whole White group.];B[aa]TE[1]C[Perfect. The last move captured something so it is not illegal 
-either. Black sacrificed one stone, but captured much more.])(;B[ab];W[aa]C[As expected, your stone got captured but is it a bad result? Capture the whole White group.];B[ab]TE[1]C[Perfect. The last move captured something so it is not illegal 
+(;GM[1]FF[4]AP[Sabaki:0.43.3]CA[UTF-8]SZ[9]AB[ca][cb][cc][cd][bd][ad]AW[ac][bc][bb][ba]LB[aa:A][ab:B]C[In situations like these, Black can play both A or B. While the placed stone can get captured with the next move, it is not against the rules, because whichever spot you choose the stone will have at least one liberty for the moment. Try it.]
+(;B[aa]
+;W[ab]C[As expected, your stone got captured but is it a bad result? Capture the whole White group.];B[aa]TE[1]C[Perfect. The last move captured something so it is not illegal 
+either. Black sacrificed one stone, but captured much more.])
+(;B[ab]
+;W[aa]C[As expected, your stone got captured but is it a bad result? Capture the whole White group.];B[ab]TE[1]C[Perfect. The last move captured something so it is not illegal 
 either. Black sacrificed one stone, but captured much more.]))

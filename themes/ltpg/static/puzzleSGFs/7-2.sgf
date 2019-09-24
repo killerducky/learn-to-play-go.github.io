@@ -2,12 +2,15 @@
 (;B[bf];W[ae]
 (;B[ad];W[bc]
 ;B[af]TE[1]C[Exactly. Stones so close to the edge have nowhere to run to gain 
-more liberties.])
+more liberties.
+<br><a class="puzzleNext" onclick="loadTsumego('7-3','pzl3',tsumego)">Next puzzle</a>])
 (;B[af];W[bc]
 (;B[ad]TE[1]C[Exactly. Stones so close to the edge have nowhere to run to gain 
-more liberties.])
+more liberties.
+<br><a class="puzzleNext" onclick="loadTsumego('7-3','pzl3',tsumego)">Next puzzle</a>])
 (;B[ac];W[ad]
-;B[bd]C[Very clever! Snapback.]TE[1]))
+;B[bd]TE[1]C[Very clever! Snapback.
+<br><a class="puzzleNext" onclick="loadTsumego('7-3','pzl3',tsumego)">Next puzzle</a>]))
 (;B[cf];W[bc]
 (;B[af];W[ad])
 (;B[ad];W[ac])))

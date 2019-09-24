@@ -1,1 +1,21 @@
-(;GM[1]FF[4]AP[Sabaki:0.43.3]CA[UTF-8]SZ[9]AB[ab][bb][cb][db][da]AW[ac][bc][cc][dc][eb][ea][fc]C[Let's start slowly again. Your group is in trouble but there is still time to save it! Do it now.](;B[ba]L[aa][ca]C[Nothing White can do now.   :)  Good job.]TE[1])(;B[aa];W[ba]C[Now what?];B[ca];W[ba]C[Try something different from the start.])(;B[ca];W[ba]C[Now what?];B[aa];W[ba]C[Try something different from the start.])(;B[ec]C[What are you trying you sneaky sneaker?];W[ba];B[fb];W[ed];B[fa];W[ec]C[Huh, did not work out so well, did it? Now your group will eventually die.])(;B[ed]C[What are you trying you sneaky sneaker?];W[ba];B[ec];W[ca]C[ATARI!](;B[aa];W[ba]C[Atari again.](;B[fb];W[ca];PL[B]AB[gc]C[Try a different way to save the original group but at least you got a little compensation. :)])(;B[ca];W[ba]C[Try a different way to save the group.]))(;B[fb];W[aa]C[Try a different way to save the original group.];PL[B]AB[gc]C[Try a different way to save the original group but at least you got a little compensation. :)])))
+(;GM[1]FF[4]AP[Sabaki:0.43.3]CA[UTF-8]SZ[9]AB[ab][bb][cb][db][da]AW[ac][bc][cc][dc][eb][ea][fc]C[Your black group is in trouble but there is still time to save it! Do it now.]
+(;B[ba]L[aa][ca]TE[1]C[Nothing White can do now.  :)
+<br><a class="puzzleNext" onclick="loadTsumego('6-2','pzl2',tsumego)">Next puzzle</a>])
+(;B[aa]
+;W[ba]C[Now what?];B[ca]
+;W[ba]C[Try something different from the start.])
+(;B[ca]
+;W[ba]C[Now what?];B[aa]
+;W[ba]C[Try something different from the start.])
+(;B[ec]C[What are you trying you sneaky sneaker?];W[ba];B[fb];W[ed];B[fa]
+;W[ec]C[Huh, did not work out so well, did it? Now your group will eventually die.])
+(;B[ed]C[What are you trying you sneaky sneaker?];W[ba];B[ec]
+;W[ca]C[ATARI!]
+(;B[aa]
+;W[ba]C[Atari again.]
+(;B[fb];W[ca]
+;PL[B]AB[gc]C[Try a different way to save the original group but at least you got a little compensation. :)])
+(;B[ca]
+;W[ba]C[Try a different way to save the group.]))
+(;B[fb]
+;W[aa]C[Try a different way to save the original group.];PL[B]AB[gc]C[Try a different way to save the original group but at least you got a little compensation. :)])))

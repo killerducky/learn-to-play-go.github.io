@@ -1,4 +1,4 @@
-(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[19]C[Look through A-F which are the most common opening moves.]L[qc][pd][qd][pe][qe][jj]
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[19]L[qc][pd][qd][jj]C[Look through A-D which are the most common opening moves. Not that there aren't other options, but you will not encounter them very often.]
 (;B[qc]LB[pd:A]C[The san-san (3-3) stone.
 
 It was the traditional starting move a long time ago. Now it is a little out of fashion, but you can still see it every now and then.
@@ -18,8 +18,6 @@ White got some points in the corner but his/her group will have very little effe
 (;B[qd]C[The 3-4 (famous Shusaku opening move) is sort of a compromise between the 3-3 and 4-4
 
 Saying, 'I want a moderate ammount of territory in the corner but I want to have some influence on the center as well.'])
-(;B[pe]C[These moves are also not THAT popular, but still playable. A very center oriented opening. Black is unlikely to get anything in the corner.])
-(;B[qe]C[Quite similar to D but threatening a big corner should white not act soon.])
 (;B[jj]C[Tengen (center point) is often laughed at as "I don't know what I am doing" move, but it can have it's perks and was also seen in professional games at some point.
 
 It is the move should black want to play mirror go, and also can be beneficial for "fighting style" as most ladders will now be good for black (the black stone is a ladder breaker for any ladder headed to the center)]))

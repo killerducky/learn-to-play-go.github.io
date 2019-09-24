@@ -10,11 +10,11 @@ Now mind you, had there been a white stone at A the triangle would not be empty 
 ;B[lh]C[You sacrificed a stone but are still connected])
 (;W[jg];B[kg];W[ji];B[lh];W[ih]
 ;B[ki]C[You sacrificed a stone but are still connected]))
-(;B[ij]C[Unless under tough attack by white, this is extremely slow and over-concentrated.])
+(;B[ij]C[An okay move if the stones are under attack and need liberties. But otherwise it is probably too slow and over-concentrated.])
 (;B[ck]LB[di:O][dh:O][cj:X]C[A tiger's mouth.
-A shape like this is very strong, but inefficient. It usually appears as an answer to some sort of attack or to protect a cut while developing a little further. X also has a good potential to become an eye, especially when close to a wall.
+A shape like this is very strong. It usually appears as an answer to some sort of attack or to protect a cut while developing a little further. X also has a good potential to become an eye, especially when close to a border.
 
-Had there for example been two white stones at O threatening the cut at X this move could be considered as defensive measure while still bringing a bit more developement than simple connection.])
+Had there for example been two white stones at O threatening the cut at X this move could be considered as defensive measure while still bringing a bit more developement than simple connection. But note that the tigers mouth usually leaves quite a ko-threat for your opponent. Sometimes a simple connection might be better.])
 (;B[ed]C[Possible in tough spots, but given the relative strength of a one space jump, you should often consider something faster.])
 (;B[ee]LB[dd:A];W[dd]C[This quite flexible shape comes up also often, but be mindfull of the double peep at A.];B[cd]C[Black can only protect one of the connections and given the right circumstances];W[de]
 ;B[df]LB[ef:X][cf:X]C[The other connection could be cut. White would need some supporting stones, but the attack is far from unthinkable.]))

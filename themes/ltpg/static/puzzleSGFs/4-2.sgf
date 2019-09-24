@@ -1,4 +1,4 @@
-(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AB[ba][ab][cb][ca][bb][db][da][eb][fc][gc][hc][ic]AW[fb][gb][ga][ha][hb][ib][ac][bc][cc][dc][ec][ea]MA[ba][ca][da][eb][db][cb][bb][ab]C[A lot more than capture of one stone can depend on the result of a ko. Let's check out this scary situation. Eight of your stones are in atari! Try to find a way to save them somehow.]
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]AB[ba][ab][cb][ca][bb][db][da][eb][fc][gc][hc][ic]AW[fb][gb][ga][ha][hb][ib][ac][bc][cc][dc][ec][ea]MA[ba][ca][da][eb][db][cb][bb][ab]C[A lot more than capture of one stone can depend on the result of a ko. Let's check out this scary situation. Eight of black stones are in atari! Try to find a way to save them somehow.]
 (;B[ed];W[aa])
 (;B[dd];W[aa])
 (;B[cd];W[aa])
@@ -6,7 +6,8 @@
 (;B[ad];W[aa])
 (;B[fa]
 ;W[fd]C[Correct! This is a good first step. This is also a ko (just on the edge of the board). Your stone is in atari, but White cannot recapture right away. She must play somewhere else at least once.]
-(;B[ia]TE[1]C[An easy win for Black! Quickly check out Puzzle 3 to see how it may get even scarier.])
+(;B[ia]TE[1]C[An easy win for Black! Check out Puzzle 3 to see how it may get even scarier.
+<br><a class="puzzleNext" onclick="loadTsumego('4-3','pzl3',tsumego)">Next puzzle</a>])
 (;B[ea]
 ;W[aa]C[Oh no! You just made White very happy. Be more careful next time.])
 (;B[gd]

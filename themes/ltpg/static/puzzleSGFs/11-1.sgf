@@ -2,4 +2,5 @@
 (;B[ee]
 ;W[de]C[Ummmmm, no.])
 (;B[de]
-;W[ee]C[Ahaaaa, white captured your stone. But does that help her/him in any way?];B[de]C[No. No it doesn't help white in any way. Very good.]TE[1]))
+;W[ee]C[Ahaaaa, white captured your stone. But does that help her/him in any way?];B[de]TE[1]C[No. No it doesn't help white in any way. Very good.
+<br><a class="puzzleNext" onclick="loadTsumego('11-2','pzl2',tsumego)">Next puzzle</a>]))

@@ -3,7 +3,8 @@
 ;B[dc]TE[1]C[When you cut something the first thing to expect is that 
 your cutting stone will get in atari (although it is often not the 
 best move for your opponent) so you need to be sure that the 
-stone can escape.])
+stone can escape.
+<br><a class="puzzleNext" onclick="loadTsumego('7-2','pzl2',tsumego)">Next puzzle</a>])
 (;B[fd];W[dd])
 (;B[dc];W[dd])
 (;B[cc];W[dd])
