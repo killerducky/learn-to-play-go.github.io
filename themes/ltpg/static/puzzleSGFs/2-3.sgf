@@ -4,7 +4,7 @@
 (;B[hb];W[ic]
 ;B[hc]TE[1]C[That's the way! At the edge of the board it is hard to 
 find more liberties.
-<br><a class="puzzleNext" onclick="loadTsumego('2-2','pzl2',tsumego)">Next puzzle</a>])
+<br><a class="puzzleNext" onclick="loadTsumego('2-4','pzl4',tsumego)">Next puzzle</a>])
 (;B[hc]
 ;W[hb]C[Interesting idea! But now White gets the time (has the extra liberty) to counter attack.]
 (;B[ga];W[gb])
