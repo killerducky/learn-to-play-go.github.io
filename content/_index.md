@@ -44,10 +44,11 @@ layout: test
     {{< progressbar id="progressbar3" onclick="learn3()" >}}Learn them {{< black all >}} one by one{{< /progressbar >}}
 
     {{< buttonBlue target="/lessons/13/" id="13" img="/images/opening.png" >}}What to do in the {{< black OPENING >}}{{< /buttonBlue >}}
-    {{< buttonBlue target="/lessons/14/" id="14" img="/images/endgame.png" >}}Is {{< black ENDGAME >}} important?{{< /buttonBlue >}}
-    {{< buttonBlue target="/lessons/15/" id="15" img="/images/shape.png" >}}Make some {{< black SHAPE >}}{{< /buttonBlue >}}
-    {{< buttonBlue target="/lessons/16/" id="16" img="/images/mistake.png" >}}Most common beginner {{< black MISTAKES >}}{{< /buttonBlue >}}
-    {{< buttonBlue target="/lessons/17/" id="17" img="/images/professional.png" >}}Understand a {{< black PROFESSIONAL >}} game{{< /buttonBlue >}}
+	
+    {{< buttonBlue target="/lessons/15/" id="15" img="/images/endgame.png" >}}Is {{< black ENDGAME >}} important?{{< /buttonBlue >}}
+    {{< buttonBlue target="/lessons/16/" id="16" img="/images/shape.png" >}}Make some {{< black SHAPE >}}{{< /buttonBlue >}}
+    {{< buttonBlue target="/lessons/17/" id="17" img="/images/mistake.png" >}}Most common beginner {{< black MISTAKES >}}{{< /buttonBlue >}}
+    {{< buttonBlue target="/lessons/18/" id="18" img="/images/professional.png" >}}Understand a {{< black PROFESSIONAL >}} game{{< /buttonBlue >}}
       
   {{< /wrapper >}}
 <!-- END OF BASIC STRATEGIES -->
@@ -56,10 +57,10 @@ layout: test
 <!-- WHAT NOW? -->
   {{< wrapper id="what_now" title="| What's next?" subtitle="Where can you use your newfound skill?" >}}
 
-    {{< buttonBlue target="/lessons/18/" id="18" img="/images/play.png" >}}Where can you {{< black PLAY >}}?{{< /buttonBlue >}}
-    {{< buttonBlue target="/lessons/19/" id="19" img="/images/learn.png" >}}Where can you {{< black LEARN >}} more?{{< /buttonBlue >}}
-    {{< buttonBlue target="/lessons/20/" id="20" img="/images/ask.png" >}}Where can you {{< black "ASK QUESTIONS" >}}?{{< /buttonBlue >}}
-    {{< buttonBlue target="/lessons/21/" id="21" img="/images/dictionary.png" >}}{{< black DICTIONARY >}} of Go terms?{{< /buttonBlue >}}
+    {{< buttonBlue target="/lessons/19/" id="19" img="/images/play.png" >}}Where can you {{< black PLAY >}}?{{< /buttonBlue >}}
+    {{< buttonBlue target="/lessons/20/" id="20" img="/images/learn.png" >}}Where can you {{< black LEARN >}} more?{{< /buttonBlue >}}
+    {{< buttonBlue target="/lessons/21/" id="21" img="/images/ask.png" >}}Where can you {{< black "ASK QUESTIONS" >}}?{{< /buttonBlue >}}
+    {{< buttonBlue target="/lessons/22/" id="22" img="/images/dictionary.png" >}}{{< black DICTIONARY >}} of Go terms?{{< /buttonBlue >}}
       
   {{< /wrapper >}}
   

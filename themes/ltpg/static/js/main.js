@@ -457,7 +457,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			if (id !== null) {
 						document.getElementById(id).style.display="inline-block";
 						document.getElementById(id).parentElement.style.background="rgba(197,48,48,.2)";
-						location.hash = "#" + id; 
+						location.hash = "#" + id + "1"; 
 					}	
 			}
 			);

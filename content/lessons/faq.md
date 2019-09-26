@@ -57,7 +57,7 @@ section: "index.html#rules"
 {{< /extra >}}
 
 {{< extra "polite-move" "A polite first move" >}}
-	It is traditional to play the first move on the upper right corner (from your perspective) of the board. This way a player symbolically bows to their opponent (White is traditionally the stronger player) and makes the most expected second move (upper left corner) easy to play. This habit is still common, even in online play.	
+	It is traditional to play the first move in the upper right corner (from your perspective) of the board. This way a player symbolically bows to their opponent (White is traditionally the stronger player) and makes the most expected second move (upper left corner) easy to play. This habit is still common, even in online play.	
 {{< /extra >}}
 
 <br>
