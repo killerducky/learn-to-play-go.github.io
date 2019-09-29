@@ -1,4 +1,4 @@
-(;GM[1]FF[4]AP[Drago:4.23]SZ[13]CA[UTF-8]AB[jj][kj][ci][dj][cc][ce]LB[ki:A][kh:B][kg:C][kf:D][ij:E][ck:F][ed:G][fd:I][ee:H]C[Let's have a look at some examples on what we can do with 3 stones (obviously the possibilities grow in number).]
+(;GM[1]FF[4]AP[Drago:4.23]SZ[13]CA[UTF-8]AB[jj][kj][ci][dj][cc][ce]C[Let's have a look at some examples on what we can do with 3 stones (obviously the possibilities grow in number).]LB[ki:A][kh:B][kg:C][kf:D][ij:E][ck:F][ed:G][ee:H]
 (;B[ki]LB[kj:X][ji:A]C[The empty triangle.
 A move so infamous it has a whole comic named after it. www.emptytriangle.com. This shape is widely regarded as one of the most horrible. It is ineficient. Without X those stones would still be connected by <a data-hover="Miai is a term used for two possible moves that achieve the same effect. If opponent plays one, you can always take the other." class="sgfLink">miai</a>. The X stone is now basically doing nothing aside of being useless. Also, it is surprisingly low on liberties. 
 
@@ -16,5 +16,6 @@ A shape like this is very strong. It usually appears as an answer to some sort o
 
 Had there for example been two white stones at O threatening the cut at X this move could be considered as defensive measure while still bringing a bit more developement than simple connection. But note that the tigers mouth usually leaves quite a ko-threat for your opponent. Sometimes a simple connection might be better.])
 (;B[ed]C[Possible in tough spots, but given the relative strength of a one space jump, you should often consider something faster.])
-(;B[ee]LB[dd:A];W[dd]C[This quite flexible shape comes up also often, but be mindfull of the double peep at A.];B[cd]C[Black can only protect one of the connections and given the right circumstances];W[de]
+(;B[ee]LB[dd:A]C[This quite flexible shape comes up also often, but be mindfull of the double peep at A.];W[dd]
+;B[cd]C[Black can only protect one of the connections and given the right circumstances];W[de]
 ;B[df]LB[ef:X][cf:X]C[The other connection could be cut. White would need some supporting stones, but the attack is far from unthinkable.]))
