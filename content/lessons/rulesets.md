@@ -38,10 +38,11 @@ Here, I will list the most important differences. There are some more technical 
 ⬤ Both surrounded empty intersections and the stones surrounding them count for points<br> 
 ⬤ Captured stones are worth nothing<br>
 ⬤ Suicide is allowed<br>
-⬤ Komi is 8 points on 19x19 (Game can be a draw)<br>
-
-**Ing rules**
-
 ⬤ Komi is 7 points on 19x19 (Game can be a draw)<br>
+
+**ING rules**
+
+⬤ Komi is 8 points on 19x19 (But Black wins in case of a tie)<br>
+⬤ Different ko rules, which we will not get into here (see ({{< externalLink target="https://senseis.xmp.net/?IngKoRule" name="Sensei's library" >}}) if you really want to know).
 
 *Otherwise same as New Zeland
