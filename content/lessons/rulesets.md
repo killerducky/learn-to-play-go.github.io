@@ -43,6 +43,6 @@ Here, I will list the most important differences. There are some more technical 
 **ING rules**
 
 ⬤ Komi is 8 points on 19x19 (But Black wins in case of a tie)<br>
-⬤ Different ko rules, which we will not get into here (see ({{< externalLink target="https://senseis.xmp.net/?IngKoRule" name="Sensei's library" >}}) if you really want to know).
+⬤ Different ko rules, which we will not get into here (see {{< externalLink target="https://senseis.xmp.net/?IngKoRule" name="Sensei's library" >}} if you really want to know).
 
 *Otherwise same as New Zeland
