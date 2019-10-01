@@ -9,11 +9,11 @@ layout: test
   {{< wrapper id="rules" title="| Basic rules" subtitle="Just 5 simple steps" hidden="1" >}}
     {{< progressbar id="progressbar" onclick="learn()" >}}Learn them {{< black all >}} one by one{{< /progressbar >}}
 
-      {{< buttonBlue target="/lessons/01/" id="1" img="/images/where.png" >}}{{< black WHERE >}} and {{< black HOW >}} we place the stones{{< /buttonBlue >}}
+      {{< buttonBlue target="/lessons/01/" id="1" img="/images/where.png" >}}The {{< black BOARD >}} and the {{< black STONES >}}{{< /buttonBlue >}}
       {{< buttonBlue target="/lessons/02/" id="2" img="/images/atari.png" >}}How can we {{< black CAPTURE >}} something?{{< /buttonBlue >}}
       {{< buttonBlue target="/lessons/03/" id="3" img="/images/suicide.png" >}}No {{< black SUICIDES >}} please{{< /buttonBlue >}}
       {{< buttonBlue target="/lessons/04/" id="4" img="/images/endless.png" >}}No {{< black "ENDLESS REPETITION">}} either{{< /buttonBlue >}}
-      {{< buttonBlue target="/lessons/05/" id="5" img="/images/pass.png" >}}{{< black PASS >}} and {{< black COUNT >}} the score{{< /buttonBlue >}}
+      {{< buttonBlue target="/lessons/05/" id="5" img="/images/pass.png" >}}{{< black END >}} of the game and {{< black COUNTING >}}{{< /buttonBlue >}}
 	  
 	  {{< buttonQuizz target="/quizzes/1/" id="q1" >}}Bonus quiz{{< /buttonBlue >}}
 	  {{< buttonMisc target="/lessons/faq/" id="faq" >}}FAQ{{< /buttonBlue >}}
@@ -75,12 +75,10 @@ My sincerest thanks to all the members of the OGS community who were very suppor
 {{< black "Lucas Westermann" >}}<br>
 Who managed the whole technical side of the project and patiently kept explaining what I need to press to make it all work.
 	<br><br>
-{{< black "Kosh " >}}(Faith manages)<br> 
-Who wrote a portion of the texts, spent his evenings crawling through heaps of my horrible grammar and overall lifted the quality of the site monumentally.
+{{< black "Kosh " >}}(Faith manages), {{< black "Joshua Batson" >}}<br> 
+Who both wrote a portion of the texts, spent their evenings crawling through heaps of my horrible grammar and overall lifted the quality of the site monumentally.
 	<br><br>
-{{< black "Joshua Batson" >}}<br> 
-Who also helped immensely with the texts, and was an endless source of inspiration and ideas for new features.
-    <br><br>
+This website uses ({{< externalLink target="http://jgoboard.com/" name="jGoBoard" >}}), and (very slightly modified) ({{< externalLink target="http://wgo.waltheri.net/" name="WGo" >}}) javascript libraries. 
 <br><br>
 <p style="font-size: 12px;"> This website is small and for now I am lucky enough to be able to afford the costs of running it without trouble. However, if you REALLY like what we did, have nothing better to spend on, and would like to make sure it stays online for other beginners as well, consider sending a dollar my way. Thank you for even considering.<br><br>
 <a href="https://www.paypal.me/AdamRuz" target="_blank" class="donateButton" noreferrer noopener>Donate</a>
