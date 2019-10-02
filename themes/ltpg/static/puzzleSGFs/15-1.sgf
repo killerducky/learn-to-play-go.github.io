@@ -17,7 +17,7 @@ White just pushed with A. Could that be a bit of an endgame mistake?]
 [ic:12][gd:13][ah:19][bh:20][ch:21][ai:22][bi:23][ci:24][df:15]
 [ag:16][bg:17][dg:18]C[And you even get to defend against the original attack. That's 
 how powerful good use of sente can be. Black wins!
-<br><a class="puzzleNext" onclick="loadTsumego('14-2','pzl2',tsumego)">Next puzzle</a>])
+<br><a class="puzzleNext" onclick="loadTsumego('1-2','pzl2',tsumego)">Next puzzle</a>])
 (;B[ge]
 ;W[fi]C[It is a natural response, right? Opponent attacked so you defend. Let's see how it ends.];B[gi];W[ei]
 (;B[gh];W[ea];B[fa];W[da]
@@ -69,7 +69,7 @@ how powerful good use of sente can be. Black wins!
 [ic:12][gd:13][ah:19][bh:20][ch:21][ai:22][bi:23][ci:24][df:15]
 [ag:16][bg:17][dg:18]C[And you even get to defend against the original attack. That's 
 how powerfull good use of sente can be. Black wins!
-<br><a class="puzzleNext" onclick="loadTsumego('14-2','pzl2',tsumego)">Next puzzle</a>])
+<br><a class="puzzleNext" onclick="loadTsumego('15-2','pzl2',tsumego)">Next puzzle</a>])
 (;B[ea]
 ;W[da]C[Too weak. You need to push the borders harder.];B[fi];W[ei]
 ;B[ge]C[You did manage to get sente in time but failed to push hard enough on the borders. Try again.]LB[aa:1][ba:2][ca:3][ab:4][bb:5][cb:6][ac:7][bc:8][cc:9][ad:10]
