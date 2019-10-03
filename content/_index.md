@@ -80,6 +80,6 @@ Who both wrote a portion of the texts, spent their evenings crawling through hea
 	<br><br>
 This website uses ({{< externalLink target="http://jgoboard.com/" name="jGoBoard" >}}), and (very slightly modified) ({{< externalLink target="http://wgo.waltheri.net/" name="WGo" >}}) javascript libraries. 
 <br><br>
-<p style="font-size: 12px;"> This website is small and for now I am lucky enough to be able to afford the costs of running it without trouble. However, if you REALLY like what we did, have nothing better to spend on, and would like to make sure it stays online for other beginners as well, consider sending a dollar my way. Thank you for even considering.<br><br>
+<p style="font-size: 12px;"> This website (and costs of running it) are small, and for now I am lucky enough to be able to afford the costs of running it without trouble. However, if you REALLY like what we did, have nothing better to spend on, and would like to make sure it stays online for other beginners as well, consider sending a dollar my way. Thank you for even considering.<br><br>
 <a href="https://www.paypal.me/AdamRuz" target="_blank" class="donateButton" noreferrer noopener>Donate</a>
   {{< /wrapper >}}  
