@@ -387,15 +387,17 @@ function learn3() {
 
     if (progress[13] == "0") {
         window.location.href = "/lessons/13";
-    } else if (progress[14] == "0") {
-        window.location.href = "/lessons/14";
+    //} else if (progress[14] == "0") {
+    //    window.location.href = "/lessons/14";
     } else if (progress[15] == "0") {
         window.location.href = "/lessons/15";
     } else if (progress[16] == "0") {
         window.location.href = "/lessons/16";
     } else if (progress[17] == "0") {
         window.location.href = "/lessons/17";
-    } 
+    } else if (progress[18] == "0") {
+        window.location.href = "/lessons/17";
+    }	
 	else {
         window.location.href = "/lessons/reward3";
 	}}
