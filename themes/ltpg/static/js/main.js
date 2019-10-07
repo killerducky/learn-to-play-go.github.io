@@ -243,10 +243,10 @@ function checkCookies() {
 		section3 = section3+1;
     }
 
-    if (progress[14] == "1") {
-        document.getElementById("14").className = "button-green";
-		section3 = section3+1;
-    }
+    //if (progress[14] == "1") {
+    //    document.getElementById("14").className = "button-green";
+	//	section3 = section3+1;
+    //}
 
     if (progress[15] == "1") {
         document.getElementById("15").className = "button-green";
@@ -260,6 +260,11 @@ function checkCookies() {
 
     if (progress[17] == "1") {
         document.getElementById("17").className = "button-green";
+		section3 = section3+1;
+    }
+	
+	if (progress[18] == "1") {
+        document.getElementById("18").className = "button-green";
 		section3 = section3+1;
     }
 
