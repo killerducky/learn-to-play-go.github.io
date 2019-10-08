@@ -396,11 +396,14 @@ function learn3() {
     } else if (progress[17] == "0") {
         window.location.href = "/lessons/17";
     } else if (progress[18] == "0") {
-        window.location.href = "/lessons/17";
-    }	
-	else {
+        window.location.href = "/lessons/18";
+    } else {
         window.location.href = "/lessons/reward3";
-	}}
+		setCookie('under', '1', '99');	
+	}}	
+	else {
+        window.location.href = "/lessons/13";
+	}
 }
 
 
