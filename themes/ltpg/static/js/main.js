@@ -329,6 +329,9 @@ function learn() {
 	if (progress != ""){
 		progress = JSON.parse(progress);
 	
+	if (progress[1] == "0") {
+        window.location.href = "/lessons/01";
+    } else
     if (progress[2] == "0") {
         window.location.href = "/lessons/02";
     } else
