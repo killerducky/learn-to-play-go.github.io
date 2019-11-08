@@ -67,6 +67,10 @@ section: "index.html#rules"
 	If you first need to gain some confidence before playing real humans, it is of course fine to test yourslef against a bot in a game or two. However, most of Go players agree that is not a good idea to play them for long. Most servers are full of complete beginners just like you, and many have strong players willing to help you out. Just play them. It is much more exciting, much more fun, and much better learning experience as they can also give you feedback.
 {{< /extra >}}
 
+{{< extra "switching-to-19x19" "When should I switch to 19x19 board?" >}}
+	My personal answer is whenever you want to, you can switch right now if you would really like. But there is no rush! It is important to realize that a lot changes on the big board. It is a much longer game, and there is much more possible moves to think about. If you are still having trouble with some of the basic concpets (like recognizing atari), it does not make much sense to introduce new troubles for yourself and spend 30 minutes on a game you are not yet completely sure how to play.
+{{< /extra >}}
+
 {{< extra "reaching-dan" "How long does it take to reach dan levels?" >}}
 	You probably do not want to hear this, but many players do not even reach dan level ever. For others it varies a lot.<br>
 	But to give you at least some framework - if you reached dan level within a year it would be quite impressive (though not unheard of).
