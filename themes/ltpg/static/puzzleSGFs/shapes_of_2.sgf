@@ -13,8 +13,11 @@ However, that also means that white may use either A or B as a forcing "free" mo
 (;B[fc]C[A two space jump.
 This is a daring move. If your original stone was not under pressure, it is a great way to try and claim territory (especially in the opening) and prepare some eye space. However, if there is more opponent's stones around, you cannot be sure you will be able to keep those stones connected.])
 (;B[gd]C[A knight's move.
-This is another good move (yeah basically any two stones shapes have a regular application). This move is often played to the third line. Those stones can be cut apart though (if ladder favours the other player), so beware. Do NOT use knight's jump for running away.]LB[ge:A];W[ge];B[fe];W[fd]
+This is another good move (yeah basically any two stones shapes have a regular application). This move is often played to the third line. Those stones can be cut apart though (if ladder favours the other player), so beware. Do NOT use knight's jump for running away.]LB[ge:A];W[ge]
+(;B[fe];W[fd]
 ;B[he]C[Near a border, black can safely ladder this stone and foil the separation attempt. If however the ladder worked for white (usually more in the center of the board), black could have a hard time.])
+(;B[fd]C[Black can also chose to extend here];W[fe];B[ee];W[gf];B[fg]
+;W[gg]MA[ed][ef]C[Which can lead to complicated fights that will depend heavily on the context. Black will be likely to get cut, but white can run into liberty shortage fast.]))
 (;B[dd]LB[ee:A]C[An elephant's move (a diagonal jump)
 Now this is a shape not outright bad, but difficult to apply correctly. These stones can be disconnected by playing at A and black will be unable to do anything about it. It can lead to complicated fights.];W[ee];B[df];W[ef];B[eg];W[de]
 ;B[ce]LB[dg:X][cf:X][fg:X][cd:X]C[White is down to 2 liberties, but I think you can see all the dangerous cuts and ataris.])
