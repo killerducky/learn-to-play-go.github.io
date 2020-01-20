@@ -2,10 +2,12 @@
 (;B[fe]C[An iron pillar.
 This is a good shape! These two stones can never be disconnected, unless surrounded they are very strong. 
 However, the development is kind of slow. If you wanted to surround a big chunk of territory you should have jumped a bit further. We usually resort to this move only when the original stone is under some sort of attack.])
-(;B[fd]LB[fe:A]C[A one space jump.
+(;B[fd]LB[fe:A]MA[ee][ge]C[A one space jump.
 This is a great shape. Those stones are very hard (though not impossible) to separate effectively. If you wanted to surround some territory this is much better choice than the solid extension. It is more efficient.
 
-This move is good for claiming territory and for running away from tight spaces.];W[fe]C[To try and separate the two stones, white must play here. It is rarely a good move withough a considerable support of other surrounding stones. White is placing a stone that has only 2 liberties and will immediately be in atari];B[ge];W[ee]
+This move is good for claiming territory and for running away from tight spaces.
+
+Be careful to play it however should there be an opponent's stone at any of the X spots. In those cases this is rarely a good move as your opponent can push and cut.];W[fe]C[To try and separate the two stones, white must play here. It is rarely a good move withough a considerable support of other surrounding stones. White is placing a stone that has only 2 liberties and will immediately be in atari];B[ge];W[ee]
 ;B[gf]LB[gd:A]C[Now black would chose which side to protect first. Black has a nice solid shape and white's group is low on libertis. To continue the attack white would have to cut at A again. A very tough fight for white. But should he/she have a lot of stones around, it is good to keep this possibility in mind.])
 (;B[ge]LB[fe:A][gf:B]C[A diagonal move.
 Another decent move, though often not efficient enough. Connection of these stones is easy to maintain. There is what we call "<a data-hover="Miai is a term used for two possible moves that achieve the same effect. If opponent plays one, you can always take the other." class="sgfLink">miai</a>" (two possibilities) for connection. If White tries to cut by playing A (even if he has more stones around) you can connect by playing B and vice versa.

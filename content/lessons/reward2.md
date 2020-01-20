@@ -1,5 +1,5 @@
 ---
-title: "Your first Go Reward"
+title: "Your second Go Reward"
 date: 2019-03-31T10:05:17+02:00
 draft: false
 layout: info

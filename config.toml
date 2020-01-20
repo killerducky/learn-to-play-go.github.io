@@ -3,3 +3,5 @@ languageCode = "en-us"
 title = "Learn to Play Go"
 
 theme = "ltpg"
+[markup.goldmark.renderer]
+unsafe= true

@@ -243,10 +243,10 @@ function checkCookies() {
 		section3 = section3+1;
     }
 
-    //if (progress[14] == "1") {
-    //    document.getElementById("14").className = "button-green";
-	//	section3 = section3+1;
-    //}
+    if (progress[14] == "1") {
+        document.getElementById("14").className = "button-green";
+		section3 = section3+1;
+    }
 
     if (progress[15] == "1") {
         document.getElementById("15").className = "button-green";
@@ -270,31 +270,36 @@ function checkCookies() {
 
 
     if (section3 == "0") {
-        document.getElementById("progressbar3").innerHTML = "Learn them <span class='black'>all</span> one by one (0/5)";
+        document.getElementById("progressbar3").innerHTML = "Learn them <span class='black'>all</span> one by one (0/6)";
     } else
 
     if (section3 == "1") {
-        document.getElementById("progressbar3").innerHTML = "This says <span class='black'>one</span> out of five -> (1/5)";
-		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 20%, rgba(202,202,202,1) 20%)";
+        document.getElementById("progressbar3").innerHTML = "This says <span class='black'>one</span> out of five -> (1/6)";
+		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 17%, rgba(202,202,202,1) 20%)";
 	} else
 
     if (section3 == "2") {
-        document.getElementById("progressbar3").innerHTML = "<span class='black'>Getting there </span>(2/5)";
-		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 40%, rgba(202,202,202,1) 40%)";
+        document.getElementById("progressbar3").innerHTML = "<span class='black'>Getting there </span>(2/6)";
+		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 34%, rgba(202,202,202,1) 40%)";
     } else
 
     if (section3 == "3") {
-        document.getElementById("progressbar3").innerHTML = "You have <span class='black'>almost</span> exhausted all my knowledge! (3/5)";
-		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 60%, rgba(202,202,202,1) 60%)";
+        document.getElementById("progressbar3").innerHTML = "<span class='black'>Half</span> way (3/6)";
+		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 51%, rgba(202,202,202,1) 60%)";
     } else
+	
+	if (section3 == "4") {
+        document.getElementById("progressbar3").innerHTML = "You have <span class='black'>almost</span> exhausted all my knowledge! (4/6)";
+        document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 68%, rgba(202,202,202,1) 80%)"
+    }
 
-    if (section3 == "4") {
-        document.getElementById("progressbar3").innerHTML = "One <span class='black'>last</span> thing! (4/5)";
-		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 80%, rgba(202,202,202,1) 80%)";
+    if (section3 == "5") {
+        document.getElementById("progressbar3").innerHTML = "One <span class='black'>last</span> thing! (5/6)";
+		document.getElementById("progressbar3").style.background = "linear-gradient(to right, " + goodColor + " 85%, rgba(202,202,202,1) 80%)";
     } else
 		
-	if (section3 == "5") {
-        document.getElementById("progressbar3").innerHTML = "Now you are <span class='black'>on your own</span>! Click here for your reward! (5/5)";
+	if (section3 == "6") {
+        document.getElementById("progressbar3").innerHTML = "Now you are <span class='black'>on your own</span>! Click here for your reward! (6/6)";
         document.getElementById("progressbar3").style.background = "rgba(0,102,102,0.3)"
     }
 	
@@ -390,8 +395,8 @@ function learn3() {
 
     if (progress[13] == "0") {
         window.location.href = "/lessons/13";
-    //} else if (progress[14] == "0") {
-    //    window.location.href = "/lessons/14";
+    } else if (progress[14] == "0") {
+        window.location.href = "/lessons/14";
     } else if (progress[15] == "0") {
         window.location.href = "/lessons/15";
     } else if (progress[16] == "0") {
@@ -401,8 +406,7 @@ function learn3() {
     } else if (progress[18] == "0") {
         window.location.href = "/lessons/18";
     } else {
-        window.location.href = "/lessons/reward3";
-		setCookie('under', '1', '99');	
+        window.location.href = "/lessons/reward3";	
 	}}	
 	else {
         window.location.href = "/lessons/13";

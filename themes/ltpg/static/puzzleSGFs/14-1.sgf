@@ -1,0 +1,33 @@
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[19]AB[df][cn][dp][ko][lq][oq][oo][qp][qf][pd][dk][dr][eq][cd][ci][bd]
+[dg]AW[jc][fq][fo][ip][iq][qn][pm][qk][qh][oh][nc][er][fr][ed][dc][cc]
+[gd]CR[nc]C[Consider this theoretical situation. Corners and sides are taken, where do you think should Black play, and who do you think is winning?]
+(;B[pb]TE[1]C[A perfect choice! Black is slightly ahead in this game and you just took away the only target White could have attacked.
+This was a weak group for Black.
+<br><a class="puzzleNext" onclick="loadTsumego('14-2','pzl2',tsumego)">Next puzzle</a>])
+(;B[pc]TE[1]C[A perfect choice! Black is slightly ahead in this game and you just 
+took away the only target White could have attacked.
+This was a weak group for Black.
+<br><a class="puzzleNext" onclick="loadTsumego('14-2','pzl2',tsumego)">Next puzzle</a>])
+(;B[oc]TE[1]C[A perfect choice! Black is slightly ahead in this game and you just 
+took away the only target White could have attacked.
+This was a weak group for Black.
+<br><a class="puzzleNext" onclick="loadTsumego('14-2','pzl2',tsumego)">Next puzzle</a>])
+(;B[qc]TE[1]C[A little too carefull perhaps, but still the right idea! Black was 
+slightly ahead on the board and now White does not have a weak 
+group to attack.
+This was a weak group for Black.
+<br><a class="puzzleNext" onclick="loadTsumego('14-2','pzl2',tsumego)">Next puzzle</a>])
+(;B[fp]
+;W[gp]C[This does not help Black in any way. White improved the security of that group and Black is left with a stone in atari. If Black protects, White will have sente. If Black lets that stone be captured, it will result in another even more severe atari.])
+(;B[gp]
+;W[fp]C[This is too crazy an attack for Black to try now. Black was winning and this attack does not seem to lead anywhere.])
+(;B[lc]
+;W[pc]MA[lc][pd][qf]C[This is an interesting idea, but not the best. Indeed the one white stone was not super strong, but now Black has two weak groups to take care of, while White only has one (the original stone). White will either live in the corner, or will get a decent attack on the pincering stone.];B[qc];W[qb]
+(;B[rb];W[pb]
+(;B[rd]
+;W[od]TR[lc]C[White is fine, your corner is now small and the black stone will get attacked.])
+(;B[qd]
+;W[ne]C[White is fine, your corner is now small and the black stone will get attacked.]))
+(;B[pb])
+(;B[oc];W[pb];B[ob]
+;W[qd]C[White will live in the corner comfortably.])))
