@@ -2,16 +2,20 @@
 [dc][cd][gc][cg][cf][qr][ql][ol][ob][pq]AW[cb][cc][ic][lc][nc][pp][qq][cn][cq][bp][bq][er][eq][dq][en][nd]
 [ie][qn][ck][bd][bb][ac][ci][rr][hb][rp][on]
 (;B[dd]TE[1]C[So simple, but so good. A solid connection preventing the 
-disconnection into two groups. Perfect.])
+disconnection into two groups. Perfect.
+<br><a class="puzzleNext" onclick="loadTsumego('14-3','pzl3',tsumego)">Next puzzle</a>])
 (;B[de]LB[ed:A]TE[1]C[Good, preventing the disconnection into two groups. White will 
-get a free peep at A, but it should not cause any major trouble.])
+get a free peep at A, but it should not cause any major trouble.
+<br><a class="puzzleNext" onclick="loadTsumego('14-3','pzl3',tsumego)">Next puzzle</a>])
 (;B[ed]
 ;W[ce]TE[1]C[A little bit weird, but still the correct idea. White gets some 
 forcing moves out of it, maybe it would be better to stick to a 
-simpler solution.])
+simpler solution.
+<br><a class="puzzleNext" onclick="loadTsumego('14-3','pzl3',tsumego)">Next puzzle</a>])
 (;B[ce]
 ;W[fe]C[Not that good. While will immediately get quite a strong attack on the group forcing Black to protect again without having too great eye potential. Black is unlikely to die outright, but White will profit from attacking.])
-(;B[ee]C[Fancy... Works too.]TE[1])
+(;B[ee]TE[1]C[Fancy... Works too.
+<br><a class="puzzleNext" onclick="loadTsumego('14-3','pzl3',tsumego)">Next puzzle</a>])
 (;B[nf]
 ;W[dd]C[Yes, it seems there is a lot of points to make, but not all Black's groups were safe. Now they are disconnected into two weak groups and they will suffer.])
 (;B[ng]
@@ -25,8 +29,14 @@ simpler solution.])
 (;B[cm]
 ;W[do]C[Nah, you only lost points and potential and did not fix the original problem.])
 (;B[dd]TE[1]C[Fair enough. Not sure what Black gained by the forcy move, but 
-fine.])
+fine.
+<br><a class="puzzleNext" onclick="loadTsumego('14-3','pzl3',tsumego)">Next puzzle</a>])
 (;B[de]TE[1]C[Fair enough. Not sure what Black gained by the forcy move, but 
-fine.])
-(;B[ed]TE[1]C[Fair enough. Not sure what Black gained by the forcy move, but fine.]))
+fine.
+<br><a class="puzzleNext" onclick="loadTsumego('14-
+3','pzl3',tsumego)">Next puzzle</a>])
+(;B[ed]TE[1]C[Fair enough. Not sure what Black gained by the forcy move, but 
+fine.
+<br><a class="puzzleNext" onclick="loadTsumego('14-
+3','pzl3',tsumego)">Next puzzle</a>]))
 (;W[de])))
