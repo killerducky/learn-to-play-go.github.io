@@ -68,7 +68,7 @@ layout: test
 <!-- CREDITS -->
   {{< wrapper id="credits" title="| Who's behind this?"  >}}
   
-  This site was made for the love of the game and our community. If you found a mistake contact me <b>({{< externalLink target="https://online-go.com/user/view/360861" name="AdamR" >}})</b> on the OGS, I will try to fix it as soon as possible.
+  This site was made for the love of the game and our community. If you found a mistake contact me <b>({{< externalLink target="https://online-go.com/user/view/360861" name="AdamR" >}})</b> on the OGS, I will try to fix it as soon as possible. The whole project is licensed under creative commons ({{< externalLink target="https://creativecommons.org/licenses/by-nc/4.0/" name="CC BY-NC 4.0" >}}) and you can download or help develop it on ({{< externalLink target="https://gitlab.com/Adam314159/hugo-ltpg" name="GitLab" >}}). 
 
 My sincerest thanks to all the members of the OGS community who were very supportive in my efforts and kept trying to make it as good as possible. Most notably:<br><br> 
 
