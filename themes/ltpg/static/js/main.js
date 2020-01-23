@@ -124,7 +124,7 @@ function checkCookies() {
     }
 	
     if (section1 == "0") {
-        document.getElementById("progressbar").innerHTML = "Learn them <span class='black'>all</span> one by one (0/5)";
+        document.getElementById("progressbar").innerHTML = "<span class='black'>Click here</span> to start the full course (0/5)";
     } else
 
     if (section1 == "1") {
@@ -197,7 +197,7 @@ function checkCookies() {
 
 
     if (section2 == "0") {
-        document.getElementById("progressbar2").innerHTML = "Learn them <span class='black'>all</span> one by one (0/7)";
+        document.getElementById("progressbar2").innerHTML = "<span class='black'>Click here</span> to start the full course (0/7)";
     } else
 
     if (section2 == "1") {
@@ -270,7 +270,7 @@ function checkCookies() {
 
 
     if (section3 == "0") {
-        document.getElementById("progressbar3").innerHTML = "Learn them <span class='black'>all</span> one by one (0/6)";
+        document.getElementById("progressbar3").innerHTML = "<span class='black'>Click here</span> to start the full course (0/6)";
     } else
 
     if (section3 == "1") {
