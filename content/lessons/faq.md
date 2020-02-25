@@ -33,8 +33,14 @@ section: "index.html#rules"
 	Check out the example situation <a href="https://online-go.com/demo/view/414006" target="_blank" noreferrer noopener><u>here</u></a>.
 {{< /extra >}}
 
+{{< extra "chinese-easier" "Is it true that under Chinese rules I can play inside my own territory or let my stones die without losing points (since captures are not worth anything)?" >}}
+	Well, yes and no (mostly not). This is a common misconception and a pet peeve of mine. The above statement is true <b>ONLY</b> under very specific conditions. When all stones are safe, all borders finished and every last neutral point (dame) taken, then (<b>AND ONLY THEN</b>) yes. But at this point it is usually too late to change anything (it makes scoring disputes much easier though). 
+	<br><br>Until the game arrives to this point playing inside your own territory or losing a stone <b>costs you a point under both rulesets.</b>. While Japanese rules specify that these actions are -1 point for you. Under Chinese rules you just do not get that extra point you get for any alive stone elsewhere on the board (because both territory and the surrounding stones count for points). The result is the same. You are one point shorter.  
+	
+{{< /extra >}}
 
 <br>
+
 **Questions about history and traditions**
 
 {{< extra "ranks" "What is kyu and dan / How do the traditional ranks work?" >}}
@@ -61,6 +67,7 @@ section: "index.html#rules"
 {{< /extra >}}
 
 <br>
+
 **Questions about learning**
 
 {{< extra "learning-with-bots" "Is it okay to start by playing bots?" >}}
