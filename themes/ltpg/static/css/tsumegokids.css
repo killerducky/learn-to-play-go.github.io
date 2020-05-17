@@ -3,6 +3,7 @@
 #preload-03 { background: url(/images/kids/check.png) no-repeat -9999px -9999px; }
 #preload-04 { background: url(/images/kids/play.png) no-repeat -9999px -9999px; }
 #preload-05 { background: url(/images/kids/yes.png) no-repeat -9999px -9999px; }
+#preload-06 { background: url(/images/kids/win.gif) no-repeat -9999px -9999px; }
 
 #victory{
 	transition: opacity 1s;
