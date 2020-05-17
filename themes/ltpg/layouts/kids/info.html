@@ -1,0 +1,10 @@
+{{ define "extraJS" }}
+{{ end }}
+    
+{{ define "body" }}
+{{ .Content }}
+{{ end }}
+
+{{ define "confirmation" }}
+        <br><center><a href="/{{ .Params.returnTo }}" class="button-green"><span class="black">Okay</span> let's go back</a></center>
+{{ end }}

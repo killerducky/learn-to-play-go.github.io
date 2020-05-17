@@ -1,0 +1,21 @@
+<div style="text-align: center; min-height: 550px; vertical-align: top;">
+
+    <br><br>
+    <p class="text-sm italic" style="margin-bottom: 0px; color: white;">Black's move</p>
+
+    <div class="tsumego" id="tsumego_wrapper" style="text-align: left;">
+    
+    Your browser sucks. Download something up to date.
+    </div>
+    
+    <script>
+    var tsumego = new WGo.Tsumego(document.getElementById("tsumego_wrapper"), {
+        sgfFile: "/puzzleSGFs/kids/empty.sgf", 
+		background: "#ffffff00", 
+			{{with .Get "show"}}
+		debug: true,  
+			{{ end }}
+    });
+    tsumego.setCoordinates(true);
+    </script>
+</div><br>

@@ -1,0 +1,15 @@
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9];B[ee]
+;W[de]C[That's perfect! Now try one of the four corners. <b style="color: orange;">Even the very 
+edges of the board can be played</b>.
+<img src="/images/0.png" onload="face('yes')" width="0" height="0">]
+(;B[aa]
+;W[ei]TE[1]C[Yes, you are amazing!
+<img src="/images/0.png" onload="youWin()" width="0" height="0">])
+(;B[ia]
+;W[ei]TE[1]C[Yes, you are amazing!
+<img src="/images/0.png" onload="youWin()" width="0" height="0">])
+(;B[ii]C[Yes, you are amazing!];W[ei]TE[1]C[Yes, you are amazing!
+<img src="/images/0.png" onload="youWin()" width="0" height="0">])
+(;B[ai]
+;W[ei]TE[1]C[Yes, you are amazing!
+<img src="/images/0.png" onload="youWin()" width="0" height="0">]))

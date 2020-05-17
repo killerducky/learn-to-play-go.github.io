@@ -1,0 +1,28 @@
+{{ define "extraInlineCSS" }}
+{{ end }}
+
+{{ define "extraBodyClass" }}index{{ end }}
+
+{{ define "onLoad"}}
+{{ end }}
+    
+{{ define "body" }}
+	<a href="" onclick="reset()" style="position: absolute; top: 10px; right: 15px; color: white; font-size: 15px;">Reset all progress</a>
+<!-- NAVBAR -->
+    <div class="obal header">
+          <noscript>
+			<span style="margin: 0 auto; background: rgb(255,102,0); padding: 10px; font-weight: bold;">This site is too complicated to work without javascript. Please turn it on. There are no trackers or anything nasty here.</span> 
+          </noscript>
+           
+<img src="/images/kids/title.png" style="position: absolute; left: 0px; bottom: 0px; width: 40%;">
+<img src="/images/kids/slowpoke.png" style="position: absolute; right: 0px; bottom: 0px; width: 30%;">
+
+
+<div class="title leading-tight" id="title" style="color: white;">Learn to Play Go, <br>Children!</div>
+<div style="text-align: right; color: rgba(30,50,50,.7); margin-right: 150px; font-weight: 900; font-size: 15px; margin-bottom: 180px;"><i>With Sam and Slowpoke</a></i></div>
+</div>
+
+{{ .Content }}
+
+</div>
+{{ end }}

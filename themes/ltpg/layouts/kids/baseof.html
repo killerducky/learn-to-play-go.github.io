@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{- partial "head.html" . -}}
+        <title>{{ .Params.title }} | Learn to Play Go</title>
+        {{ block "extraInlineCSS" . }}
+        {{ end}}
+        {{ block "extraJS" . }}
+        {{ end }}
+    </head>
+    <body class="text-lg p-4" {{block "onLoad" . }} {{ end }} style="background-image: url('/images/kids/back.jpg'); background-position: center top; background-repeat:no-repeat;">
+        <div id="" class="obal puzzle">
+
+        {{- block "body" . }}
+            {{- partial "header.html" . -}}
+            <div id="content">
+            {{- block "main" . }}{{- end }}
+            </div>
+            {{- partial "footer.html" . -}}
+        {{- end }}
+        </div>
+    </body>
+</html>

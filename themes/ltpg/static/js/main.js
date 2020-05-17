@@ -1,3 +1,12 @@
+function loadKidsTsumego(which, what) {
+    var puzzletodisplay = "/puzzleSGFs/kids/" + which + ".sgf";
+
+    //var tsumego = WGo.getElementById("tsumego_wrapper")
+    tsumego.loadSgfFromFile(puzzletodisplay, 0);
+    //board.setCoordinates(true);
+
+    }
+
 function loadTsumego(which, what, board) {
     var puzzletodisplay = "/puzzleSGFs/" + which + ".sgf";
 

@@ -1,0 +1,44 @@
+<img id="face" src="/images/kids/hi.png">
+<div id="bubble"><div id="text" class="text-base md:text-xxl">Please, hang on for a second, I am loading.</div>
+	<a onclick="talk();" id="next">▶</a>
+</div>
+
+<script>
+var postup = 0;
+window.addEventListener('load', (event) => {
+  talk();
+});
+
+function talk()
+{
+postup += 1;
+var say = eval("text"+postup)[0].replace("[name]", getCookie("firstName")).replace("*", "<span style='color: orange; font-weight: 900'>").replace("/", "</span>");
+var shownext = eval("text"+postup)[1];
+var tsumego = eval("text"+postup)[2];
+var showpic = eval("text"+postup)[3];
+var nextText = eval("text"+postup)[4];
+
+document.getElementById("text").innerHTML = say;
+
+if (shownext=="none"){
+document.getElementById("next").style.display = "none";
+}else
+document.getElementById("next").style.display = "block";
+
+if (tsumego=="empty"){
+document.getElementById("tsumego_wrapper").style.opacity = ".2";
+}else
+document.getElementById("tsumego_wrapper").style.opacity = "1";
+
+document.getElementById("next").innerHTML = shownext;
+face(showpic);
+loadKidsTsumego(tsumego);
+
+}
+
+function face(whichFace){
+document.getElementById("face").src = "/images/kids/" + whichFace + ".png";
+}
+
+
+</script>
