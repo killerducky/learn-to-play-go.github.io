@@ -22,8 +22,5 @@
 {{ .Content }}
 {{ end }}
 
-{{ define "confirmation" }}
-        <a href="/{{ .Params.section }}" class="bad">Let me get <span class="black">back</span> to this one later</a>
-        <div class="good" onclick="setProgress('{{ .Params.cookieSetting }}', '1', '99'); myFunction('/{{ .Params.returnTo }}')"><span class="black">I understand, </span><br>what's next?</div>
-{{ end }}
+
 
