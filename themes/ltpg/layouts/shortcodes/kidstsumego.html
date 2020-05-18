@@ -11,11 +11,10 @@
     <script>
     var tsumego = new WGo.Tsumego(document.getElementById("tsumego_wrapper"), {
         sgfFile: "/puzzleSGFs/kids/empty.sgf", 
-		background: "#ffffff00", 
-			{{with .Get "show"}}
-		debug: true,  
-			{{ end }}
+		background: "#ffffff00",	
     });
-    tsumego.setCoordinates(true);
-    </script>
+    
+	tsumego.setCoordinates(true);
+    
+</script>
 </div><br>

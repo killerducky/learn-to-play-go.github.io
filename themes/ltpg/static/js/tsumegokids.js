@@ -1,3 +1,11 @@
+function gobanImg(changeToImg){
+  var x = document.getElementsByClassName("wgo-board");
+  x[0].style.backgroundImage = "url('/images/kids/" + changeToImg + ".png')";
+  x[0].style.backgroundSize = "100%";
+
+		
+}
+
 function youWin(){
 
 	document.getElementById("victory").style.opacity = 1;
@@ -359,10 +367,12 @@ Tsumego.prototype.setClass = function(className) {
 
 Tsumego.prototype.reset = function() {
 	this.first();
+	face("play");
 }
 
 Tsumego.prototype.undo = function() {
 	this.previous();
+	face("play");
 	if(this.kifuReader.node.move && this.kifuReader.node.move.c == this.turn) {
 		this.previous();
 	}
@@ -385,7 +395,7 @@ Tsumego.prototype.variationEnd = function(e) {
 			case 1: this.setInfo("There is a better way to solve this! Try again."); break;
 			case 2: this.setInfo("Correct solution, but there is a better move."); break;
 			case 3: this.setInfo("You have solved it!"); break;
-			default: this.setInfo("This move does not acomplish the assignment. Try again."); break;
+			default: document.getElementById("text").innerHTML ="No, that's not it. Undo and try again!"; face("sad"); break;
 		}
 	}
 	
