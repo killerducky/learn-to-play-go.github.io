@@ -20,8 +20,6 @@ What do you want us to call you?
 </button>
 </center>
 
-
-
 <script type="text/javascript">
 function submit1() {
 var firstName = document.getElementById("a").value; 
@@ -31,7 +29,7 @@ window.location.href = "/kids/01";
 
 var kidsProgress = getCookie("kidsProgress");
 if (kidsProgress !== ""){
-	document.getElementById("welcome").innerHTML = "Welcome back, " + getCookie("firstName") + "<br>we seem to have ended at <br><h2> lesson " + getCookie("kidsProgress") + "</h2><br><h1><a href='/kids/" + getCookie("kidsProgress") + "'> Let's continue <a></h1>";
+	document.getElementById("welcome").innerHTML = "Welcome back, " + getCookie("firstName") + ",<br>we seem to have ended at <br><h2> lesson " + getCookie("kidsProgress") + "</h2><br><h1><a href='/kids/" + getCookie("kidsProgress") + "'> Let's continue <a></h1>";
 }
 
 </script>
