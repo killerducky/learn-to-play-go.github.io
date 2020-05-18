@@ -1,5 +1,6 @@
 # Learn to Play Go
-*A website designed and written in Hugo*
+*A website designed and written in [Hugo](https://gohugo.io/)*
+
 The content is licensed under Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) 
 
 Which means you are free to:
