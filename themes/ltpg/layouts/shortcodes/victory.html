@@ -2,7 +2,10 @@
 	<div style="position: absolute; left: 0px; top: 35%; width: 100%; background: white; text-align: center;">
 		<h1>Amazing job</h1>
 		
-		<script>document.write({{ .Inner }}.replace("[name]", getCookie("firstName")))</script>
+		<script>
+		document.write({{ .Inner }}.replace("[name]", getCookie("firstName")));
+		var progressForCookie = {{ $.Page.Params.next }};
+		</script>
 		
 		<img id="sam" src="/images/kids/title.png" style="position: absolute; left: 0px; bottom: 0px; width: 300px;">
 		

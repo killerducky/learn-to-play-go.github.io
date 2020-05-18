@@ -1,19 +1,16 @@
 function gobanImg(changeToImg){
   var x = document.getElementsByClassName("wgo-board");
   x[0].style.backgroundImage = "url('/images/kids/" + changeToImg + ".png')";
-  x[0].style.backgroundSize = "100%";
-
-		
+  x[0].style.backgroundSize = "100%";	
 }
 
 function youWin(){
-
 	document.getElementById("victory").style.opacity = 1;
 	document.getElementById("victory").style.pointerEvents = "auto";
 	document.getElementById("stars").style.fontSize = "80px";
 	document.getElementById("sam").src = "/images/kids/win.gif";
+	setCookie("kidsProgress", progressForCookie, "99");
 }
-
 
 /**
  * Tsumego (go problems) viewer for WGo.js.

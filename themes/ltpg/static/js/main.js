@@ -479,6 +479,18 @@ var search_params = new URLSearchParams(query_string);
 
 var id = search_params.get('id');
 
+function resetKids() {
+	
+    var r = confirm("Careful, this will reset all your progress to 0 is that what you want?");
+    if (r == true) {
+        document.cookie = "kidsProgress=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+		document.cookie = "firstName=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+		location.reload();
+    } else {
+        void 0
+    }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
 			if (id !== null) {
 						document.getElementById(id).style.display="inline-block";

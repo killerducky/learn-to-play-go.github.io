@@ -5,16 +5,7 @@ draft: false
 layout: index
 ---
 <center>
-
-
-<script type="text/javascript">
-function submit1() {
-var firstName = document.getElementById("a").value; 
-setCookie("firstName", firstName, "99");
-window.location.href = "/kids/01";
-}
-
-</script>
+<div id="welcome">
 
 What do you want us to call you?
 
@@ -25,6 +16,23 @@ What do you want us to call you?
 
 # Let's start!
 
+</div>
 </button>
 </center>
+
+
+
+<script type="text/javascript">
+function submit1() {
+var firstName = document.getElementById("a").value; 
+setCookie("firstName", firstName, "99");
+window.location.href = "/kids/01";
+}
+
+var kidsProgress = getCookie("kidsProgress");
+if (kidsProgress !== ""){
+	document.getElementById("welcome").innerHTML = "Welcome back, " + getCookie("firstName") + "<br>we seem to have ended at <br><h2> lesson " + getCookie("kidsProgress") + "</h2><br><h1><a href='/kids/" + getCookie("kidsProgress") + "'> Let's continue <a></h1>";
+}
+
+</script>
 
