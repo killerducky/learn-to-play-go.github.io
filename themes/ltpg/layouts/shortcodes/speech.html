@@ -25,6 +25,8 @@ if (shownext=="none"){
 document.getElementById("next").style.display = "none";
 }else
 document.getElementById("next").style.display = "block";
+document.getElementById("next").style.background = "yellow";
+setTimeout(function(){document.getElementById("next").style.background = "orange";}, 400);
 
 if (tsumego=="empty"){
 document.getElementById("tsumego_wrapper").style.opacity = ".2";
