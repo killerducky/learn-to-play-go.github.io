@@ -12,6 +12,10 @@
 	z-index: 999999999;
 }
 
+#text{
+	transition: opacity .3s;
+}
+
 #stars{
 	transition: all 1s;
 	font-size: 1px;
@@ -32,6 +36,11 @@
 	cursor: pointer;
 	transition: all .5s ease;
 	font-weight: 900;
+	    user-select: none;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
 }
 
 #next:hover{
@@ -44,6 +53,7 @@
 	left: 0px;
 	top: 20px;
 	width: 20%;
+	z-index: 2;
 }
 
 #bubble {
