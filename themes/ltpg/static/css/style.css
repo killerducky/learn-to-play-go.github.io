@@ -355,8 +355,7 @@ hr {
 	margin-left: 3px
 }
 .tsumego {
-	width: 100%;
-	max-width: 465px;
+	width: 465px;
 	padding: 10px;
 	border-radius: 10px;
 	text-align: center;
