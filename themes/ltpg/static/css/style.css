@@ -362,7 +362,8 @@ hr {
 	margin: 0 auto
 }
 #tsumego_wrapper {
-	transition: height 1s ease
+	transition: height 1s ease;
+	width: 100%;
 }
 .puzzle {
 	text-align: left

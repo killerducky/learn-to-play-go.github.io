@@ -22,7 +22,8 @@ What do you want us to call you?
 
 <script type="text/javascript">
 function submit1() {
-var firstName = document.getElementById("a").value; 
+var firstName = document.getElementById("a").value;
+if (firstName == ""){firstName="Nameless"}; 
 setCookie("firstName", firstName, "99");
 window.location.href = "/kids/01";
 }
