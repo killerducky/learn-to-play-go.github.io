@@ -323,7 +323,7 @@ var Tsumego = WGo.extendClass(WGo.TsumegoApi, function(elem, config) {
 	this.listeners.variationEnd.push(this.variationEnd.bind(this));
 	
 	window.addEventListener("resize", this.updateDimensions.bind(this));
-	window.onload = this.updateDimensions();
+	window.onload = this.updateDimensions.bind(this);
 	
 	// show variations
 	if(this.config.debug) {
