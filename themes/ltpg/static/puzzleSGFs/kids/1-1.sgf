@@ -1,16 +1,12 @@
-(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]C[You will have black stones, and I will have white. In go, the <b style="color: orange;">black player plays first</b> and then we take turns. You can play anywhere you want, but for now try the very center of the board - where E and 5 meet.
+(;GM[1]FF[4]AP[Drago:4.23]CA[UTF-8]SZ[9]C[AAAAYou will have black stones, and I will have white. In go, the <b style="color: orange;">black player plays first</b> and then we take turns. You can play anywhere you want, but for now try the very center of the board - where E and 5 meet.
 <img src="/images/0.png" onload="gobanImg('goban')" width="0" height="0">];B[ee]
 ;W[de]C[That's perfect! Now try one of the four corners. <b style="color: orange;">Even the very 
 edges of the board can be played</b>.
 <img src="/images/0.png" onload="gobanImg('goban2');face('yes')" width="0" height="0">]
 (;B[aa]
-;W[ei]TE[1]C[Yes, you are amazing!
-<img src="/images/0.png" onload="youWin()" width="0" height="0">])
+;W[ei]TE[1]C[<img src="/images/0.png" onload="talk()" width="0" height="0">])
 (;B[ia]
-;W[ei]TE[1]C[Yes, you are amazing!
-<img src="/images/0.png" onload="youWin()" width="0" height="0">])
-(;B[ii]C[Yes, you are amazing!];W[ei]TE[1]C[Yes, you are amazing!
-<img src="/images/0.png" onload="youWin()" width="0" height="0">])
+;W[ei]TE[1]C[<img src="/images/0.png" onload="talk()" width="0" height="0">])
+(;B[ii]C[Yes, you are amazing!];W[ei]TE[1]C[<img src="/images/0.png" onload="talk()" width="0" height="0">])
 (;B[ai]
-;W[ei]TE[1]C[Yes, you are amazing!
-<img src="/images/0.png" onload="youWin()" width="0" height="0">]))
+;W[ei]TE[1]C[<img src="/images/0.png" onload="talk()" width="0" height="0">]))

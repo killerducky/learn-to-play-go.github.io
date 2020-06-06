@@ -13,7 +13,6 @@
 }
 
 #text{
-	transition: opacity .3s;
 }
 
 #stars{
@@ -21,7 +20,7 @@
 	font-size: 1px;
 }
 
-#next{
+.next{
 	Position: absolute;
 	width: auto;
 	text-align: center;
@@ -59,7 +58,8 @@
 #bubble {
 	position: absolute;
 	width: 77%;
-	right: 25px;
+	max-width: 1100px;
+	left: 22%;
 	top: 30px;
 	
 	background-color: #fff;
